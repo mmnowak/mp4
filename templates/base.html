@@ -56,17 +56,81 @@
         <li class="nav-item dropdown">
           <a class="nav-link" href="#" id="my-account" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user" title="My Account"></i></a>
           <div class="dropdown-menu dropdown-menu-end mt-2 account-dropdown" aria-labelledby="my-account">
-            <a href="" class="dropdown-item">Dropdown item</a>
+            {% if request.user.is_authenticated %}
+              {% if request.user.is_superuser %}
+              <a href="" class="dropdown-item account-dropdown-item">Manage Products</a>
+              {% endif %}
+            <a href="" class="dropdown-item account-dropdown-item">My Profile</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item account-dropdown-item">Logout</a>
+            {% else %}
+            <a href="{% url 'account_signup' %}" class="dropdown-item account-dropdown-item">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item account-dropdown-item">Login</a>
+            {% endif %}
           </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item d-flex m-auto">
           <a class="nav-link" href=""><i class="fa-solid fa-cart-shopping" title="Cart"></i></a>
+          <p class="m-auto">
+            {% if grand_total %}
+            ${{ grand_total|floatformat:2 }}
+            {% else %}
+            £0.00
+            {% endif %}
+          </p>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-   
+  <div class="product-header w-100">
+<div class="w-50 m-auto text-center">
+  <div class="row d-flex justify-content-center">
+    <div class="col-lg-2 col-sm-4 dropdown m-2">
+      <a class="dropdown-toggle product-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        All
+      </a>      
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">By Price</a></li>
+        <li><a class="dropdown-item" href="#">By Ingredients</a></li>
+        <li><a class="dropdown-item" href="#">By Reviews</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-sm-4 dropdown m-2">
+        <a class="dropdown-toggle product-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Face
+        </a>      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-4 dropdown m-2">
+        <a class="dropdown-toggle product-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Body
+        </a>      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-4 dropdown m-2">
+        <a class="dropdown-toggle product-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Sale
+        </a>      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div></div>
+<div class="w-100 delivery-banner text-center p-1">
+  <h5>Free delivery over ${{ free_shipping_treshold }}!</h5>
+</div><br><br>
 
     {% block content %}
     {% endblock %}
