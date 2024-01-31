@@ -20,6 +20,7 @@
 .account-dropdown {
   background-color: #f9d7f0;
   text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 
 #logo {
@@ -36,7 +37,7 @@
 }
 
 .product-header {
-  background-color: whitesmoke;
+  background-color: #f1e5ee;
   text-decoration: none;
 }
 
@@ -50,13 +51,38 @@
 .delivery-banner {
   background-color: #0F510B;
   color: #f9d7f0;
+  font-family: 'Inter', sans-serif;
 }
 
 /* INDEX PAGE */
 
-body {
-  background: url('/media/background-img.png') no-repeat center center;
+.index-div {
+  background: url('/media/background-img.png') no-repeat left bottom fixed;
+  background-size: contain;
   background-color: #F1E5EE;
-  height: calc(100vh - 164px);
-  size: 100vh;
+  height: 100vh;
+}
+
+.index-text {
+  padding-left: 52%;
+  padding-top: 10%;
+   
+}
+
+.index-text h1 {
+  font-family: 'Anton', sans-serif;
+  color: #0F510B;
+  text-shadow: 2.5px 2.5px 0 #F1E5EE, 2.5px -2.5px 0 #F1E5EE, -2.5px 2.5px  0#F1E5EE, -2.5px -2.5px 0 #F1E5EE, 2.5px 0px 0 #F1E5EE, 0px 2.5px 0 #F1E5EE, -2.5px 0px 0 #F1E5EE, 0px -2.5px 0 #F1E5EE, 2.5px 2.5px 2.5px #F1E5EE;
+}
+
+.shop-btn {
+  background-color: #0F510B;
+  color: #F1E5EE;
+  font-family: 'Inter', sans-serif;
+}
+
+.shop-btn:hover {
+  color: #0F510B;
+  background-color: #F1E5EE;
+  outline: solid 1.5px #0F510B;
 }
