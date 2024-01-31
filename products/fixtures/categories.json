@@ -1,0 +1,114 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "category": "Moisturiser",
+        "product_type_name": "moisturiser"
+      }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+          "category": "Serum",
+          "product_type_name": "serum"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+          "category": "Oil",
+          "product_type_name": "oil"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+          "category": "Mist",
+          "product_type_name": "mist"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+          "category": "Balm",
+          "product_type_name": "balm"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+          "category": "Mask",
+          "product_type_name": "mask"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+          "category": "Peel",
+          "product_type_name": "peel"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+          "category": "Eye Care",
+          "product_type_name": "eye_care"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+          "category": "Cleanser",
+          "product_type_name": "cleanser"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+          "category": "Toner",
+          "product_type_name": "toner"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+          "category": "Exfoliator",
+          "product_type_name": "exfoliator"
+        }
+      },
+      {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+          "category": "Bath Salts",
+          "product_type_name": "bath_salts"
+        }
+      },
+      {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+          "category": "Body Wash",
+          "product_type_name": "body_wash"
+        }
+      },
+      {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+          "category": "Bath Oil",
+          "product_type_name": "bath_oil"
+        }
+      }  
+  ]

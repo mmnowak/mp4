@@ -2,6 +2,7 @@
 
 .navbar {
   background-color: #f9d7f0;  
+  border-bottom: solid 1px #0F510B;
 }
 
 .nav-link, p {
@@ -39,6 +40,7 @@
 .product-header {
   background-color: #f1e5ee;
   text-decoration: none;
+  
 }
 
 .product-dropdown {
@@ -66,6 +68,7 @@
 .index-text {
   padding-left: 52%;
   padding-top: 10%;
+  position: absolute;
    
 }
 
@@ -84,5 +87,5 @@
 .shop-btn:hover {
   color: #0F510B;
   background-color: #F1E5EE;
-  outline: solid 1.5px #0F510B;
+  outline: solid 3px #0F510B;
 }
