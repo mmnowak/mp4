@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid mt-3">
+    <div class="row justify-content-center">        
+        <div class="col-6">
+                {% if product.product_img %}
+                <img src="{{ product.product_img.url }}" class="w-100" alt="{{ product.name }}">
+                {% else %}
+                <a href="">No image</a>
+                {% endif %}
+            </div>
+                <div class="col-6 p-3">
+                  <h2 class="">{{ product.product_name }}</h2>
+                  <p class="">{{ product.category }}</p>
+                  <p class="ingredients-list"><b>Ingredients:</b><br> {{ product.ingredients }}
+                  <p class=""><b>£{{ product.price }}</b></p>
+                  <a href="#" class="btn action-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                </div>
+              </div>  </div></div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

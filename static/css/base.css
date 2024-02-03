@@ -107,6 +107,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.product-img:hover {
+  transform: scale(1.1);
+}
+
 .action-btn {
   background-color: #f9d7f0;
   color: #0F510B;
@@ -118,6 +122,6 @@ body {
   outline: 2px solid #0F510B;
 }
 
-#ingredients-list p {
+.ingredients-list {
   text-transform: capitalize;
 }
