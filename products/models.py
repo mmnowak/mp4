@@ -9,10 +9,10 @@ class Category(models.Model):
     product_type_name = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):
-        return self.product_type_name
+        return self.category
     
     def get_product_type(self):
-        return self.product_type
+        return self.product_type_name
 
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
