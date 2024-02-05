@@ -47,7 +47,7 @@
     <div class="collapse navbar-collapse text-center" id="navbarToggler">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
     <!-- Search Form -->
-      <form method="GET" action="" class="d-flex me-4">
+      <form method="GET" action="{% url 'products' %}" class="d-flex me-4">
         <input class="form-control me-1" type="search" placeholder="Search Products" aria-label="Search">
         <button class="btn btn-outline-success" type="submit"><span><i class="fa-solid fa-search" title="Search"></i></span></button>
       </form>
@@ -103,14 +103,14 @@
           Face
         </a>      
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Moisturisers</a></li>
-          <li><a class="dropdown-item" href="#">Serum</a></li>
-          <li><a class="dropdown-item" href="#">Mists</a></li>
-          <li><a class="dropdown-item" href="#">Masks</a></li>
-          <li><a class="dropdown-item" href="#">Peels</a></li>
-          <li><a class="dropdown-item" href="#">Eye Care</a></li>
-          <li><a class="dropdown-item" href="#">Cleansers</a></li>
-          <li><a class="dropdown-item" href="#">Exfoliators</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=moisturiser">Moisturisers</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=serum">Serum</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=mist">Mists</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=mask">Masks</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=peel">Peels</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=eye_care">Eye Care</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=cleanser">Cleansers</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=exfoliator">Exfoliators</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-sm-4 dropdown m-2">
@@ -118,9 +118,9 @@
           Body
         </a>      
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Body Wash</a></li>
-          <li><a class="dropdown-item" href="#">Bath Oils</a></li>
-          <li><a class="dropdown-item" href="#">Bath Salts</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=body_wash">Body Wash</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=bath_oil">Bath Oils</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?product_type_name=bath_salts">Bath Salts</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-sm-4 dropdown m-2">
@@ -139,6 +139,10 @@
 <div class="w-100 delivery-banner text-center p-1 mb-4">
   <h5>Free delivery over £{{ free_shipping_treshold }}!</h5>
 </div></div>
+
+{% if messages %}
+<div class="message-container"></div>
+{% endif %}
 
     {% block content %}
     {% endblock %}
