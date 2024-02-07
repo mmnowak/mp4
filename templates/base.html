@@ -48,7 +48,7 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
     <!-- Search Form -->
       <form method="GET" action="{% url 'products' %}" class="d-flex me-4">
-        <input class="form-control me-1" type="search" placeholder="Search Products" aria-label="Search">
+        <input class="form-control me-1" type="search" name="q" placeholder="Search Products" aria-label="Search">
         <button class="btn btn-outline-success" type="submit"><span><i class="fa-solid fa-search" title="Search"></i></span></button>
       </form>
         <!-- Navbar links-->
@@ -93,8 +93,8 @@
       </a>      
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="{% url 'products' %}">See All</a></li>
-        <li><a class="dropdown-item" href="#">By Price</a></li>
-        <li><a class="dropdown-item" href="#">By Ingredients</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price (low to high)</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=desc">By Price (high to low)</a></li>
         <li><a class="dropdown-item" href="#">By Reviews</a></li>
       </ul>
     </div>
