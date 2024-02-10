@@ -14,7 +14,7 @@
             </div>
                 <div class="col-6 p-3">
                   <h2 class="">{{ product.product_name }}</h2>
-                  <p class="">{{ product.category }}</p>
+                  <a class="card-text" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
                   <p class="ingredients-list"><b>Ingredients:</b><br> {{ product.ingredients }}
                   <p class=""><b>£{{ product.price }}</b></p>
                   <a href="#" class="btn action-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>

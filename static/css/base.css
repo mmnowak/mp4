@@ -125,3 +125,22 @@ body {
 .ingredients-list {
   text-transform: capitalize;
 }
+
+.category-heading {
+  text-decoration: none;
+  color: #0F510B;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase; 
+}
+
+.category-heading:hover {
+  text-decoration: underline;
+}
+
+.category-link {
+  text-decoration: none;
+}
+
+.category-link:hover {
+  text-decoration: underline;
+}

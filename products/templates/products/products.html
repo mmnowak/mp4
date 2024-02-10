@@ -4,9 +4,44 @@
 {% block content %}
 
 <div class="container-fluid mt-3">
-    <div class="row justify-content-center">        
+    <div class="row">
+        <div class="col text-center">
+            {% for c in current_type %}
+                {% if c.product_type_name == 'eye_care' or c.product_type_name == 'bath_salts' or c.product_type_name == 'body_wash' %}
+                <a href="{% url 'products' %}?product_type_name={{ c.product_type_name }}" class="category-heading"><h1>{{ c.category }}</h1></a>
+                {% else %}
+                <a href="{% url 'products' %}?product_type_name={{ c.product_type_name }}" class="category-heading"><h1>{{ c.category }}s</h1></a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col">
+            <p class="text-muted mt-3 text-center text-md-left">
+                {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>
+                {% elif current_type %}
+                    {% for c in current_type %}
+                     found for <strong>"{{ c.product_type_name }}"</strong>
+                    {% endfor %}
+                {% endif %}
+            </p>
+        </div>
+        <div class="col"></div>
+        <div class="col d-flex justify-content-end">
+            <select class="form-select w-50" aria-label="Default select example">
+                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
+                <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
+                <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
+                <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
+                <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
+                <option value="product_type_name_asc" {% if current_sorting == 'product_type_name_asc' %}selected{% endif %}>Category (A-Z)</option>
+                <option value="product_type_name" {% if current_sorting == 'product_type_name_desc' %}selected{% endif %}>Category (Z-A)</option>
+              </select>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">        
         {% for product in products %}
-        <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4 m-1">
+        <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4 col-xxl-3 m-1">
             <div class="card product-card h-100">
                 <div class="card-header bg-white text-center">
                     <a href="{% url 'product_detail' product.id %}">
@@ -19,7 +54,7 @@
             </div>
                 <div class="card-body">
                   <h5 class="card-title">{{ product.product_name }}</h5>
-                  <p class="card-text">{{ product.category }}</p>
+                  <a class="card-text category-link" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
                   <p class="card-text"><b>£{{ product.price }}</b></p>
                   <a href="#" class="btn action-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
                 </div>
