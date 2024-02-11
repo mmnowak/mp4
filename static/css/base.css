@@ -144,3 +144,20 @@ body {
 .category-link:hover {
   text-decoration: underline;
 }
+
+.bck-button {
+  height: 42px;
+  width: 42px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#bck-to-top i {
+  font-size: xx-large;
+  color: #0F510B;
+}
+
+#bck-to-top i:hover {
+  transform: scale(1.1);
+}
