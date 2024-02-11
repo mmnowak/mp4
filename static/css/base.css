@@ -161,3 +161,9 @@ body {
 #bck-to-top i:hover {
   transform: scale(1.1);
 }
+
+/* CART */
+
+.cart-img {
+  width: 10%;
+}
