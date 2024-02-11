@@ -17,7 +17,22 @@
                   <a class="card-text" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
                   <p class="ingredients-list"><b>Ingredients:</b><br> {{ product.ingredients }}
                   <p class=""><b>£{{ product.price }}</b></p>
-                  <a href="#" class="btn action-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                  
+                   
+                  <form action="" class="form" method="POST">
+                  {% csrf_token %}
+                  <div class="row">
+                    <div class="col d-flex align-content-center">
+                        <p class="mt-2"><strong>Quantity:</strong></p>
+                            <div class="input-group ms-2 h-50" style="width: 20%;">
+                                <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                            </div>
+                      </div>
+                    </div>
+                    <input type="submit" class="btn action-btn mt-1" value="Add to Cart">
+                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    </div>
+                </form>
                 </div>
               </div>  </div></div>
         </div>
