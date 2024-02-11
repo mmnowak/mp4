@@ -19,7 +19,7 @@
                   <p class=""><b>£{{ product.price }}</b></p>
                   
                    
-                  <form action="" class="form" method="POST">
+                  <form action="{% url 'add_to_cart' product.id %}" class="form" method="POST">
                   {% csrf_token %}
                   <div class="row">
                     <div class="col d-flex align-content-center">
