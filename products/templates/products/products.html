@@ -21,7 +21,7 @@
                 {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>
                 {% elif current_type %}
                     {% for c in current_type %}
-                     found for <strong>"{{ c.product_type_name }}"</strong>
+                     found for <strong>"{{ c.category }}"</strong>
                     {% endfor %}
                 {% endif %}
             </p>

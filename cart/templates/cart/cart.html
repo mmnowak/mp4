@@ -6,7 +6,9 @@
 <div class="container bg-white cart-container m-auto p-3">
     <h3 class="category-heading text-center">Your Shopping Cart</h3>
     {% if cart_items %}
-    <table></table>
+    <div>
+        {{ cart_items }}
+    </div>
     {% else %}
     <div class="text-center">
     <h5>Your cart is empty!</h5>
