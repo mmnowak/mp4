@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container bg-white cart-container m-auto p-3">
+    <h3 class="category-heading text-center">Your Shopping Cart</h3>
+    {% if cart_items %}
+    <table></table>
+    {% else %}
+    <div class="text-center">
+    <h5>Your cart is empty!</h5>
+    <a href="{% url 'products' %}" class="action-btn btn"><i class="fa-solid fa-arrow-left"></i> Keep shopping</a>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}
