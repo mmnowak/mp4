@@ -35,3 +35,8 @@
     color: #f1e5ee;
     border: 1px solid #0F510B;
 }
+
+.checkout-success-container {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+}
