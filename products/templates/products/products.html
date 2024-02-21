@@ -53,10 +53,10 @@
             </a>
             </div>
                 <div class="card-body">
-                  <h5 class="card-title">{{ product.product_name }}</h5>
+                    
+                  <h5 class="card-title product-name"><a href="{% url 'product_detail' product.id %}">{{ product.product_name }}</a></h5>
                   <a class="card-text category-link" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
                   <p class="card-text"><b>£{{ product.price }}</b></p>
-                  <a href="#" class="btn action-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
                 </div>
               </div>  </div>
               {% endfor %}    

@@ -61,6 +61,22 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/* Toasts */
+
+.message-container {
+  position: fixed;
+  top: 72px;
+  right: 15px;
+  z-index: 99999999999;
+}
+
+.custom-toast {
+  overflow: visible;
+}
+.toast-capper {
+  height: 2px;
+}
+
 /* INDEX PAGE */
 
 .index-div {
@@ -109,6 +125,15 @@ body {
 
 .product-img:hover {
   transform: scale(1.1);
+}
+
+.product-name a {
+  text-decoration: none;
+  color: #0F510B;
+}
+
+.product-name a:hover {
+  text-decoration: underline;
 }
 
 .action-btn {
@@ -167,3 +192,13 @@ body {
 .cart-img {
   width: 10%;
 }
+
+.remove-product, .update-link {
+  text-decoration: none;
+  color: #0F510B;
+  cursor: pointer;
+}
+
+.remove-product:hover, .update-link:hover {
+  text-decoration: underline;
+} 

@@ -78,7 +78,7 @@
           <a class="nav-link" href="{% url 'view_cart' %}"><i class="fa-solid fa-cart-shopping" title="Cart"></i></a>
           <p class="m-auto">
             {% if grand_total %}
-            ${{ grand_total|floatformat:2 }}
+            £{{ grand_total|floatformat:2 }}
             {% else %}
             £0.00
             {% endif %}
@@ -145,13 +145,29 @@
 </div></div>
 
 {% if messages %}
-<div class="message-container"></div>
+<div class="message-container">
+  {% for message in messages %}
+  {% include 'includes/toasts/toast_success.html' %}
+  {% endfor %}
+</div>
 {% endif %}
 
     {% block content %}
     {% endblock %}
 
     {% block postloadjs %}
+     <script type="text/javascript">
+     const toastElList = document.querySelectorAll('.toast')
+      let toastList = toastElList.map(function (toastEl) {
+      let option = {
+        animation: true,
+        autohide: true,
+        delay: 5000,
+      };
+      let bsToast = new bootstrap.Toast(toastEl, option);
+      bsToast.show();
+      });
+    </script>
     {% endblock %}
 </body>
 </html>

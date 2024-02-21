@@ -54,8 +54,8 @@
                         </div>
                         </div>
                 </form>
-                <a class="update-link text-info"><small>Update</small></a>
-                <button class="remove-product text-danger float-right" id="remove_{{ item.product_id }}"><small>Remove</small></button>
+                <a class="update-link me-1"><small>Update</small></a>
+                <a class="remove-product float-right" id="remove_{{ item.product_id }}"><small>Remove</small></a>
             </td>
             <td class="w-25">£{{ item.product.price | calc_subtotal:item.quantity }}</td>  
             </tr>             
