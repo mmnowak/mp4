@@ -1,0 +1,12 @@
+.profile-pg {
+    font-family: 'Inter', sans-serif;
+    color: #0F510B;
+}
+
+#profile-update-form .form-control {
+    color: #0F510B;
+}
+
+#profile-update-form input::placeholder {
+    color: #0F510B; 
+}
