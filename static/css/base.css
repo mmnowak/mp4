@@ -75,6 +75,21 @@ body {
   color: #0F510B;
 }
 
+.cart-notification-wrapper {
+  height: 100px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.free-delivery-toast {
+  background-color: #0F510B;
+  font-family: 'Inter', sans-serif;
+}
+
+.free-delivery-toast p {
+  color: #f1e5ee;
+}
+
 /* INDEX PAGE */
 
 .index-div {
