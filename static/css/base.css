@@ -70,11 +70,9 @@ body {
   z-index: 99999999999;
 }
 
-.custom-toast {
-  overflow: visible;
-}
-.toast-capper {
-  height: 2px;
+.toast-header, .toast-body {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
 }
 
 /* INDEX PAGE */

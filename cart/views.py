@@ -25,7 +25,7 @@ def add_to_cart(request, product_id):
         cart[product_id] += quantity
     else:
         cart[product_id] = quantity
-        messages.success(request, f'Added {product.product_name} to your bag')
+        messages.success(request, f'Added {product.product_name} to your cart')
 
     
     request.session['cart'] = cart    
