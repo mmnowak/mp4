@@ -57,6 +57,11 @@
                   <h5 class="card-title product-name"><a href="{% url 'product_detail' product.id %}">{{ product.product_name }}</a></h5>
                   <a class="card-text category-link" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
                   <p class="card-text"><b>£{{ product.price }}</b></p>
+                  {% if request.user.is_superuser %}
+                  <div class="m-1">
+                      <a class="btn action-btn" href="{% url 'edit_product' product.id %}">Edit</a> | 
+                      <a class="btn action-btn" href="{% url 'delete_product' product.id %}">Delete</a>
+              {% endif %}</div>
                 </div>
               </div>  </div>
               {% endfor %}    
