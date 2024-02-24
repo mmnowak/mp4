@@ -17,7 +17,7 @@ class Category(models.Model):
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     product_name = models.CharField(max_length=254)
-    product_img = models.ImageField(null=True, blank=True)
+    product_img = models.ImageField()
     ingredients = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
 

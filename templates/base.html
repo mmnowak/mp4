@@ -64,9 +64,9 @@
           <div class="dropdown-menu dropdown-menu-end mt-2 account-dropdown" aria-labelledby="my-account">
             {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
-              <a href="" class="dropdown-item account-dropdown-item">Manage Products</a>
+              <a href="{% url 'add_product' %}" class="dropdown-item account-dropdown-item">Manage Products</a>
               {% endif %}
-            <a href="" class="dropdown-item account-dropdown-item">My Profile</a>
+            <a href="{% url 'profile' %}" class="dropdown-item account-dropdown-item">My Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item account-dropdown-item">Logout</a>
             {% else %}
             <a href="{% url 'account_signup' %}" class="dropdown-item account-dropdown-item">Register</a>
