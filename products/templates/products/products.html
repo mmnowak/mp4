@@ -60,8 +60,8 @@
                   {% if request.user.is_superuser %}
                   <div class="m-1">
                       <a class="btn action-btn" href="{% url 'edit_product' product.id %}">Edit</a> | 
-                      <a class="btn action-btn" href="{% url 'delete_product' product.id %}">Delete</a>
-              {% endif %}</div>
+                      <a class="btn action-btn" href="{% url 'delete_product' product.id %}">Delete</a></div>
+              {% endif %}
                 </div>
               </div>  </div>
               {% endfor %}    
