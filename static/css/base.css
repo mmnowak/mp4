@@ -288,3 +288,17 @@ color: #0F510B;
   cursor: pointer;
 }
 
+/* Review Form */
+
+#div_id_rating div {
+  display: flex;
+}
+
+.form-check {
+  margin: 0.5rem;
+}
+
+.review-form {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+}

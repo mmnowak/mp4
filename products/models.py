@@ -1,4 +1,7 @@
 from django.db import models
+from django.core.validators import (
+    MaxValueValidator, MinValueValidator
+)
 
 class Category(models.Model):
 
@@ -20,6 +23,21 @@ class Product(models.Model):
     product_img = models.ImageField()
     ingredients = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
+    rating = models.IntegerField(
+        default=0,
+        null=True,
+        blank=True,
+        validators=[
+            MaxValueValidator(5, message="Must be between 0-5"),
+            MinValueValidator(0, message="Must be between 0-5")
+        ],
+    )
 
     def __str__(self):
         return self.product_name
+    
+    @property
+    def review_count(self):
+        """ Returns total number of reviews """
+
+        return self.reviews.count()

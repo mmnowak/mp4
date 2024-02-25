@@ -6,11 +6,7 @@
 <div class="container-fluid mt-3">
     <div class="row justify-content-center">        
         <div class="col-6">
-                {% if product.product_img %}
-                <img src="{{ product.product_img.url }}" class="w-100" alt="{{ product.name }}">
-                {% else %}
-                <a href="">No image</a>
-                {% endif %}
+                <img src="{{ product.product_img.url }}" class="w-100" alt="{{ product.product_name }}">
             </div>
                 <div class="col-6 p-3">
                   <h2 class="">{{ product.product_name }}</h2>

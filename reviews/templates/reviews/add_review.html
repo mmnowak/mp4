@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="container-fluid">
+    <div class="row mt-2">
+        <div class="text-center">
+        <h3 class="category-heading">Add a review</h3>
+        <p>Share your experience using <strong>{{ product.product_name }}</strong></p></div>
+        <div class="col-6 ">
+            <h5 class="m-auto text-center">Your review</h5>
+            <form class="m-3 p-3 review-form" method="POST" action="{% url 'add_review' product.id %}" id="add-review-form">
+                {% csrf_token %}
+
+                {{ review_form|crispy }}
+                <div class="mt-2 text-center">
+                <a href="{% url 'product_detail' product.id %}" class="btn shop-btn">Go back</a>
+                <button class="btn shop-btn" type="submit">Submit</button></div>
+                </form>
+               
+        </div>
+        <div class="col-6">
+            <div class="m-auto text-center">
+                <img src="{{ product.product_img.url }}" class="w-75" alt="{{ product.product_name }}">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
