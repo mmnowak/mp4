@@ -49,14 +49,14 @@
                             </div>
                       </div>
                     </div>
-                    <input type="submit" class="btn action-btn mt-1" value="Add to Cart">
+                    <input type="submit" class="btn shop-btn mt-1" value="Add to Cart">
                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
 
                     {% if request.user.is_superuser %}
                     <hr>
                   <div class="m-1">
-                      <a class="btn action-btn" href="{% url 'edit_product' product.id %}">Edit</a> | 
-                      <a class="btn action-btn" href="{% url 'delete_product' product.id %}">Delete</a></div>
+                      <a class="btn shop-btn" href="{% url 'edit_product' product.id %}">Edit</a> | 
+                      <a class="btn shop-btn" href="{% url 'delete_product' product.id %}">Delete</a></div>
               {% endif %}
 
                     </div>
