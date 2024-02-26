@@ -11,14 +11,25 @@
                 <div class="col-6 p-3">
                   <h2 class="">{{ product.product_name }}</h2>
                   <a class="card-text" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
-                    <button class="btn shop-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIngredients" aria-expanded="false" aria-controls="collapseExample">
-                      Ingredients <i class="fa-solid fa-caret-down"></i>
-                    </button>                 
-                  <div class="collapse" id="collapseIngredients">
-                        <p class="ingredients-list">{{ product.ingredients }} </p>
-                  </div>
+
+                  <div class="rating-div">
+                    {% if product.rating == 5 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    {% elif product.rating == 4 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% elif product.rating == 3 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% elif product.rating == 2 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% elif product.rating == 1 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% endif %}   
+                 </div>
+
+
+                  <p class="ingredients-list"><strong>Ingredients:</strong> {{ product.ingredients }} </p>
                   <p class="fs-4"><b>£{{ product.price }}</b></p>
-                  
+                
                    
                   <form action="{% url 'add_to_cart' product.id %}" class="form" method="POST">
                   {% csrf_token %}
@@ -59,6 +70,9 @@
                       <a class="btn shop-btn" href="{% url 'edit_product' product.id %}">Edit</a> | 
                       <a class="btn shop-btn" href="{% url 'delete_product' product.id %}">Delete</a></div>
               {% endif %}
+              <hr>
+              <a href="{% url 'reviews' product.id %}" class="btn shop-btn me-3">See Product Reviews</a> |  
+              <a href="{% url 'add_review' product.id %}" class="btn shop-btn ms-3">Add Review</a>
 
                     </div>
                 </form>

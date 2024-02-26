@@ -61,6 +61,22 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.other-heading {
+  text-decoration: none;
+  color: #0F510B;
+  font-family: 'Inter', sans-serif;
+  text-transform: capitalize;
+}
+
+.other-heading a {
+  text-decoration: none;
+  color: #0F510B;
+}
+
+.other-heading a:hover {
+  text-decoration: underline;
+}
+
 /* Toasts */
 
 .message-container {
@@ -301,4 +317,36 @@ color: #0F510B;
 .review-form {
   font-family: 'Inter', sans-serif;
   color: #0F510B;
+}
+
+/* Review Page */
+
+.review-card {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+}
+
+.review-card-header {
+  background-color: #f9d7f0;
+}
+
+.rating-div p {
+  color: #f9d7f0;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #0f510b;
+  -webkit-text-fill-color: #f9d7f0;
+}
+
+.reviews-text {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+}
+
+.reviews-text a {
+  color: #0F510B;
+  text-decoration: underline;
+}
+
+.reviews-text a:hover {
+  text-decoration: double;
 }

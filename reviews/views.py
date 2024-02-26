@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.db.models import Avg
 
 from django.contrib.auth.models import User
 from products.models import Product
@@ -46,6 +47,11 @@ def add_review(request, product_id):
             review.product = product
             review.user = username
             review.save()
+
+            avg_rating = round(Review.objects.aggregate(Avg('rating'))['rating__avg'])
+            product.rating = avg_rating
+            product.save()
+
             messages.success(request, "Thank you for adding a new review!")
 
             return redirect(reverse('product_detail', args=[product.id]))

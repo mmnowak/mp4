@@ -45,17 +45,26 @@
             <div class="card product-card h-100">
                 <div class="card-header bg-white text-center">
                     <a href="{% url 'product_detail' product.id %}">
-                {% if product.product_img %}
                 <img src="{{ product.product_img.url }}" class="card-img-top product-img" alt="{{ product.name }}">
-                {% else %}
-                <a href="">No image</a>
-                {% endif %}
             </a>
             </div>
                 <div class="card-body">
                     
                   <h5 class="card-title product-name"><a href="{% url 'product_detail' product.id %}">{{ product.product_name }}</a></h5>
                   <a class="card-text category-link" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
+                  <div class="rating-div">
+                    {% if product.rating == 5 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    {% elif product.rating == 4 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% elif product.rating == 3 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% elif product.rating == 2 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% elif product.rating == 1 %}
+                    <p><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    {% endif %}   
+                 </div>
                   <p class="card-text"><b>£{{ product.price }}</b></p>
                   {% if request.user.is_superuser %}
                   <div class="m-1">
