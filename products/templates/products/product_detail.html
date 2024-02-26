@@ -11,8 +11,13 @@
                 <div class="col-6 p-3">
                   <h2 class="">{{ product.product_name }}</h2>
                   <a class="card-text" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
-                  <p class="ingredients-list"><b>Ingredients:</b><br> {{ product.ingredients }}
-                  <p class=""><b>£{{ product.price }}</b></p>
+                    <button class="btn shop-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIngredients" aria-expanded="false" aria-controls="collapseExample">
+                      Ingredients <i class="fa-solid fa-caret-down"></i>
+                    </button>                 
+                  <div class="collapse" id="collapseIngredients">
+                        <p class="ingredients-list">{{ product.ingredients }} </p>
+                  </div>
+                  <p class="fs-4"><b>£{{ product.price }}</b></p>
                   
                    
                   <form action="{% url 'add_to_cart' product.id %}" class="form" method="POST">
@@ -42,11 +47,11 @@
                                         </span>
                                     </button>
                                 </div>
-                            </div>
+                            </div><input type="submit" class="btn shop-btn mt-1" value="+ Add to Cart">
+                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
                       </div>
                     </div>
-                    <input type="submit" class="btn shop-btn mt-1" value="Add to Cart">
-                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    
 
                     {% if request.user.is_superuser %}
                     <hr>

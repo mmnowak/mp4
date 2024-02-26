@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid">
+    {% if reviews %}
+    {% for review in reviews %}
+    <p>{{ review.title }}</p>
+    {% endfor %}
+    {% endif %}
+</div>
+
+{% endblock %}

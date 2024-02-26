@@ -8,7 +8,20 @@ from .models import Review
 from .forms import ReviewForm
 from profiles.models import UserProfile
 
-# Create your views here.
+def reviews(request, product_id):
+    """ A view to show all existing reviews for a product """
+    product = get_object_or_404(Product, pk=product_id)
+
+    reviews = Review.objects.filter(product=product)
+    template = 'reviews/reviews.html'
+
+    context = {
+        'reviews': reviews,
+        'product': product,
+    }
+
+    return render(request, template, context)
+
 
 @login_required()
 def add_review(request, product_id):
