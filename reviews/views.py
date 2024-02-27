@@ -122,6 +122,31 @@ def edit_review(request, review_id):
 
     return render(request, template, context)
     
+@login_required
+def delete_review(request, review_id):
+    """
+    Delete a review
+    """
 
+    if not request.user.is_authenticated:
+        messages.error(request,
+                       'Sorry, you need to log in to delete a review!')
+        return redirect(reverse('account_login'))
+
+    review = get_object_or_404(Review, pk=review_id)
+    product = Product.objects.filter(review=review)[0]
+
+    if request.user != review.user:
+        messages.error(request, 'You can only delete your own reviews.')
+        return redirect(reverse('reviews', args=[product.id]))
+
+    review.delete()
+
+    avg_rating = round(Review.objects.aggregate(Avg('rating'))['rating__avg'])
+    product.rating = avg_rating
+    product.save()
+
+    messages.success(request, "Review successfully deleted")
+    return redirect(reverse('reviews', args=[product.id]))
 
 
