@@ -36,8 +36,3 @@ class Product(models.Model):
     def __str__(self):
         return self.product_name
     
-    @property
-    def review_count(self):
-        """ Returns total number of reviews """
-
-        return self.reviews.count()

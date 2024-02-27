@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="container-fluid">
+    <div class="row mt-2">
+        <div class="text-center">
+        <h3 class="category-heading">Edit your review</h3>
+        <p>Edit your review for <strong>{{ product.product_name }}</strong></p></div>
+        <div class="col-6 ">
+            <h5 class="m-auto text-center">Your review</h5>
+            <form class="m-3 p-3 review-form" method="POST" action="{% url 'edit_review' review.id %}" id="edit-review-form">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="mt-2 text-center">
+                
+                <button class="btn shop-btn" type="submit">Update</button></div>
+                </form>
+               
+        </div>
+        <div class="col-6">
+            <div class="m-auto text-center">
+                <img src="{{ product.product_img.url }}" class="w-75" alt="{{ product.product_name }}">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

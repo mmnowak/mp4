@@ -31,6 +31,9 @@
                      <p><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
                      {% endif %}   
                   </div>
+                  {% if request.user == review.user %}
+                  <a class="btn action-btn" href="{% url 'edit_review' review.id %}">Edit review</a>
+                  {% endif %}
                 </div>
               </div>
         </div>  
