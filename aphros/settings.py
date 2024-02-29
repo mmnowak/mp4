@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '9u_7_k3yzy5=ifcy9_(01la0lw6yt)v3%gi@-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['aphros-4bc91bf82566.herokuapp.com', '8000-mmnowak-mp4-v2j8k5chl14.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['aphros-4bc91bf82566.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -179,7 +179,7 @@ if 'USE_AWS' in os.environ:
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'aphros'
     AWS_S3_REGION_NAME = 'eu-north-1'
-    AWS_ACCESS_KEY_ID = os.environ.ger('AWS_ACCESS_KEY_ID')
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.ger('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.S3.amazonaws.com'
 
