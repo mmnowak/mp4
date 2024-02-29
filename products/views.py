@@ -133,6 +133,44 @@ def delete_product(request, product_id):
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
-    product.delete()
-    messages.success(request, 'Product deleted!')
-    return redirect(reverse('products'))
+
+    # Checks if product has been ordered 
+
+    lineitems = OrderLineItem.objects.all()
+
+    for lineitem in lineitems:
+        if product == lineitem.product:
+            ordered_product = True
+            break
+        else:
+            ordered_product = False
+
+    if ordered_product:
+
+        # Sets products as discontinued if it has been ordered
+        product.discontinued = True
+        product.save()
+
+        # Checks if item is in bag & removes it
+        cart = request.session.get('cart', {})
+        if str(product.id) in cart:
+            cart.pop(str(product.id))
+
+            # Updates bag in session
+            request.session['cart'] = cart
+
+            message = 'Product discontinued and removed from the store & cart.'
+            request.session['view_cart'] = True
+
+        else:
+            message = 'Product discontinued and removed from the store.'
+            request.session['view_cart'] = False
+
+        messages.success(request, message)
+
+        # Redirects to 'products'
+        return redirect(reverse('products'))
+    else:
+        product.delete()
+        messages.success(request, 'Product deleted!')
+        return redirect(reverse('products'))
