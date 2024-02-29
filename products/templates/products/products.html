@@ -45,7 +45,9 @@
             <div class="card product-card h-100">
                 <div class="card-header bg-white text-center">
                     <a href="{% url 'product_detail' product.id %}">
+                        {% if product.product_img %}
                 <img src="{{ product.product_img.url }}" class="card-img-top product-img" alt="{{ product.name }}">
+                {% endif %}
             </a>
             </div>
                 <div class="card-body">
@@ -70,11 +72,9 @@
                   <hr>
                 <div class="m-1">
                     <a class="btn shop-btn" href="{% url 'edit_product' product.id %}">Edit</a> | 
-                    <a class="btn action-btn" href="{% url 'delete_product' product.id %}">Delete product</a></div>
-                    <!-- button class="btn shop-btn" data-bs-toggle="modal" data-bs-target="#modal-{{ product.id }}">Delete</button></div -->
+                    <button class="btn shop-btn" data-bs-toggle="modal" data-bs-target="#modal-{{ product.id }}">Delete</button></div -->
 
-
-<!-- Bootstrap Modal --
+<!-- Bootstrap Modal -->
 <div class="modal fade" id="modal-{{ product.id }}" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -88,7 +88,7 @@
       </div>
     </div>
   </div>
-</div-->
+</div>
               {% endif %}
                 </div>
               </div>  </div>
