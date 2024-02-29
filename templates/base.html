@@ -99,7 +99,7 @@
         <li><a class="dropdown-item" href="{% url 'products' %}">See All</a></li>
         <li><a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price (low to high)</a></li>
         <li><a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=desc">By Price (high to low)</a></li>
-        <li><a class="dropdown-item" href="#">By Reviews</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a></li>
       </ul>
     </div>
     <div class="col-lg-2 col-sm-4 dropdown m-2">
