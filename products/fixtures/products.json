@@ -4,7 +4,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary Natural Moisturising Factors + HA 30ml",
-      "product_img": "/1.webp",
+      "product_img": "1.webp",
       "category": 1,
       "ingredients": "capric triglyceride, cetyl alcohol, propanediol, stearyl alcohol, glycerin, sodium hyaluronate, arganine, aspartic acid, glycine, alanine, serine, valine, isoleucine, proline, threonine, histidine, phenylalanine, glucose, maltose, fructose, trehalose, sodium pca, pca, sodium lactate, urea, allantoin, linoleic acid, oleic acid, phytosteryl canola glycerides, palmitic acid, stearic acid, lecithin, triolein, tocopherol, carbomer, isoceteth-20, polysorbate 60, sodium chloride, citric acid, trisodium ethylenediamine disuccinate, pentylene glycol, triethanolamine, sodium hydroxide, phenoxyethanol, chlorphenesin",
       "price": "5.20"
@@ -15,7 +15,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Facial Moisturising Lotion SPF 25 52ml",
-      "product_img": "/2.webp",
+      "product_img": "2.webp",
       "category": 1,
       "ingredients": "homosalate, glycerin, octocrylene, ethylhexyl, salicylate, niacinamide, silica, butyl methoxydibenzoylmethane, dimethicon, cetearyl alcohol, peg-100 stearate, glyceryl stearate, phenoxyethanol, stearic acid, behentrimonium methosulfate, caprylyl glycol, palmitic acid, ammonium polyacryloyldmethyl taurate, xanthan gum, disodium edta, tocopherol, sodium lauroyl, myristic acid, sodium hyaluronate, ceramide np, ceramide ap, phytosphingosine, cholesterol, cerbomer, ethylhexyl glycerin, ceramide eop",
       "price": "13.00"
@@ -26,7 +26,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary Hyaluronic Acid 2% + B5 Hydration Support Formula 30ml",
-      "product_img": "/3.webp",
+      "product_img": "3.webp",
       "category": 1,
       "ingredients": "sodium hyaluronate, sodium hyaluronate, panthenol, ahnfeltia concinna extract, glycerin, pentylene glycol, propanediol, polyacrylate crosspolymer-6, ppg-26 buteth-26, castor oil, trisodium ethylenediamine disuccinate, citric acid, ethoxydiglycol, caprylyl glycol, hexylene glycol, ethylhexyl glycerin, phenoxyethanol, chlorphenesin",
       "price": "6.20"
@@ -37,7 +37,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "AMELIORATE Transforming Body Lotion 200ml",
-      "product_img": "/4.webp",
+      "product_img": "4.webp",
       "category": 1,
       "ingredients": "ammonium lactate, c12-15, glycerin, prunus amygdalus dulcis, ethylhexyl palmitate, cetearyl alcohol, glyceryl stearate, peg-100 stearate, dimethicon, hydroxyethyl cellulose, phenoxyethanol, cetearyl glucoside, xanthan gum, sodium benzoate, sodium stearoyl glutamate, tocopheryl acetate, parfum, potassium sorbate, pentylene glycol, hydrolyzed lactis proteinum, disodium edta, lactic acid, serine, sodium lactate, sorbitol, urea, linalool, citronellol, sodium chloride, citrus aurantium dulcis, limonene, coumarin, juniperus mexicana oil, alpha-isomethyl ionone, allantoin, pelargonium graveolens extract, geraniol",
       "price": "22.50"
@@ -48,7 +48,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Moisturising Cream 454g",
-      "product_img": "/5.webp",
+      "product_img": "5.webp",
       "category": 1,
       "ingredients": "glycerin, cetearyl alcohol, capric triglyceride, behentrimonium methosulfate, cetearyl alcohol, cetyl alcohol, ceramide 3, ceramide 6 ii, ceramide 1, sodium hyaluronate, cholesterol, petrolatum, dimethicon, potassium phosphate, dipotassium phosphate, sodium lauroyl, disodium edta, phenoxyethanol, methylparaben, propylparaben, phytosphingosine, carbomer, xanthan gum",
       "price": "16.00"
@@ -59,7 +59,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Moisturising Lotion 473ml",
-      "product_img": "/6.webp",
+      "product_img": "6.webp",
       "category": 1,
       "ingredients": "glycerin, capric triglyceride, cetearyl alcohol, cetyl alcohol, dimethicon, phenoxyethanol, polysorbate-20, ceteareth 20, behentrimonium methosulfate, polyglyceryl-3 diisostearate, sodium lauroyl, ethylhexyl glycerin, potassium phosphate, disodium edta, dipotassium phosphate, ceramide np, ceramide ap, phytosphingosine, cholesterol, xanthan gum, carbomer, sodium hyaluronate, tocopherol, ceramide eop",
       "price": "15.00"
@@ -70,7 +70,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Facial Moisturising Lotion No SPF 52ml",
-      "product_img": "/7.webp",
+      "product_img": "7.webp",
       "category": 1,
       "ingredients": "glycerin, capric triglyceride, niacinamide, cetearyl alcohol, ceramide 3, ceramide 6 ii, ceramide 1, phytosphingosine, sodium hyaluronate, sodium hydroxide, dimethicon, behentrimonium methosulfate, ceteareth 20, polyglyceryl-3 diisostearate, cholesterol, xanthan gum, carbomer, disodium edta, dipotassium phosphate, potassium phosphate, sodium lauroyl",
       "price": "13.00"
@@ -81,7 +81,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary Natural Moisturizing Factors + HA 100ml",
-      "product_img": "/8.webp",
+      "product_img": "8.webp",
       "category": 1,
       "ingredients": "capric triglyceride, cetyl alcohol, propanediol, stearyl alcohol, glycerin, sodium hyaluronate, arganine, aspartic acid, glycine, alanine, serine, valine, isoleucine, proline, threonine, histidine, phenylalanine, glucose, maltose, fructose, trehalose, sodium pca, pca, sodium lactate, urea, allantoin, linoleic acid, oleic acid, phytosteryl canola glycerides, palmitic acid, stearic acid, lecithin, triolein, tocopherol, carbomer, isoceteth-20, polysorbate 60, sodium chloride, citric acid, trisodium ethylenediamine disuccinate, pentylene glycol, triethanolamine, sodium hydroxide, phenoxyethanol, chlorphenesin",
       "price": "6.80"
@@ -92,7 +92,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Smoothing Cream 177ml",
-      "product_img": "/9.webp",
+      "product_img": "9.webp",
       "category": 1,
       "ingredients": "glycerin, behentrimonium methosulfate, cetearyl alcohol, paraffinum liquidum, glyceryl stearate se, ammonium lactate, salicylic acid, triethanolamine, cetyl alcohol, niacinamide, peg-100 stearate, vitamin d3, ceramide 3, ceramide 6 ii, ceramide 1, cholesterol, phytosphingosine, sodium hyaluronate, phenoxyethanol, dimethicon, methylparaben, edetate disodium, propylparaben, sodium lauroyl, carbomer, xanthan gum",
       "price": "12.00"
@@ -103,7 +103,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Moisture Surge 72 Hour Moisturiser 75ml",
-      "product_img": "/10.webp",
+      "product_img": "10.webp",
       "category": 1,
       "ingredients": "dimethicon, butylene glycol, glycerin, trisiloxane, trehalose, sucrose, ammonium acryloyldimethyltaurate/vp, hydroxyethyl urea, camellia sinensis extract, silybum marianum extract, betula alba bark extract, saccharomyces lysate extract, aloe barbadenis extract, thermus thermophillus ferment, caffeinee, sorbitol, palmitoyl hexapeptide-12, sodium hyaluronate, caprylyl glycol, oleth-10, sodium polyaspartate, saccharide isomerate, hydrogenated lecithin, tocopheryl acetate, acrylates/c10-30 alkyl, glyceryl polymethacrylate, tromethamine, peg-8, hexylene glycol, magnesium ascorbyl phosphate, disodium edta, bht, phenoxyethanol, ci 14700, ci 19140",
       "price": "37.00"
@@ -114,7 +114,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Moisturising Cream 50ml",
-      "product_img": "/12.webp",
+      "product_img": "12.webp",
       "category": 1,
       "ingredients": "glycerin, cetearyl alcohol, capric triglyceride, behentrimonium methosulfate, cetearyl alcohol, cetyl alcohol, ceramide 3, ceramide 6 ii, ceramide 1, sodium hyaluronate, cholesterol, petrolatum, dimethicon, potassium phosphate, dipotassium phosphate, sodium lauroyl, disodium edta, phenoxyethanol, methylparaben, propylparaben, phytosphingosine, carbomer, xanthan gum",
       "price": "4.00"
@@ -125,7 +125,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Moisturising Cream 340g",
-      "product_img": "/13.webp",
+      "product_img": "13.webp",
       "category": 1,
       "ingredients": "glycerin, cetearyl alcohol, capric triglyceride, behentrimonium methosulfate, cetearyl alcohol, cetyl alcohol, ceramide 3, ceramide 6 ii, ceramide 1, sodium hyaluronate, cholesterol, petrolatum, dimethicon, potassium phosphate, dipotassium phosphate, sodium lauroyl, disodium edta, phenoxyethanol, methylparaben, propylparaben, phytosphingosine, carbomer, xanthan gum",
       "price": "13.00"
@@ -136,7 +136,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "First Aid Beauty Ultra Repair Cream (56.7g)",
-      "product_img": "/14.webp",
+      "product_img": "14.webp",
       "category": 1,
       "ingredients": "colloidal oatmeal, stearic acid, glycerin, c12-15, capric triglyceride, glyceryl stearate, glyceryl stearate se, cetearyl alcohol, caprylyl glycol, phenoxyethanol, butyrospermum parkii, squalene, allantoin, sodium hydroxide, dimethicon, xanthan gum, disodium edta, chrysanthemum parthenium (feverfew) extract, camellia sinensis extract, butylene glycol, glycyrrhiza glabra root extract, eucalyptus globulus, ceramide 3",
       "price": "12.00"
@@ -147,7 +147,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Avône Antirougeurs Jour Redness Relief Moisturizing Protecting Cream (40ml)",
-      "product_img": "/15.webp",
+      "product_img": "15.webp",
       "category": 1,
       "ingredients": "ethylhexyl methoxycinnamate, c12-15, carthamus tinctorius extract, cyclomethicone, glycerin, capric triglyceride, octocrylene, bisethylhexyloxyphenol methoxyphenyl triazine, arachidyl alcohol, glyceryl stearate, peg-100 stearate, arachidyl glucoside, behenyl alcohol, bht, ci 42090, caprylyl glycol, dextran sulfate, disodium edta, parfum, hesperidin methyl chalcone, hydroxyethyl acrylate/sodium acryloyldimethyl taurate, isohexadecane, magnesium silicate, ci 77019, polysorbate 60, ruscus aculeatus root extract, sorbic acid, sorbitan isostearate, titanium dioxide, xanthan gum",
       "price": "16.00"
@@ -158,7 +158,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Dramatically Different Moisturising Lotion+ 125ml with Pump",
-      "product_img": "/16.webp",
+      "product_img": "16.webp",
       "category": 1,
       "ingredients": "paraffinum liquidum, glycerin, petrolatum, stearic acid, glyceryl stearate, sesamium indicum seed oil, urea, lanolin alcohol, triethanolamine, hordeum vulgare extract, cucumis sativus extract, helianthus annuus seed oil, propylene glycol dicoco-caprylate, sodium hyaluronate, butylene glycol, pentylene glycol, trisodium edta, phenoxyethanol, ci 15985, ci 19140, ci 17200",
       "price": "30.00"
@@ -169,7 +169,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "First Aid Beauty Ultra Repair Face Moisturiser (50ml)",
-      "product_img": "/17.webp",
+      "product_img": "17.webp",
       "category": 1,
       "ingredients": "glyceryl stearate se, glycerin, capric triglyceride, colloidal oatmeal, urea, squalene, dimethicon, cetyl alcohol, cetearyl alcohol, caprylyl glycol, phenoxyethanol, allantoin, butyrospermum parkii, limnanthes alba seed oil, persea gratissima oil, carbomer, sodium hydroxide, camellia sinensis extract, chrysanthemum parthenium (feverfew) extract, glycyrrhiza glabra root extract, ceramide 3",
       "price": "20.00"
@@ -180,7 +180,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bioderma Hydrabio Gel Cream 40ml",
-      "product_img": "/18.webp",
+      "product_img": "18.webp",
       "category": 1,
       "ingredients": "glycerin, isododecane, cyclopentasiloxane, dipropylene glycol, niacinamide, squalene, polymethylsilsesquioxane, c14-22, hdi/trimethylol hexyllactone crosspolymer, ammonium acryloyldimethyltaurate/vp, c30-45 alkyl cetearyl dimethicon crosspolymer, carbomer, pentylene glycol, tocopheryl acetate, c12-20, steareth-21, disodium edta, salicylic acid, sodium hydroxide, mannitol, xylitol, hexyldecanol, dimethicon, rhamnose, malachite extract, pyrus malus flower extract, brassica campestris, tocopherol, parfum",
       "price": "15.20"
@@ -191,7 +191,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Estée Lauder NightWear Plus Anti-Oxidant Night Detox Crôme 50ml",
-      "product_img": "/19.webp",
+      "product_img": "19.webp",
       "category": 1,
       "ingredients": "dimethicon, glycerin, polysorbate 60, butyrospermum parkii, hydrogenated polydecene, propanediol, squalene, sorbitan stearate, cetyl palmitate, tridecyl stearate, laminaria saccharina extract, laminaria ochroleuca extract, gentiana lutea (gentian) root extract, hydrolyzed opuntia ficus indica flower extract, citrus reticulata fruit extract, psidium guajava (guava) fruit extract, hydrolyzed opuntia ficus indica flower extract, citrus limon juice extract, fumaria officinalis flower/leaf/stem extract, triticum vulgare bran extract, hordeum vulgare extract, polygonum cuspidatum root extract, thermus thermophillus ferment, coffea arabica seed extract, vitis vinifera extract, saccharomyces lysate extract, limonium vulgare flower/leaf/stem extract, ethylbisiminomethylguaiacol manganese chloride, palmitoyl hydroxypropyltrimonium amylopectin/glycerin crosspolymer, artemia extract, cholesterol, algae extract, linoleic acid, dimethiconol, isohexadecane, sodium hyaluronate, lecithin, tridecyl trimellitate, lauryl alcohol, glycyrrhetinic acid, trehalose, sucrose, ergothioneine, acrylates/c10-30 alkyl, dipentaerythrityl hexacaprylate/hexacoco-caprylate, acetyl glucosamine, ethylhexyl glycerin, butylene glycol, glyceryl stearate, behenyl alcohol, caffeinee, palmitic acid, sodium pca, stearic acid, urea, capric triglyceride, acrylamide/sodium, tocopheryl acetate, tetrahexyldecyl ascorbate, cetyl alcohol, myristyl alcohol, polyquaternium-51, citric acid, sodium hydroxide, polysorbate 80, sodium benzoate, fumaric acid, cyclodextrin, parfum, disodium edta, bht, phenoxyethanol, chlorphenesin, linalool, butylphenyl methylpropional, hydroxyisohexyl 3-cyclohexene, benzyl salicylate, ci 42090, ci 19140",
       "price": "44.10"
@@ -202,7 +202,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary 10% Agireline Solution 30ml",
-      "product_img": "/20.webp",
+      "product_img": "20.webp",
       "category": 2,
       "ingredients": "propanediol, acetyl hexapeptide-8, trisodium ethylenediamine disuccinate, gellan gum, sodium chloride, isoceteth-20, dimethyl isosorbide, potassium sorbate, phenoxyethanol, chlorphenesin",
       "price": "5.80"
@@ -213,7 +213,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary Buffet Supersize Serum 60ml",
-      "product_img": "/21.webp",
+      "product_img": "21.webp",
       "category": 2,
       "ingredients": "glycerin, lactococcus ferment lysate, acetyl hexapeptide-8, pentapeptide-18, palmitoyl tripeptide-1, palmitoyl tetrapeptide-7, palmitoyl tripeptide-38, dipeptide diaminobutyroyl benzylamide diacetate, acetylarginyltryptophyl diphenylglycine, sodium hyaluronate, sodium hyaluronate, allantoin, glycine, alanine, serine, valine, isoleucine, proline, threonine, histidine, phenylalanine, arganine, aspartic acid, trehalose, fructose, glucose, maltose, urea, sodium pca, pca, sodium lactate, citric acid, hydroxypropyl cyclodextrin, sodium chloride, sodium hydroxide, butylene glycol, pentylene glycol, acacia senegal gum, xanthan gum, carbomer, polysorbate-20, ppg-26 buteth-26, castor oil, trisodium ethylenediamine disuccinate, ethoxydiglycol, sodium benzoate, caprylyl glycol, ethylhexyl glycerin, phenoxyethanol, chlorphenesin",
       "price": "24.40"
@@ -224,7 +224,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary 100% Pycnogenol 5% 15ml",
-      "product_img": "/22.webp",
+      "product_img": "22.webp",
       "category": 2,
       "ingredients": "propanediol, pinus pinaster bark extract",
       "price": "8.90"
@@ -235,7 +235,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Medik8 C-Tetra Serum 30ml",
-      "product_img": "/23.webp",
+      "product_img": "23.webp",
       "category": 2,
       "ingredients": "simmondsia chinensis leaf extract, cyclopentasiloxane, cyclohexasiloxane, tetrahexyldecyl ascorbate, tocopheryl acetate, ppg-12/smdi copolymer, citrus grandis, limonene",
       "price": "35.00"
@@ -246,7 +246,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Estée Lauder Advanced Night Repair Synchronized Recovery Complex II 30ml",
-      "product_img": "/24.webp",
+      "product_img": "24.webp",
       "category": 2,
       "ingredients": "bifida ferment lysate, methyl gluceth-20, peg-75, bis-peg-18 methyl ether dimethyl, butylene glycol, propanediol, cola acuminata seed extract, hydrolyzed algin, pantethine, caffeinee, lecithin, tripeptide-32, ethylhexyl glycerin, sodium rna, bisabolol, glycereth-26, squalene, sodium hyaluronate, oleth-3 phosphate, caprylyl glycol, lactobacillus, oleth-3, oleth-5, anthemis nobilis flower water, faex extract, choleth-24, hydrogenated lecithin, ceteth-24, tocopheryl acetate, ethylhexyl methoxycinnamate, hexylene glycol, carbomer, triethanolamine, trisodium edta, bht, xanthan gum, phenoxyethanol, ci 14700, ci 19140",
       "price": "52.20"
@@ -257,7 +257,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary Hyaluronic Acid 2% + B5 Supersize Serum 60ml",
-      "product_img": "/25.webp",
+      "product_img": "25.webp",
       "category": 2,
       "ingredients": "sodium hyaluronate, sodium hyaluronate, panthenol, ahnfeltia concinna extract, glycerin, pentylene glycol, propanediol, polyacrylate crosspolymer-6, ppg-26 buteth-26, castor oil, trisodium ethylenediamine disuccinate, citric acid, ethoxydiglycol, caprylyl glycol, hexylene glycol, ethylhexyl glycerin, phenoxyethanol, chlorphenesin",
       "price": "11.00"
@@ -268,7 +268,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary Marine Hyaluronics 30ml",
-      "product_img": "/26.webp",
+      "product_img": "26.webp",
       "category": 2,
       "ingredients": "glycerin, algae extract, pseudoalteromonas exopolysaccharides, pseudoalteromonas extract, ahnfeltia concinna extract, arganine, glycine, alanine, serine, valine, isoleucine, proline, threonine, histidine, phenylalanine, aspartic acid, pca, sodium pca, sodium lactate, salicylic acid, citric acid, propanediol, dimethyl isosorbide, ethoxydiglycol, polysorbate-20, potassium sorbate, sodium salicylate, sodium benzoate, hexylene glycol, 1,2-hexanediol, phenoxyethanol, caprylyl glycol",
       "price": "6.20"
@@ -279,7 +279,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "VICHY Minéral 89 Hyaluronic Acid Hydration Booster 50ml",
-      "product_img": "/27.webp",
+      "product_img": "27.webp",
       "category": 2,
       "ingredients": "peg/ppg/polybutylene glycol-8/5/3 glycerin, glycerin, butylene glycol, methyl gluceth-20, carbomer, sodium hyaluronate, phenoxyethanol, caprylyl glycol, citric acid, biosaccharide",
       "price": "25.00"
@@ -290,7 +290,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Pure Vitamin C10 Serum 30ml",
-      "product_img": "/27.webp",
+      "product_img": "27.webp",
       "category": 2,
       "ingredients": "ascorbic acid, cyclohexasiloxane, glycerin, alcohol denat, potassium hydroxide, polymethylsilsesquioxane, polysilicone-11, dimethicon, propylene glycol, pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate, c13-14 isoparaffin, peg-20 methyl glucose sesquistearate, sodium hyaluronate, adenosine, poloxamer 338, ammonium polyacryloyldmethyl taurate, disodium edta, hydrolyzed sodium hyaluronate, caprylyl glycol, laureth-7, acetyl dipeptide-1 cetyl, xanthan gum, toluene sulfonic acid, polyacrylamide, tocopherol, salicylic acid, parfum",
       "price": "38.00"
@@ -301,7 +301,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Overnight Glow Serum",
-      "product_img": "/28.webp",
+      "product_img": "28.webp",
       "category": 2,
       "ingredients": "glycerin, glycolic acid, polysorbate-20, hydroxyethyl cellulose, ammonium hydroxide, phenoxyethanol, propylene glycol, ethylhexyl glycerin, aloe barbadenis extract, cucumis sativus extract, arganine, disodium edta, tocopheryl acetate, retinyl palmitate, ascorbyl palmitate, lecithin, sucrose, hydrogenated lecithin, capric triglyceride, cyclopentasiloxane, bht, cyclohexasiloxane, xanthan gum, ascorbic acid",
       "price": "26.00"
@@ -312,7 +312,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Even Better Clinical Radical Dark Spot Corrector + Interrupter 50ml",
-      "product_img": "/29.webp",
+      "product_img": "29.webp",
       "category": 2,
       "ingredients": "cyclopentasiloxane, dimethicon, polysilicone-11, isododecane, butylene glycol, ascorbyl glucoside, dimethicon, peg-6, morus nigra extract, scutellaria baicalensis extract, camellia sinensis extract, cucumis sativus extract, saccharomyces lysate extract, hordeum vulgare extract, salicylic acid, triticum vulgare bran extract, cholesterol, oryza sativa bran, squalene, acetyl glucosamine, sodium hyaluronate, caffeinee, isohexadecane, betula alba bark extract, trametes versicolor extract, sodium rna, glycyrrhetinic acid, dimethoxytolyl propylresorcinol, di-c12-18 alkyl dimonium chloride, helianthus annuus seed oil, faex extract, caprylyl glycol, propylene glycol dicoco-caprylate, ammonium acryloyldimethyltaurate/vp, acrylamide/sodium, polysorbate-20, tocopheryl acetate, polysorbate 80, tromethamine, sodium hydroxide, hexylene glycol, disodium edta, sodium benzoate, sodium metabisulfite, sodium sulfite, phenoxyethanol, ci 15985, ci 19140",
       "price": "64.00"
@@ -323,7 +323,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Medik8 Hydr8 B5 Serum 30ml",
-      "product_img": "/30.webp",
+      "product_img": "30.webp",
       "category": 2,
       "ingredients": "panthenol, sodium hyaluronate, calcium pantothenate, phenoxyethanol, ethylhexyl glycerin, citric acid",
       "price": "40.00"
@@ -334,7 +334,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "By Terry Cellularose CC Serum 30ml (Various Shades)",
-      "product_img": "/31.webp",
+      "product_img": "31.webp",
       "category": 2,
       "ingredients": "glycereth-7, bis-peg-18 methyl ether dimethyl, dimethicon, butylene glycol, peg 7 methyl ether, peg-32, nylon 12, boron nitride, cyclomethicone, dimethicon crosspolymer, glycerin, lecithin, tocopherol, acrylates/ palmeth-25 acrylate copolymer, phenoxyethanol, chlorphenesin, methylparaben, ethylparaben, parfum, polymethylsilsesquioxane, styrene/acrylates, potassium hydroxide, benzophenone-4, cyclotetrasiloxane, helianthus annuus seed oil, potassium sorbate, xanthan gum, geraniol, papain, bht, citronellol, rosa alba flower extract, 1,2-hexanediol, caprylyl glycol, carbomer, rosmarinus officinalis extract, eugenol, algin, ci 77019, titanium dioxide, ci 77491, ci 77163, ci 77492, ci 77499, ci 77861, ci 75470",
       "price": "61.00"
@@ -345,7 +345,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "NIP+FAB Salicylic Fix Serum Extreme 2% 50ml",
-      "product_img": "/32.webp",
+      "product_img": "32.webp",
       "category": 2,
       "ingredients": "propylene glycol, glycerin, ammonium acryloyldimethyltaurate/vp, salicylic acid, castor oil, phenoxyethanol, propanediol, sodium hydroxide, parfum, benzyl alcohol, disodium edta, ethylhexyl glycerin, dehydroacetic acid, alcohol, polygonum bistorta root extract, nelumbo nucifera flower extract, nymphaea coerulea flower extract, aloe barbadenis extract, ci 17200",
       "price": "19.95"
@@ -356,7 +356,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "NIOD Multi-Molecular Hyaluronic Complex 15ml",
-      "product_img": "/33.webp",
+      "product_img": "33.webp",
       "category": 2,
       "ingredients": "glycerin, hydrolyzed yeast protein, sodium hyaluronate, dimethyl isosorbide, pentylene glycol, sodium hyaluronate, hydrolyzed sodium hyaluronate, sodium butyroyl hyaluronate, polyacrylate crosspolymer-6, n-acetyl-d-glucosamine-6-phosphate disodium salt, betaine, trisodium ethylenediamine disuccinate, yeast extract, cetyl hydroxyethyl cellulose, tamarindus indica extract, tremella fuciformis extract, lecithin, tetradecyl aminobutyroylvalylaminobutyric urea trifluoroacetate, myristoyl nonapeptide-3, magnesium chloride, sodium benzoate, potassium sorbate, ppg-26 buteth-26, castor oil, ethylhexyl glycerin, chlorphenesin, phenoxyethanol, polyglucuronic acid",
       "price": "25.00"
@@ -367,7 +367,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Medik8 Crystal Retinal 6",
-      "product_img": "/34.webp",
+      "product_img": "34.webp",
       "category": 2,
       "ingredients": "capric triglyceride, glycerin, isododecane, cyclodextrin, cetearyl alcohol, cetearyl olivate, sodium acrylate/sodium acryloyldimethyl taurate copolymer, sorbitan olivate, tocopheryl acetate, squalene, sodium hyaluronate, retinal, ethyl ascorbic acid, daucus carota sativa extract, hydroxyethyl acrylate/sodium acryloyldimethyl taurate, ethylhexyl glycerin, pentylene glycol, vanilla planifolia extract, hydroxypropyl methylcellulose, rubus chamaemorus extract, sodium polyaspartate, tetrahexyldecyl ascorbate, dipteryx odorata bean extract, bht, polyhydroxystearic acid, disodium edta, titanium dioxide, phenoxyethanol, alumina, lonicera caprifolium (melsuckle) flower extract, isostearic acid, lecithin, lonicera japonica (melsuckle) flower extract, polyglyceryl-3 polyricinoleate, stearic acid, coumarin, ci 14700",
       "price": "59.00"
@@ -378,7 +378,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Collagen and Retinol Serum 30ml",
-      "product_img": "/35.webp",
+      "product_img": "35.webp",
       "category": 2,
       "ingredients": "glycerin, acacia seyal gum extract, retinol, methyl methacrylate/glycol dimethacrylate crosspolymer, acetyl heptapeptide-4, niacinamide, rosmarinus officinalis extract, anthemis nobilis flower water, ascorbic acid, tocopheryl acetate, citric acid, carbomer, potassium sorbate, hydroxyethyl cellulose, caprylyl glycol, disodium edta, propyl gallate, bht",
       "price": "26.00"
@@ -389,7 +389,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Elizabeth Arden Ceramide Capsules Advanced (90 Capsules)",
-      "product_img": "/36.webp",
+      "product_img": "36.webp",
       "category": 2,
       "ingredients": "isononyl isononanoate, isodecyl neopentanoate, isododecane, isopropyl myristate, dimethicon, camellia japonica extract, divinyldimethicon/dimethicon copolymer, capric triglyceride, cyclopentasiloxane, ceramide 1, ceramide 3, ceramide 6 ii, cholesterol, cocos nucifera fruit extract, crithmum maritimum extract, dimethiconol, lecithin, linoleic acid, linolenic acid, medicago sativa extract, phytosphingosine, retinyl palmitate, squalene, tocopherol",
       "price": "84.00"
@@ -400,7 +400,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "DHC Deep Cleansing Oil 30ml",
-      "product_img": "/37.webp",
+      "product_img": "37.webp",
       "category": 3,
       "ingredients": "olea europaea fruit oil, capric triglyceride, sorbeth-30 tetraoleate, pentylene glycol, phenoxyethanol, tocopherol, stearyl glycyrrhetinate, rosmarinus officinalis extract",
       "price": "5.00"
@@ -411,7 +411,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "DHC Deep Cleansing Oil 70ml",
-      "product_img": "/38.webp",
+      "product_img": "38.webp",
       "category": 3,
       "ingredients": "olea europaea fruit oil, capric triglyceride, sorbeth-30 tetraoleate, pentylene glycol, phenoxyethanol, tocopherol, stearyl glycyrrhetinate, rosmarinus officinalis extract",
       "price": "12.50"
@@ -422,7 +422,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Pai Skincare Rosehip BioRegenerate Oil 30ml",
-      "product_img": "/39.webp",
+      "product_img": "39.webp",
       "category": 3,
       "ingredients": "rosa canina flower oil, rosa canina flower oil, tocopherol, rosmarinus officinalis extract",
       "price": "24.00"
@@ -433,7 +433,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Take The Day Off Cleansing Oil 200ml",
-      "product_img": "/40.webp",
+      "product_img": "40.webp",
       "category": 3,
       "ingredients": "cetyl ethylhexanoate, triethylhexanoin, peg-20 glyceryl triisostearate, polybutene, peg-8 diisostearate, peg-12 diisostearate, ppg-15 stearyl ether, tocopheryl acetate, glycerin, caprylyl glycol, glyceryl laurate, bht",
       "price": "23.00"
@@ -444,7 +444,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary \"B\" Oil 30ml",
-      "product_img": "/41.webp",
+      "product_img": "41.webp",
       "category": 3,
       "ingredients": "capric triglyceride, squalene, crambe abyssinica seed oil, bisabolol, simmondsia chinensis leaf extract, ethylhexyl stearate, isochrysis galbana extract, adansonia digitata seed oil, argania spinosa extract, borago officinalis seed oil, rosa canina flower oil, sclerocarya birrea seed oil, oenocarpus bataua fruit oil, plukenetia volubilis oil, bertholletia excelsa seed oil, solanum lycopersicum, hydroxymethoxyphenyl decanone, rosmarinus officinalis extract, tocopherol",
       "price": "9.00"
@@ -455,7 +455,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary 100% Cold Pressed Virgin Marula Oil 30ml",
-      "product_img": "/42.webp",
+      "product_img": "42.webp",
       "category": 3,
       "ingredients": "sclerocarya birrea seed oil",
       "price": "8.40"
@@ -466,7 +466,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "NUXE Huile Prodigieuse Multi Usage Dry Oil 50ml",
-      "product_img": "/43.webp",
+      "product_img": "43.webp",
       "category": 3,
       "ingredients": "coco-caprylate, macadamia ternifolia seed oil, dicaprylyl ether, capric triglyceride, prunus amygdalus dulcis, corylus avellana flower extract, camellia oleifera seed oil, parfum, camellia japonica extract, tocopherol, argania spinosa extract, borago officinalis seed oil, tocopheryl acetate, helianthus annuus seed oil, rosmarinus officinalis extract, polyglyceryl-3 diisostearate, ascorbic acid, solanum lycopersicum, benzyl salicylate, linalool, limonene, citronellol, geraniol, benzyl alcohol",
       "price": "18.50"
@@ -477,7 +477,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Face by Skinny Tan Moisturising Oil Drops 30ml",
-      "product_img": "/44.webp",
+      "product_img": "44.webp",
       "category": 3,
       "ingredients": "dihydroxyacetone, castor oil, glycerin, caramel, xanthan gum, sodium metabisulfite, ethylhexyl glycerin, parfum, aloe barbadenis extract, paullinia cupana (guarana) seed extract, citric acid, phenoxyethanol, sodium benzoate, potassium sorbate",
       "price": "14.99"
@@ -488,7 +488,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Mama Mio The Tummy Rub Oil 120ml",
-      "product_img": "/45.webp",
+      "product_img": "45.webp",
       "category": 3,
       "ingredients": "prunus amygdalus dulcis, parfum, argania spinosa extract, cocos nucifera fruit extract, persea gratissima oil, limonene, olea europaea fruit oil, rosa canina flower oil, plukenetia volubilis oil, tocopherol, tocopheryl acetate, helianthus annuus seed oil, linalool, citral, evernia furfuracea (treemoss) extract, citronellol, benzyl benzoate",
       "price": "27.00"
@@ -499,7 +499,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "NUXE Huile Prodigieuse Golden Shimmer Multi Usage Dry Oil 50ml",
-      "product_img": "/46.webp",
+      "product_img": "46.webp",
       "category": 3,
       "ingredients": "coco-caprylate, macadamia ternifolia seed oil, dicaprylyl ether, capric triglyceride, prunus amygdalus dulcis, corylus avellana flower extract, ci 77019, camellia oleifera seed oil, parfum, silica, camellia japonica extract, tocopherol, titanium dioxide, argania spinosa extract, borago officinalis seed oil, ci 77491, tocopheryl acetate, helianthus annuus seed oil, rosmarinus officinalis extract, polyglyceryl-3 diisostearate, ascorbic acid, solanum lycopersicum, benzyl salicylate, linalool, limonene, citronellol, geraniol, benzyl alcohol",
       "price": "22.50"
@@ -510,7 +510,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "JASON Vitamin E 5,000iu Oil - All Over Body Nourishment 118ml",
-      "product_img": "/47.webp",
+      "product_img": "47.webp",
       "category": 3,
       "ingredients": "helianthus annuus seed oil, carthamus tinctorius extract, tocopheryl acetate, tocopherol, oryza sativa bran, prunus amygdalus dulcis, prunus armeniaca fruit extract, persea gratissima oil, triticum vulgare bran extract, lecithin",
       "price": "7.49"
@@ -521,7 +521,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bondi Sands Liquid Gold Self Tanning Oil 150ml",
-      "product_img": "/48.webp",
+      "product_img": "48.webp",
       "category": 3,
       "ingredients": "glycerin, dihydroxyacetone, castor oil, dimethyl isosorbide, erythrulose, pentylene glycol, sodium metabisulfite, peg-7 glyceryl cocoate , parfum, 1,2-hexanediol, caprylyl glycol, phenoxyethanol, ammonium acryloyldimethyltaurate/vp, copolymer, hydrolysed simmondsia chinensis leaf extract, cocos nucifera fruit extract, argania spinosa extract, tocopheryl acetate, xanthan gum, coumarin, ci 14700, ci 19140, ci 42090",
       "price": "11.99"
@@ -532,7 +532,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Mama Mio The Tummy Rub Oil 200ml",
-      "product_img": "/49.webp",
+      "product_img": "49.webp",
       "category": 3,
       "ingredients": "prunus amygdalus dulcis, parfum, argania spinosa extract, cocos nucifera fruit extract, persea gratissima oil, limonene, olea europaea fruit oil, rosa canina flower oil, plukenetia volubilis oil, tocopherol, tocopheryl acetate, helianthus annuus seed oil, linalool, citral, evernia furfuracea (treemoss) extract, citronellol, benzyl benzoate",
       "price": "35.00"
@@ -543,7 +543,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "NUXE Sun Tanning Oil Face and Body SPF 30 (150ml)",
-      "product_img": "/50.webp",
+      "product_img": "50.webp",
       "category": 3,
       "ingredients": "coco-caprylate, c12-15, dibutyl adipate, diethylamino hydroxybenzoyl hexyl benzoate, diethylhexyl succinate, ethylhexyl triazone, helianthus annuus seed oil, macadamia ternifolia seed oil, methylheptyl isostearate, bis-ethylhexyloxyphenol methoxyphenyl triazine, phenyl trimethicone, parfum, butyrospermum parkii, tocopherol, tocopheryl acetate, eichhornia crassipes extract, ethyl ferulate, polyglyceryl-5 trioleate, fagraea berteroana flower extract, rosmarinus officinalis extract, solanum lycopersicum, disodium uridine phosphate, citric acid, benzyl salicylate, limonene, linalool, geraniol, citronellol",
       "price": "19.50"
@@ -554,7 +554,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Anthelios Anti-Shine Sun Protection Invisible SPF50+ Face Mist 75ml",
-      "product_img": "/51.webp",
+      "product_img": "51.webp",
       "category": 4,
       "ingredients": "butane, homosalate, octocrylene, glycerin, dimethicon, ethylhexyl salicylate, dicaprylyl carbonate, nylon 12, diisopropyl sebacate, butyl methoxydibenzoylmethane, styrene/acrylates, p-anisic acid, caprylyl glycol, carnosine, cyclohexasiloxane, disodium edta, drometrizole trisiloxane, ethylhexyl triazone, methyl methacrylate crosspolymer, peg-32, peg-8 laurate, phenoxyethanol, poly c10-30 alkyl acrylate, polyglyceryl-6 polyricinoleate, sodium chloride, sodium hyaluronate, tocopherol, parfum",
       "price": "14.00"
@@ -565,7 +565,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Glow Mist 80ml",
-      "product_img": "/52.webp",
+      "product_img": "52.webp",
       "category": 4,
       "ingredients": "olea europaea fruit oil, dipropylene glycol, butylene glycol, propolis extract, niacinamide, argania spinosa extract, aloe barbadenis extract, betaine, sodium hyaluronate, peg/ppg-17/6 copolymer, panthenol, carthamus tinctorius extract, persea gratissima oil, oenothera biennis flower extract, rosa canina flower oil, simmondsia chinensis leaf extract, macadamia ternifolia seed oil, 1,2-hexanediol, caprylyl glycol, illicium verum fruit extract, adenosine, rosa damascena, tagetes minuta flower oil, mentha arvensis leaf oil, elettaria cardamomum seed oil, thymus vulgaris leaf extract, eugenia, melaleuca alternifolia leaf extract, vetiveria zizanoides root oil, cymbopogon schoenanthus oil, pelargonium graveolens extract, lavandula angustifolia, citrus limon juice extract, citrus aurantium dulcis",
       "price": "16.00"
@@ -576,7 +576,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Ambre Solaire Sensitive Hydrating Hypoallergenic Face Sun Cream Mist SPF50 75ml",
-      "product_img": "/53.webp",
+      "product_img": "53.webp",
       "category": 4,
       "ingredients": "butane, homosalate, octocrylene, glycerin, dimethicon, ethylhexyl salicylate, dicaprylyl carbonate, nylon 12, diisopropyl sebacate, butyl methoxydibenzoylmethane, styrene/acrylates, copolymer, p-anisic acid, cyclohexasiloxane, tocopherol, sodium chloride, sodium hyaluronate, phenoxyethanol, thermus thermophillus ferment, peg-32, peg-8 laurate, ethylhexyl triazone, triethanolamine, polyglyceryl-6, polyricinoleate, poly c10-30 alkyl acrylate, pentylene glycol, drometrizole trisiloxane, caprylyl glycol, disodium edta, methyl methacrylate crosspolymer, potassium sorbate, scutellaria baicalensis extract, parfum",
       "price": "6.00"
@@ -587,7 +587,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neutrogena Hydro Boost Express Hydrating Spray 200ml",
-      "product_img": "/54.webp",
+      "product_img": "54.webp",
       "category": 4,
       "ingredients": "glycerin, isopropyl palmitate, petrolatum, dimethicon, sodium hyaluronate, polysorbate 60, cetearyl olivate, sorbitan olivate, c12-20, c14-22, isohexadecane, hydroxyethyl acrylate/sodium acryloyldimethyl taurate, sodium hydroxide, tocopherol, chlophenesin, parfum, benzyl alcohol",
       "price": "5.49"
@@ -598,7 +598,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Hydrating Milky Mist 80ml",
-      "product_img": "/55.webp",
+      "product_img": "55.webp",
       "category": 4,
       "ingredients": "glycerin, ethylhexyl palmitate, dipropylene glycol, cetyl ethylhexanoate, phenoxyethanol, polyglyceryl-10 oleate, ethylhexyl glycerin, castor oil, cetearyl isononanoate, allantoin, ceteareth 20, trideceth-10, hydrolyzed glycosaminoglycans, hydrogenated lecithin, glyceryl stearate, ceteareth-12, cetyl alcohol, stearyl alcohol, cetyl palmitate, disodium edta, parfum, citric acid, benzoic acid, lecithin, avena strigosa seed extract",
       "price": "18.00"
@@ -609,7 +609,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Omorovicza Queen Of Hungary Mist (100ml)",
-      "product_img": "/56.webp",
+      "product_img": "56.webp",
       "category": 4,
       "ingredients": "glycerin, polysorbate-20, phenoxyethanol, pyrus malus flower extract, disodium edta, ethylhexyl glycerin, mannitol, malpighia punicifolia (acerola) fruit extract, chlorella vulgaris extract, pectin, rosa damascena, citrus aurantium dulcis, salvia officinalis, phospholipid, yeast extract, linalool, geraniol, citronellol",
       "price": "59.00"
@@ -620,7 +620,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Omorovicza Queen of Hungary Mist 30ml",
-      "product_img": "/57.webp",
+      "product_img": "57.webp",
       "category": 4,
       "ingredients": "glycerin, polysorbate-20, phenoxyethanol, pyrus malus flower extract, disodium edta, ethylhexyl glycerin, mannitol, malpighia punicifolia (acerola) fruit extract, chlorella vulgaris extract, pectin, rosa damascena, citrus aurantium dulcis, salvia officinalis, phospholipid, yeast extract, linalool, geraniol, citronellol",
       "price": "20.00"
@@ -631,7 +631,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "NUXE Huile Prodigieuse Florale Mist 100ml",
-      "product_img": "/58.webp",
+      "product_img": "58.webp",
       "category": 4,
       "ingredients": "coco-caprylate, macadamia ternifolia seed oil, dicaprylyl ether, capric triglyceride, prunus amygdalus dulcis, corylus avellana flower extract, parfum, camellia oleifera seed oil, camellia japonica extract, tocopherol, argania spinosa extract, borago officinalis seed oil, tocopheryl acetate, helianthus annuus seed oil, rosmarinus officinalis extract, polyglyceryl-3 diisostearate, ascorbic acid, limonene, linalool, citral, citronellol, hydroxycitronellal, geraniol",
       "price": "29.50"
@@ -642,7 +642,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Vitamin Wakeup Mist 80ml",
-      "product_img": "/59.webp",
+      "product_img": "59.webp",
       "category": 4,
       "ingredients": "citrus aurantium dulcis, glycerin, dipropylene glycol, butylene glycol, niacinamide, castor oil, 1,2-hexanediol, caprylyl glycol, ethylhexyl glycerin, allantoin, magnesium ascorbyl phosphate, citric acid, sodium citrate, citrus grandis, adenosine, tropolone, disodium edta, arganine, lavandula angustifolia, citrus sinensis fruit extract, sodium hyaluronate, citrus aurantifolia oil, glycyrrhiza glabra root extract, sodium starch octenylsuccinate, maltodextrin, calcium pantothenate, sodium ascorbyl phosphate, tocopheryl acetate, pryidoxine hci, silica",
       "price": "16.00"
@@ -653,7 +653,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neals Yard Remedies Goodnight Pillow Mist 45ml",
-      "product_img": "/60.webp",
+      "product_img": "60.webp",
       "category": 4,
       "ingredients": "polyglyceryl-4 coco-caprylate, anthemis nobilis flower water, lavandula angustifolia, copaifera officinalis (balsam copaiba) resin, citrus nobilis oil, pelargonium graveolens extract, vetiveria zizanoides root oil, glycerin, sodium levulinate, levulinic acid, linalool, limonene, citronellol, geraniol, citral",
       "price": "15.00"
@@ -664,7 +664,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Lumene Nordic C Valo Glow Refresh Hydrating Mist 50ml",
-      "product_img": "/61.webp",
+      "product_img": "61.webp",
       "category": 4,
       "ingredients": "rubus chamaemorus extract, rubus chamaemorus extract, rubus chamaemorus extract, phenoxyethanol, castor oil, propanediol, glycerin, ethylhexyl glycerin, maltodextrin, ascorbyl glucoside, disodium edta, sodium hydroxide, sodium citrate, citric acid, limonene, linalool, parfum",
       "price": "9.00"
@@ -675,7 +675,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Elizabeth Arden Eight Hour Miracle Hydrating Mist 100ml",
-      "product_img": "/62.webp",
+      "product_img": "62.webp",
       "category": 4,
       "ingredients": "glycerin, polysorbate-20, aloe barbadenis extract, camellia sinensis extract, caprylyl glycol, citric acid, coffea arabica seed extract, euterpe oleracea fruit oil, garcinia mangostana fruit extract, lycium barbarum extract, malus domestica fruit extract, morinda citrifolia extract, parfum, punica granatum seed oil, saccharide isomerate, sodium citrate, sodium pca, chlorphenesin, phenoxyethanol, potassium sorbate, sodium benzoate",
       "price": "21.00"
@@ -686,7 +686,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Chantecaille Pure Rosewater 100ml",
-      "product_img": "/63.webp",
+      "product_img": "63.webp",
       "category": 4,
       "ingredients": "rosa centifolia flower water, butylene glycol, glycerin, chlorphenesin, methyl paraben",
       "price": "65.00"
@@ -697,7 +697,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Institut Esthederm Cellular Water Mist 100ml",
-      "product_img": "/64.webp",
+      "product_img": "64.webp",
       "category": 4,
       "ingredients": "propanediol, sodium citrate, sodium chloride, hydrolyzed sodium hyaluronate, aminoethanesulfinic acid, carnosine, potassium chloride, sodium bicarbonate, disodium phosphate, magnesium sulfate, potassium phosphate, calcium chloride",
       "price": "18.00"
@@ -708,7 +708,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Take The Day Off Cleansing Balm 125ml",
-      "product_img": "/65.webp",
+      "product_img": "65.webp",
       "category": 5,
       "ingredients": "ethylhexyl palmitate, carthamus tinctorius extract, capric triglyceride, sorbeth-30 tetraoleate, polyethylene, peg-5 glyceryl triisostearate, tocopherol, phenoxyethanol",
       "price": "25.00"
@@ -719,7 +719,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Lanolips 101 Ointment Multi-Balm - Coconutter 10g",
-      "product_img": "/68.webp",
+      "product_img": "68.webp",
       "category": 5,
       "ingredients": "lanolin, aroma, tocopherol, cocos nucifera fruit extract",
       "price": "8.99"
@@ -730,7 +730,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "AMELIORATE Intensive Lip Treatment 15ml",
-      "product_img": "/69.webp",
+      "product_img": "69.webp",
       "category": 5,
       "ingredients": "lanolin, glycerin, cetearyl alcohol, squalene, butyrospermum parkii, glyceryl stearate, peg€100 stearate, c10€30 cholesterol/lanosterol esters, cera alba, prunus amygdalus dulcis, aroma, avena sativa kernel extract, cucumis sativus extract, dimethicon, phenoxyethanol, phytosteryl, sesamium indicum seed oil, sodium benzoate, phospholipid, potassium sorbate, pentylene glycol, xanthan gum, calcium pca, hydrolyzed lactis proteinum, stearic acid, disodium edta, lactic acid, serine, sodium lactate, sorbitol, urea, saccharin, palmitic acid, sucrose stearate, bht, phenyl ethyl alcohol, sodium anisate, sodium chloride, sodium levulinate, citric acid, aloe barbadenis extract, glyceryl caprylate, nigella sativa, tocopherol, helianthus annuus seed oil, allantoin, p€anisic acid",
       "price": "15.00"
@@ -741,7 +741,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Burts Bees Lip Balm - Ultra Conditioning 4.25g",
-      "product_img": "/70.webp",
+      "product_img": "70.webp",
       "category": 5,
       "ingredients": "cocos nucifera fruit extract, olea europaea fruit oil, helianthus annuus seed oil, helianthus annuus seed oil, persea gratissima oil, olus oil, cera alba, \"cire dabeille)\", sclerocarya birrea seed oil, soybean glycerides, theobroma cacao extract, garcinia indica seed butter, butyrospermum parkii, butyrospermum parkii, cymbopogon martini oil, citrus aurantium dulcis, salvia sclarea, tocopherol, myroxylon pereirae (balsam peru) oil, vanilla planifolia extract, illicium verum fruit extract, cananga odorata flower oil, glycine soja extract, citric acid, geraniol, linalool, benzyl benzoate",
       "price": "3.99"
@@ -752,7 +752,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Burts Bees Lip Balm - Mango Lip Balm Tubes 4.25g",
-      "product_img": "/71.webp",
+      "product_img": "71.webp",
       "category": 5,
       "ingredients": "helianthus annuus seed oil, cocos nucifera fruit extract, cera alba, aroma, castor oil, mangifera indica extract, lanolin, ammonium glycyrrhizate, tocopherol, rosmarinus officinalis extract, glycine soja extract, canola oil, limonene, linalool",
       "price": "3.99"
@@ -763,7 +763,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Lanolips Rose Gold 101 Ointment For Lips + Cheeks 9g",
-      "product_img": "/74.webp",
+      "product_img": "74.webp",
       "category": 5,
       "ingredients": "lanolin, lanolin cera, cera alba, castor oil, ci 77019, aroma, tocopherol, benzyl alcohol, helianthus annuus seed oil, ci 77861, limonene, titanium dioxide, ci 15850, ci 77491",
       "price": "13.00"
@@ -774,7 +774,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "REN Clean Skincare Evercalm Overnight Recovery Balm 30ml",
-      "product_img": "/75.webp",
+      "product_img": "75.webp",
       "category": 5,
       "ingredients": "coco-caprylate, glycerin, almond/borage/linseed/olive acids/glycerides, polyglyceryl-6 distearate, simmondsia chinensis leaf extract, oryza sativa bran, cetyl alcohol, glyceryl stearate, helianthus annuus seed oil, glyceryl caprylate, cera alba, sodium stearoyl glutamate, benzyl alcohol, parfum, hippophae rhamnoides extract, tocopherol, magnesium carboxymethyl beta-glucan, dehydroacetic acid, eclipta prostrata extract, eclipta prostrata extract, moringa oleifera seed oil, helianthus annuus seed oil, rosmarinus officinalis extract, citronellol, geraniol, limonene, linalool",
       "price": "40.00"
@@ -785,7 +785,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Lanolips 101 Ointment Multi-Balm - Peach 10g",
-      "product_img": "/76.webp",
+      "product_img": "76.webp",
       "category": 5,
       "ingredients": "lanolin",
       "price": "8.99"
@@ -796,7 +796,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Weleda Lip Balm (4.8g)",
-      "product_img": "/77.webp",
+      "product_img": "77.webp",
       "category": 5,
       "ingredients": "simmondsia chinensis leaf extract, cera alba, butyrospermum parkii, euphorbia cerifera wax, rosa damascena, copernicia cerifera wax, vanilla planifolia extract, rosa damascena, citronellol, benzyl alcohol, geraniol, citral, eugenol, farnesol",
       "price": "4.95"
@@ -807,7 +807,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Hyaluronic Acid and Orange Juice Hydrating Brightening Eye Sheet Mask 6g",
-      "product_img": "/78.webp",
+      "product_img": "78.webp",
       "category": 6,
       "ingredients": "propylene glycol, glycerin, camellia sinensis extract, pvm/ma, potassium hydroxide, glyceryl acrylate/acrylic acid copolymer, sodium hyaluronate, p-anisic acid, mannose, dipotassium glycyrrhizate, hydrogenated starch hydrolysate, hydroxyacetophenone, hydroxyethyl cellulose, citric acid, citrus aurantium dulcis, xanthan gum, potassium sorbate, sodium benzoate, phenoxyethanol",
       "price": "2.99"
@@ -818,7 +818,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Holika Holika Pure Essence Mask Sheet - Cucumber",
-      "product_img": "/80.webp",
+      "product_img": "80.webp",
       "category": 6,
       "ingredients": "glycerin, dipropylene glycol, betaine, polyglyceryl-10 laurate, butylene glycol, centella asiatica extract, paeonia suffruticosa extract, 1,2-hexanediol, allantoin, panthenol, chamomilla recutita flower oil, cucumis sativus extract, arganine, carbomer, glyceryl caprylate, xanthan gum, ethylhexyl glycerin, aloe barbadenis extract, aniba rosaeodora wood extract, viola tricolor extract, lavandula angustifolia, centaurea cyanus extract, disodium edta",
       "price": "1.95"
@@ -829,7 +829,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Holika Holika Pure Essence Mask Sheet - Avocado",
-      "product_img": "/81.webp",
+      "product_img": "81.webp",
       "category": 6,
       "ingredients": "dipropylene glycol, glycerin, polyglyceryl-10 laurate, butylene glycol, centella asiatica extract, paeonia suffruticosa extract, 1,2-hexanediol, hydroxyethyl cellulose, chamomilla recutita flower oil, persea gratissima oil, glyceryl caprylate, arganine, carbomer, adenosine, ethylhexyl glycerin, xanthan gum, allantoin, lactis proteinum, sodium hyaluronate, citrus aurantium dulcis, olea europaea fruit oil, viola tricolor extract, lavandula angustifolia, centaurea cyanus extract, lavandula angustifolia, ocimum basilicum (basil) oil, pelargonium graveolens extract, disodium edta",
       "price": "1.95"
@@ -840,7 +840,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Antipodes Aura Manuka Honey Mask 75ml",
-      "product_img": "/82.webp",
+      "product_img": "82.webp",
       "category": 6,
       "ingredients": "leptospermum scoparium leaf extract, persea gratissima oil, glycerin, cetearyl glucoside, cetearyl alcohol, stearic acid, glyceryl stearate, tocopherol, helianthus annuus seed oil, dehydroacetic acid, benzyl alcohol, metrosideros excels (pohutukawa) flower extract, daucus carota sativa extract, vitis vinifera extract, parfum of vanilla , coumarin, limonene, linalool",
       "price": "26.99"
@@ -851,7 +851,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Moisture Bomb Green Tea Hydrating Face Sheet Mask for Combination Skin 32g",
-      "product_img": "/83.webp",
+      "product_img": "83.webp",
       "category": 6,
       "ingredients": "propylene glycol, glycerin, p-anisic acid, camellia sinensis extract, citric acid, dipotassium glycyrrhizate, glyceryl acrylate/acrylic acid copolymer, hydrogenated starch hydrolysate, hydroxyacetophenone, hydroxyethyl cellulose, limonene, mannose, castor oil, phenoxyethanol, potassium hydroxide, potassium sorbate, pvm/ma, sodium benzoate, sodium hyaluronate, xanthan gum, parfum",
       "price": "2.99"
@@ -862,7 +862,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Holika Holika Pure Essence Mask Sheet - Charcoal",
-      "product_img": "/84.webp",
+      "product_img": "84.webp",
       "category": 6,
       "ingredients": "dipropylene glycol, glycerin, betaine, polyglyceryl-10 laurate, butylene glycol, paeonia suffruticosa extract, centella asiatica extract, 1,2-hexanediol, carbomer, arganine, chamomilla recutita flower oil, panthenol, glyceryl caprylate, xanthan gum, ethylhexyl glycerin, allantoin, citrus aurantium bergamia, pueraria lobata extract, ulmus davidiana root extract, oenothera biennis flower extract, pinus palustris leaf extract, sodium hyaluronate, charcoal powder, disodium edta",
       "price": "1.95"
@@ -873,7 +873,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Hyaluronic Acid and Coconut Water Hydrating Replumping Eye Sheet Mask 6g",
-      "product_img": "/85.webp",
+      "product_img": "85.webp",
       "category": 6,
       "ingredients": "propylene glycol, glycerin, camellia sinensis extract, pvm/ma, potassium hydroxide, glyceryl acrylate/acrylic acid copolymer, sodium hyaluronate, p-anisic acid, mannose, cocos nucifera fruit extract, dipotassium glycyrrhizate, hydrogenated starch hydrolysate, hydroxyacetophenone, hydroxyethyl cellulose, citric acid, xanthan gum, potassium sorbate, sodium benzoate, phenoxyethanol",
       "price": "2.99"
@@ -884,7 +884,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "REN Clean Skincare Glycol Lactic Radiance Mask",
-      "product_img": "/86.webp",
+      "product_img": "86.webp",
       "category": 6,
       "ingredients": "polysorbate 60, glycerin, citrus aurantium bergamia, lecithin, lactic acid, ribes nigrum bud oil, vitis vinifera extract, passiflora quadrangularis fruit extract, citrus limon juice extract, ananas sativas fruit extract, vitis vinifera extract, alcohol denat, vaccinium macrocarpon fruit extract, xanthan gum, maltodextrin, carica papaya fruit extract, parfum, citrus aurantium dulcis, citrus nobilis oil, citrus tangerina extract, citrus grandis, limonene, linalool, citral, hippophae rhamnoides extract, phenoxyethanol, sodium hydroxymethylglycinate, tocopherol",
       "price": "36.00"
@@ -895,7 +895,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Moisture Bomb Camomile Hydrating Face Sheet Mask for Dry and Sensitive Skin 32g",
-      "product_img": "/87.webp",
+      "product_img": "87.webp",
       "category": 6,
       "ingredients": "propylene glycol, glycerin, p-anisic acid, benzyl alcohol, benzyl benzoate, chamomilla recutita flower oil, dipotassium glycyrrhizate, glyceryl acrylate/acrylic acid copolymer, hydrogenated starch hydrolysate, hydroxyacetophenone, hydroxyethyl cellulose, mannose, castor oil, phenoxyethanol, potassium hydroxide, potassium sorbate, pvm/ma, sodium hyaluronate, sorbic acid, xanthan gum, parfum",
       "price": "2.99"
@@ -906,7 +906,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Holika Holika Pure Essence Mask Sheet - Strawberry",
-      "product_img": "/88.webp",
+      "product_img": "88.webp",
       "category": 6,
       "ingredients": "dipropylene glycol, glycerin, polyglyceryl-10 laurate, butylene glycol, centella asiatica extract, paeonia suffruticosa extract, 1,2-hexanediol, hydroxyethyl cellulose, acrylates/c10-30 alkyl, fragaria chiloensis (strawberry) fruit extract, chamomilla recutita flower oil, arganine, glyceryl caprylate, ethylhexyl glycerin, glyceryl acrylate/acrylic acid copolymer, citrus junos fruit extract, propylene glycol, pvm/ma, citrus aurantium dulcis, viola tricolor extract, lavandula angustifolia, centaurea cyanus extract, citrus tangerina extract , litsea cubeba fruit extract, myristica fragrans extract, disodium edta",
       "price": "1.95"
@@ -917,7 +917,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Effaclar Clay Mask 100ml",
-      "product_img": "/89.webp",
+      "product_img": "89.webp",
       "category": 6,
       "ingredients": "kaolin, magnesium aluminum silicate, propanediol, panthenol, glycerin, capric triglyceride, titanium dioxide, titanium dioxide, cetearyl alcohol, zea mays starch, cellulose, ceteareth 20, lecithin, caprylyl glycol, citric acid, xanthan gum, tocopherol, phenoxyethanol, parfum",
       "price": "14.00"
@@ -928,7 +928,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Moisture Bomb Sakura Hydrating Face Sheet Mask for Dull Skin 32g",
-      "product_img": "/92.webp",
+      "product_img": "92.webp",
       "category": 6,
       "ingredients": "propylene glycol, glycerin, prunus yedoensis leaf extract, castor oil, pvm/ma, potassium hydroxide, glyceryl , acrylate/acrylic acid copolymer, sodium hyaluronate, p-anisic acid, mannose, dipotassium glycyrrhizate, hydrogenated starch hydrolysate, hydroxyacetophenone, hydroxyethyl cellulose, xanthan gum, butylene glycol, phenoxyethanol, limonene, parfum",
       "price": "2.99"
@@ -939,7 +939,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Charcoal and Algae Purifying and Hydrating Face Sheet Mask for Enlarged Pores 28g",
-      "product_img": "/93.webp",
+      "product_img": "93.webp",
       "category": 6,
       "ingredients": "propylene glycol, glycerin, peg-32, castor oil, pvm/ma, papain, potassium hydroxide, glyceryl acrylate/acrylic acid copolymer, sodium hyaluronate, ananas sativas fruit extract, p-anisic acid, alcohol, propanediol, sucrose, hydrogenated starch hydrolysate, hydroxyacetophenone, hydroxyethyl cellulose, capryloyl salicylic acid, xanthan gum, fucus vesiculosus extract, sodium benzoate, phenoxyethanol, parfum",
       "price": "2.99"
@@ -950,7 +950,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The Ordinary Lactic Acid 5% + HA 2% Superficial Peeling Formulation 30ml",
-      "product_img": "/94.webp",
+      "product_img": "94.webp",
       "category": 7,
       "ingredients": "lactic acid, glycerin, arganine, potassium citrate, triethanolamine, sodium hyaluronate, tasmannia lanceolata fruit extract, acacia senegal gum, xanthan gum, pentylene glycol, trisodium ethylenediamine disuccinate, castor oil, ppg-26 buteth-26, ethylhexyl glycerin, 1,2-hexanediol, caprylyl glycol",
       "price": "5.80"
@@ -961,7 +961,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Elemis Papaya Enzyme Peel 50ml",
-      "product_img": "/96.webp",
+      "product_img": "96.webp",
       "category": 7,
       "ingredients": "propylene glycol, octyldodecanol, glyceryl stearate se, cetearyl alcohol, glycerin, c12-16 alcohols, helianthus annuus seed oil, niacinamide, xanthan gum, phenoxyethanol, palmitic acid, hydrogenated lecithin, parfum, papain, chlorphenesin, lactis proteinum, ananas sativas fruit extract, sodium dehydroacetate, disodium edta, porphyridium cruentum extract, cinnamyl alcohol, fucus vesiculosus extract, capsicum annuum fruit extract, tocopherol, citronellol, geraniol, limonene, citral, mentha arvensis leaf oil, cuminum cyminum (cumin) seed oil",
       "price": "35.00"
@@ -972,7 +972,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "AHAVA Single Use Facial Renewal Peel 8ml",
-      "product_img": "/97.webp",
+      "product_img": "97.webp",
       "category": 7,
       "ingredients": "maris aqua, glycerin, propanediol, acer saccharum extract , citrus aurantium dulcis , citrus limon juice extract , saccharum officinarum extract , vaccinium myrtillus extract , pvp, aminomethyl propanediol, ascorbic acid, phenoxyethanol , ethylhexyl glycerin, aloe barbadenis extract, allantoin, bisabolol, butylene glycol , calendula officinalis extract , propylene glycol, aloe barbadenis extract, citrus aurantium bergamia, disodium lauriminodipropionate tocopheryl phospates, tocopherol, dunaliella salina extract , hydrogenated polydecene, helianthus annuus seed oil , melissa officinalis leaf oil , polyglyceryl-3 polyricinoleate",
       "price": "2.36"
@@ -983,7 +983,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Peel and Polish",
-      "product_img": "/98.webp",
+      "product_img": "98.webp",
       "category": 7,
       "ingredients": "lactic acid, polylactic acid, helianthus annuus seed oil, cetearyl alcohol, propanediol, ceteareth 20, beraclay light red, hamamelis virginiana, panax ginseng root extract, carica papaya fruit extract, saccharum officinarum extract, acer saccharum extract, extract, cucumis sativus extract, citrus aurantium dulcis, citrus limon juice extract, vaccinium myrtillus extract, hydroxyethyl cellulose, polyglceryl-3,cocoate, butylene glycol, maltooligosyl glucoside, glyceryl stearate, peg-100 stearate, capric triglyceride, dipentaerythrityl tri-polyhydroxystearate, hydrogenated starch hydrolysate, phenoxyethanol, caprylyl glycol, sodium hydroxide, xanthan gum, polyglceryl-4, coco-caprylate, polyglceryl-6 caprylate, polyglceryl-6 ricinoleate, pentylene glycol, sorbic acid, hydroxyphenyl, propamidobenzoic acid, ascorbyl, palmitate, benzoic acid, tocopherol",
       "price": "24.00"
@@ -994,7 +994,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Peter Thomas Roth FirmX Peeling Gel 100ml",
-      "product_img": "/99.webp",
+      "product_img": "99.webp",
       "category": 7,
       "ingredients": "peg-32, cellulose, butylene glycol, citrus aurantium bergamia, sorbitol, r-bacillus licheniformis keratinase, ananas sativas fruit extract, punica granatum seed oil, leuconostoc/radish root ferment filtrate, sodium hyaluronate, glycerin, sodium hydroxide, citric acid, tetrasodium edta, algin, carbomer, tromethamine, isopropyl myristate, sodium chloride, calcium chloride, potassium sorbate, sodium benzoate, ci 77019, phenoxyethanol",
       "price": "40.00"
@@ -1005,7 +1005,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Peter Thomas Roth Peptide 21 Amino Acid Exfoliating Peel Pads - 60 Pads",
-      "product_img": "/100.webp",
+      "product_img": "100.webp",
       "category": 7,
       "ingredients": "butylene glycol, sodium lactate, phytic acid, ppg-5-ceteth-20, rosa centifolia flower water, hamamelis virginiana, salicylic acid, threonine, glutamic acid, serine, aspartic acid, arganine, alanine, proline, valine, histidine, glycine, lysine, chamomilla recutita flower oil, camellia sinensis extract, ascorbic acid, retinyl palmitate, tocopheryl acetate, aloe barbadenis extract, borago officinalis seed oil, symphytum officinale extract, citrus limon juice extract, citrus aurantifolia oil, citrus aurantium dulcis, citrus tangerina extract, mentha piperita extract, salvia officinalis, zingiber officinale root extract, phenoxyethanol, sodium hydroxide, aminobutyric acid, potassium sorbate, sodium benzoate, capric triglyceride, dimethicon, leucine, sodium ascorbyl phosphate, limonene, benzoic acid, tyrosine, phenylalanine, isoleucine, citric acid, octyldodecanol, silica, sodium propoxyhydroxypropyl thiosulfate silica",
       "price": "41.60"
@@ -1016,7 +1016,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Alpha-H Beauty Sleep Power Peel 50ml",
-      "product_img": "/101.webp",
+      "product_img": "101.webp",
       "category": 7,
       "ingredients": "glycolic acid, capric triglyceride, dimethicon, cetearyl alcohol, glyceryl stearate, peg-100 stearate, cyclopentasiloxane, euglena gracilis extract, potassium hydroxide, ceteareth 20, sodium carrageenan, glycerin, stearic acid, hydrolyzed wheat flour, phenoxyethanol, maltodextrin, simmondsia chinensis leaf extract, dimethicon crosspolymer, parfum, butyrospermum parkii, mangifera indica extract, prunus amygdalus dulcis, retinol, tocopheryl acetate, vitis vinifera extract, panthenol, tanacetum annuum flower oil, gluconolactone, allantoin, disodium edta, sodium benzoate, aloe barbadenis extract, calcium pantothenate, xanthan gum, caprylyl glycol, proline, serine, sodium hyaluronate, urea, magnesium lactate, papain, ethylhexyl glycerin, calcium gluconate, alanine, magnesium chloride, sodium citrate, limonene, linalool",
       "price": "43.20"
@@ -1027,7 +1027,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Elemis Peptide4 Overnight Radiance Peel 30ml",
-      "product_img": "/102.webp",
+      "product_img": "102.webp",
       "category": 7,
       "ingredients": "lactic acid, hibiscus sabdariffa flower extract, sodium hydroxide, polyacrylate crosspolymer-6, phenoxyethanol, hydroxyethyl acrylate/sodium acryloyldimethyl taurate, glycerin, squalene, hydrolysed simmondsia chinensis leaf extract, parfum, perilla ocymoides leaf extract, echium plantagineum seed oil, disodium edta, matthiola longipetala (night scented stock) seed oil, ethylhexyl glycerin, magnesium hydroxide, benzyl benzoate, yeast extract, polysorbate 60, sorbitan isostearate, propylene glycol dicaprylate, linalool, limonene, t-butyl alcohol, hexyl cinnamal, potassium sorbate, soy acid, xanthan gum, cananga odorata flower oil, citrus aurantium dulcis, myristica fragrans extract, sodium benzoate, hydrolyzed yeast protein, eugenol, coumarin, citrus aurantium amara flower water, citrus aurantium amara flower water, coriandrum sativum extract, tocopherol",
       "price": "56.00"
@@ -1038,7 +1038,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Hydrating Milky Peel 80ml",
-      "product_img": "/103.webp",
+      "product_img": "103.webp",
       "category": 7,
       "ingredients": "cellulose, propanediol, phenoxyethanol, arganine, carbomer, polysorbate-20, allantoin, bifida ferment lysate, cocos, cocos nucifera fruit extract, avena, strigosa seed extract, origanum vulgare, leaf extract, chamaecyparis obtusa extract, extract, salix alba extract, lactobacillus, portulaca oleracea extract, cinnamomum cassia oil, scutellaria baicalensis extract, lecithin, potassium sorbate, citric acid, trehalose, glycerin, ethylhexyl glycerin, parfum, disodium edta, butylene glycol",
       "price": "24.00"
@@ -1049,7 +1049,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Eye Repair Cream 14ml",
-      "product_img": "/104.webp",
+      "product_img": "104.webp",
       "category": 8,
       "ingredients": "niacinamide, cetyl alcohol, capric triglyceride, glycerin, propanediol, isononyl isononanoate, simmondsia chinensis leaf extract, peg-20 methyl glucose sesquistearate, cetearyl alcohol, dimethicon, methyl glucose sesquistearate, ceramide 3, ceramide 6 ii, ceramide 1, sodium hyaluronate, zinc citrate, prunus amygdalus dulcis, aloe barbadenis extract, chrysanthellum indicum extract, tocopherol, equisetum arvense extract, asparagopsis armata extract, ascophyllum nodosum extract, phenoxyethanol, carbomer, behentrimonium methosulfate, sorbitol, triethanolamine, laureth-4, butylene glycol, hydrogenated olus oil, tetrasodium edta, ethylhexyl glycerin, sodium lauroyl, sodium hydroxide, phytosphingosine, cholesterol, xanthan gum",
       "price": "12.00"
@@ -1060,7 +1060,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "The INKEY List Caffeine Eye Serum 15ml",
-      "product_img": "/105.webp",
+      "product_img": "105.webp",
       "category": 8,
       "ingredients": "propanediol, polyglyceryl-6 distearate, cetyl alcohol, hydroxyethyl acrylate/sodium acryloyldimethyl taurate, simmondsia chinensis leaf extract, glyceryl dibehenate, albizia julibrissin bark extract, squalene, caffeinee, cera alba, phospholipid, tribehenin, ethylhexyl glycerin, xanthan gum, glycine soja extract, polysorbate 60, disodium edta, glyceryl behenate, butylene glycol, glycine soja extract, leuconostoc/radish root ferment filtrate, sodium hyaluronate, carbomer, darutoside, polysorbate-20, palmitoyl tetrapeptide-7, palmitoyl tripeptide-1, phenoxyethanol",
       "price": "8.99"
@@ -1071,7 +1071,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Antipodes Kiwi Seed Oil Eye Cream 30ml",
-      "product_img": "/106.webp",
+      "product_img": "106.webp",
       "category": 8,
       "ingredients": "persea gratissima oil, glycerin, cetearyl alcohol, cetearyl wheat straw glycosides, stearic acid, glyceryl stearate, tocopherol, daucus carota sativa extract, kiwifruit seed oil (actinidia chinensis), borago officinalis seed oil, gluconolactone, sodium benzoate, calcium gluconate, vitis vinifera extract",
       "price": "27.99"
@@ -1082,7 +1082,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bobbi Brown Hydrating Eye Cream 15ml",
-      "product_img": "/107.webp",
+      "product_img": "107.webp",
       "category": 8,
       "ingredients": "ethylhexyl palmitate, squalene, butylene glycol, cetyl alcohol, glyceryl stearate, hydrogenated olus oil, simmondsia chinensis leaf extract, persea gratissima oil, hamamelis virginiana, aloe barbadenis extract, cholesterol, peg-100 stearate, glycerin, sodium pca, trehalose, ascorbyl palmitate, ethylhexyl glycerin, hydroxyproline, proline, acrylates copolymer, phytantriol, glycine, linoleic acid, phytosphingosine, sodium hydroxide, tocopheryl acetate, sodium hyaluronate, tocopherol, carbomer, disodium edta, phenoxyethanol",
       "price": "33.50"
@@ -1093,7 +1093,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique All About Eyes Eye Cream 15ml",
-      "product_img": "/109.webp",
+      "product_img": "109.webp",
       "category": 8,
       "ingredients": "cyclopentasiloxane, isostearyl palmitate, polyethylene, butylene glycol, polysilicone-11, ethylene/acrylic acid copolymer, morus nigra extract, caffeinee, phytosphingosine, triticum vulgare bran extract, scutellaria baicalensis extract, whey protein, olea europaea fruit oil, camellia sinensis extract, cholesterol, linoleic acid, tocopheryl acetate, magnesium ascorbyl phosphate, pyridoxine dipalmitate, sucrose, glycerin, dimethicon, glyceryl laurate, dimethicon, petrolatum, cetyl dimethicon, propylene carbonate, sodium chloride, quaternium-90 bentonite, disodium edta, phenoxyethanol, ci 77491, ci 77492, ci 77499",
       "price": "27.50"
@@ -1104,7 +1104,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Moisture Surge Eye 96-Hour Hydro-Filler Concentrate 15ml",
-      "product_img": "/110.webp",
+      "product_img": "110.webp",
       "category": 8,
       "ingredients": "water\\\\aqua\\\\eau , glycerin , butylene glycol , propanediol , phenyl trimethicone , sucrose , hydroxyethyl urea , camellia sinensis extract , hypnea musciformis (algae) extract , trehalose , algae extract , alteromonas extract , acetyl glucosamine , gelidiella acerosa extract , chlorella vulgaris extract , aloe barbadenis extract , sorbitol , cholesterol , niacinamide , pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate , sodium polyaspartate , aloe barbadenis extract , cocos nucifera fruit extract , hydrolyzed opuntia ficus indica flower extract , caffeinee , acetyl hexapeptide-8 , tocopheryl acetate , cucumis sativus extract , palmitoyl hexapeptide-12 , glyceryl acrylate/acrylic acid copolymer , glyceryl polymethacrylate , acrylates/c10-30 alkyl , peg-7m , dextrin palmitate , dehydroxanthan gum , sodium hyaluronate , pentaerythrityl adipate/coco-caprylate/caprylate/heptanoate , tetrahexyldecyl ascorbate , carbomer , peg-8 , sodium hydroxide , citric acid , triethoxycaprylylsilane , disodium edta , sodium citrate , pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate , bht , phenoxyethanol , chlorphenesin , ci 42090 , ci 19140 , ci 77491",
       "price": "27.50"
@@ -1115,7 +1115,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "VICHY Minéral 89 Eyes Hyaluronic Acid +Caffeine 15ml",
-      "product_img": "/111.webp",
+      "product_img": "111.webp",
       "category": 8,
       "ingredients": "propanediol, butyrospermum parkii, glycerin, carbomer, caffeinee, sodium hyaluronate, adenosine, phenoxyethanol, chlorella vulgaris extract, citric acid, caprylyl glycol, biosaccharide, ",
       "price": "20.00"
@@ -1126,7 +1126,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Redermic R Retinol Eye Cream 15ml",
-      "product_img": "/112.webp",
+      "product_img": "112.webp",
       "category": 8,
       "ingredients": "isocetyl stearate, glycerin, octyldodecanol, propylene glycol, pentylene glycol, dimethicon, acrylamide/sodium, cetearyl alcohol, dimethicon/vinyl dimethicon crosspolymer, caffeine, isohexadecane, sodium hyaluronate, sodium hydroxide, retinol, retinyl linoleate, adenosine, ammonium polyacryloyldmethyl taurate, caprylyl glycol, citric acid, polysilicone-8, polysorbate 80, phenoxyethanol",
       "price": "27.00"
@@ -1137,7 +1137,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Retinol Eye Cream 25ml",
-      "product_img": "/113.webp",
+      "product_img": "113.webp",
       "category": 8,
       "ingredients": "persea gratissima oil, glycerin, cetearyl alcohol, potassium cetyl phosphate, butyrospermum parkii, simmondsia chinensis leaf extract, squalene, hydroxyethyl acrylate/sodium acryloyldimethyl taurate, panthenol, retinol, sambucus nigra, vaccinium angustifolium extract, helianthus annuus seed oil, glycyrrhiza glabra root extract, hydrolyzed collagen, tocopherol, adenosine, sodium hyaluronate, c12-15, sorbitan laurate, c18-36, c18-36, palmitoyl tripeptide-1, palmitoyl tetrapeptide-7, caffeinee, xanthan gum, disodium edta, polysorbate 60, phenoxyethanol, ethylhexyl glycerin, laureth-23, bht, bha",
       "price": "22.00"
@@ -1148,7 +1148,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Hydrating Cleanser 236ml",
-      "product_img": "/114.webp",
+      "product_img": "114.webp",
       "category": 9,
       "ingredients": "glycerin, cetearyl alcohol, phenoxyethanol, stearyl alcohol, cetyl alcohol, peg-40 stearate, behentrimonium methosulfate, glyceryl stearate, polysorbate-20, ethylhexyl glycerin, disodium edta, dipotassium phosphate, sodium lauroyl, ceramide np, ceramide ap, phytosphingosine, cholesterol, sodium hyaluronate, xanthan gum, carbomer, tocopherol, ceramide eop",
       "price": "9.50"
@@ -1159,7 +1159,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Hydrating Cleanser 473ml",
-      "product_img": "/115.webp",
+      "product_img": "115.webp",
       "category": 9,
       "ingredients": "glycerin, cetearyl alcohol, phenoxyethanol, stearyl alcohol, cetyl alcohol, peg-40 stearate, behentrimonium methosulfate, glyceryl stearate, polysorbate-20, ethylhexyl glycerin, potassium phosphate, disodium edta, dipotassium phosphate, sodium lauroyl, ceramide np, ceramide ap, phytosphingosine, cholesterol, sodium hyaluronate, xanthan gum, carbomer, tocopherol, ceramide eop",
       "price": "15.00"
@@ -1170,7 +1170,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Foaming Facial Cleanser 473ml",
-      "product_img": "/116.webp",
+      "product_img": "116.webp",
       "category": 9,
       "ingredients": "glycerin, cocamidopropyl betaine, propylene glycol, sodium cocoyl glycinate, peg-120 methyl glucose dioleate, sodium chloride, acrylates copolymer, citric acid, capryloyl glycine, caprylyl glycol, sodium hydroxide, niacinamide, disodium edta, sodium hyaluronate, sodium lauroyl, ceramide np, phenoxyethanol, ceramide ap, phytosphingosine, cholesterol, xanthan gum, carbomer, ethylhexyl glycerin, ceramide eop",
       "price": "15.00"
@@ -1181,7 +1181,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "CeraVe Smoothing Cleanser 236ml",
-      "product_img": "/117.webp",
+      "product_img": "117.webp",
       "category": 9,
       "ingredients": "sodium lauroyl, cocamidopropyl, hydroxysultaine, glycerin, niacinamide, gluconolactone, sodium methyl cocoyl taurate, peg-150 pentaerythrityl tetrastearate, ceramide np, ceramide ap, ceramide eop, carbomer, calcium gluconate, salicylic acid, sodium benzoate, sodium lauroyl, lactylate, cholesterol, phenoxyethanol, disodium edta, tetrasodium edta, hydrolyzed sodium hyaluronate, phytosphingosine, xanthan gum, ethylhexyl glycerin",
       "price": "12.00"
@@ -1192,7 +1192,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Effaclar Purifying Cleansing Gel 200ml",
-      "product_img": "/118.webp",
+      "product_img": "118.webp",
       "category": 9,
       "ingredients": "decyl glucoside, sodium laureth sulfate, peg-120 methyl glucose dioleate, polyglyceryl 3-hydroxylauryl ether, peg-4 dilaurate, peg-4 laurate, zinc pca, disodium edta, citric acid, polyquaternium-7, iodopropynyl butylcarbamate, peg-4, methylparaben, propylparaben, parfum",
       "price": "12.50"
@@ -1203,7 +1203,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Effaclar Cleansing Gel 400ml",
-      "product_img": "/119.webp",
+      "product_img": "119.webp",
       "category": 9,
       "ingredients": "sodium laureth sulfate, peg-8, cocamidopropyl betaine, hexylene glycol, sodium chloride, peg-120 methyl glucose dioleate, zinc pca, sodium hydroxide, citric acid, sodium benzoate, phenoxyethanol, caprylyl glycol, parfum",
       "price": "18.50"
@@ -1214,7 +1214,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Emma Hardie Moringa Cleansing Balm with Professional Cleansing Cloth 100ml",
-      "product_img": "/120.webp",
+      "product_img": "120.webp",
       "category": 9,
       "ingredients": "vitis vinifera extract, prunus amygdalus dulcis, capric triglyceride, cetearyl alcohol, cera alba, peg-6 capric triglyceride, peg-60 almond glycerides, sorbitan stearate, palmitic/stearic triglycerides, limonene, citrus aurantium dulcis, silica, glycerin, phenoxyethanol, benzyl alcohol, citrus aurantium bergamia, citrus aurantium amara flower water, citrus nobilis oil, juniperus virginiana wood oil, lecithin, linalool, butylene glycol, octyldodecyl pca, menthyl pca, tocopherol, ascorbyl palmitate, crithmum maritimum extract, helianthus annuus seed oil, moringa pterygosperma seed extract, jasminum officinale extract, rosa damascena, disodium phosphate, citronellol, citric acid, geraniol, citral",
       "price": "47.00"
@@ -1225,7 +1225,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Take the Day off Cleansing Balm 30ml",
-      "product_img": "/121.webp",
+      "product_img": "121.webp",
       "category": 9,
       "ingredients": "ethylhexyl palmitate, carthamus tinctorius extract, capric triglyceride, sorbeth-30 tetraoleate, polyethylene, peg-5 glyceryl triisostearate, tocopherol, phenoxyethanol",
       "price": "9.00"
@@ -1236,7 +1236,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "First Aid Beauty Face Cleanser (142g)",
-      "product_img": "/122.webp",
+      "product_img": "122.webp",
       "category": 9,
       "ingredients": "sodium cocoyl isethionate, glycerin, stearic acid, aloe barbadenis extract, stearyl alcohol, sodium pca, camellia sinensis extract, chrysanthemum parthenium (feverfew) extract, glycyrrhiza glabra root extract, allantoin, hydroxypropyl methylcellulose, disodium cocoamphodiacetate, coco glucoside, glyceryl stearate, disodium edta, caprylyl glycol, phenoxyethanol",
       "price": "16.00"
@@ -1247,7 +1247,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Micellar Water Facial Cleanser and Makeup Remover for Sensitive Skin 400ml",
-      "product_img": "/123.webp",
+      "product_img": "123.webp",
       "category": 9,
       "ingredients": "hexylene glycol, glycerin, poloxamer 184, disodium cocoamphodiacetate, disodium edta, myrtrimonium bromide",
       "price": "4.99"
@@ -1258,7 +1258,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Liz Earle Cleanse & Polish 100ml Pump",
-      "product_img": "/124.webp",
+      "product_img": "124.webp",
       "category": 9,
       "ingredients": "capric triglyceride, theobroma cacao extract, cetearyl alcohol, cetyl esters, cera alba, glycerin, polysorbate 60, sorbitan stearate, eucalyptus globulus, rosmarinus officinalis extract, humulus lupulus extract, chamomilla recutita flower oil, propylene glycol, phenoxyethanol, panthenol, benzoic acid, dehydroacetic acid, sorbitol, limonene, ethylhexyl glycerin, polyaminopropyl biguanide, citric acid, sodium hydroxide",
       "price": "15.50"
@@ -1269,7 +1269,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neutrogena Hydro Boost Water Gel Cleanser 200ml",
-      "product_img": "/125.webp",
+      "product_img": "125.webp",
       "category": 9,
       "ingredients": "glycerin, cocamidopropyl hydroxysultaine, sodium cocoyl isethionate, sodium methyl cocoyl taurate, sodium hydrolyzed potato starch dodecenylsuccinate, hydrolyzed sodium hyaluronate, ethylhexyl glycerin, linoleamidopropyl pg-dimonium chloride phosphate, polyquaternium-10, polysorbate-20, sodium isethionate, sodium lauryl sulfate, sodium c14-16 olefin sulfonate , potassium acrylates copolymer, sodium chloride, propylene glycol, disodium edta, citric acid, sodium hydroxide, hydroxyacetophenone, tocopheryl acetate, phenoxyethanol, parfum",
       "price": "7.99"
@@ -1280,7 +1280,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "OSKIA Renaissance Cleansing Gel (100ml)",
-      "product_img": "/126.webp",
+      "product_img": "126.webp",
       "category": 9,
       "ingredients": "capric triglyceride, glycerin, cetearyl olivate, sucrose laurate, benzyl alcohol, sorbitan olivate, sucrose palmitate, parfum, geraniol, dimethyl sulfone, citronellol, dehydroacetic acid, cucurbita pepo seed oil, borago officinalis seed oil, sucrose stearate, linalool, retinyl palmitate, ci 77491, simmondsia chinensis leaf extract, tocopherol, ascorbyl palmitate",
       "price": "35.00"
@@ -1291,7 +1291,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "NIP+FAB Teen Skin Fix Pore Blaster Night Wash 145ml",
-      "product_img": "/127.webp",
+      "product_img": "127.webp",
       "category": 9,
       "ingredients": "sodium laureth sulfate, cocamidopropyl betaine, sodium chloride, hamamelis virginiana, glycerin, disodium phosphate, castor oil, phenoxyethanol, benzyl alcohol, parfum, alcohol, coconut acid, disodium edta, lactobacillus, salicylic acid, benzyl salicylate, dehydroacetic acid, melaleuca alternifolia leaf extract, sodium hydroxide",
       "price": "6.99"
@@ -1302,7 +1302,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Toleriane Dermo-Cleanser 200ml",
-      "product_img": "/128.webp",
+      "product_img": "128.webp",
       "category": 9,
       "ingredients": "ethylhexyl palmitate, glycerin, dipropylene glycol, carbomer, sodium hydroxide, ethylhexyl glycerin, capryl glycol",
       "price": "12.50"
@@ -1313,7 +1313,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Liz Earle Cleanse & Polish 200ml Tube",
-      "product_img": "/129.webp",
+      "product_img": "129.webp",
       "category": 9,
       "ingredients": "capric triglyceride, theobroma cacao extract, cetearyl alcohol, cetyl esters, cera alba, glycerin, polysorbate 60, sorbitan stearate, eucalyptus globulus, rosmarinus officinalis extract, humulus lupulus extract, chamomilla recutita flower oil, propylene glycol, phenoxyethanol, panthenol, benzoic acid, dehydroacetic acid, sorbitol, limonene, ethylhexyl glycerin, polyaminopropyl biguanide, citric acid, sodium hydroxide",
       "price": "27.00"
@@ -1324,7 +1324,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Anti Blemish Solutions Cleansing Foam 125ml",
-      "product_img": "/130.webp",
+      "product_img": "130.webp",
       "category": 9,
       "ingredients": "glycerin, butylene glycol, sodium methyl cocoyl taurate, salicylic acid, sucrose, disodium phosphate, arganine, laminaria saccharina extract, caffeinee, algae extract, cola acuminata seed extract, sea whip extract, dimethicon, sodium hyaluronate, ppg-6-decyltetradeceth-30, lactobacillus, stearamidopropyl dimethylamine, acetyl glucosamine, capryloyl glycine, 10-hydroxydecanoic acid, polyquaternium-7, phospholipid, stearic acid, sodium hydroxide, disodium edta, phenoxyethanol, chloroxylenol",
       "price": "19.00"
@@ -1335,7 +1335,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neutrogena® Oil Balancing Facial Wash 200ml",
-      "product_img": "/131.webp",
+      "product_img": "131.webp",
       "category": 9,
       "ingredients": "sodium laureth sulfate, glycerin, lauryl glucoside, sodium lauroamphoacetate, cocamidopropyl betaine, peg-120 methyl glucose dioleate, polysorbate-20, salicylic acid, citrus aurantifolia oil, citrus tangerina extract, propylene glycol, sodium chloride, disodium edta, citric acid, sodium citrate, parfum, ci 15985, ci 42090",
       "price": "4.71"
@@ -1346,7 +1346,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bulldog Oil Control Face Wash 150ml",
-      "product_img": "/132.webp",
+      "product_img": "132.webp",
       "category": 9,
       "ingredients": "cocamidopropyl betaine, glycerin, coco-glucoside, acrylates/c10-30 alkyl, phenoxyethanol, sodium chloride, sodium lauroyl, benzoic acid, parfum, hamamelis virginiana, dehydroacetic acid, alcohol, salix alba extract, juniperus communis fruit extract, potassium sorbate, sodium benzoate, sodium hydroxide",
       "price": "3.38"
@@ -1357,7 +1357,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Eve Lom Cleanser 200ml",
-      "product_img": "/133.webp",
+      "product_img": "133.webp",
       "category": 9,
       "ingredients": "paraffinum liquidum, peg-30 lanolin, cetearyl alcohol, bis-diglyceryl polyacyladipate-2, aluminum stearate, theobroma cacao extract, peg-75 lanolin, eugenia, humulus lupulus extract, chamomilla recutita flower oil, eucalyptus globulus, bht",
       "price": "85.00"
@@ -1368,7 +1368,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "La Roche-Posay Cicaplast B5 Anti-Bacterial Cleansing Wash 200ml",
-      "product_img": "/134.webp",
+      "product_img": "134.webp",
       "category": 9,
       "ingredients": "sodium laureth sulfate, panthenol, peg-200 hydrogenated glyceryl palmate, glycerin, cocamidopropyl betaine, sodium chloride, polysorbate-20, peg-7 glyceryl cocoate, citric acid, cocamide mea, copper gluconate, manganese gluconate, peg-55 propylene glycol oleate, castor oil, polyquaternium-11, ppg-5-ceteth-20, propylene glycol, prunus amygdalus dulcis, sodium benzoate, sodium hydroxide, zinc gluconate",
       "price": "10.00"
@@ -1379,7 +1379,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "COSRX Low pH Good Morning Cleanser 150ml",
-      "product_img": "/135.webp",
+      "product_img": "135.webp",
       "category": 9,
       "ingredients": "cocamidopropyl betaine, sodium lauroyl, polysorbate-20, styrax japonicus branch/fruit/leaf extract, butylene glycol, saccharomyces ferment, cryptomeria japonica leaf extract, nelumbo nucifera flower extract, pinus palustris leaf extract, ulmus davidiana root extract, oenothera biennis flower extract, pueraria lobata extract, melaleuca alternifolia leaf extract, allantoin, caprylyl glycol, ethylhexyl glycerin, betaine salicylate, citric acid, ethyl hexanediol, 1,2-hexanediol, trisodium ethylenediamine disuccinate, sodium benzoate, disodium edta",
       "price": "17.00"
@@ -1390,7 +1390,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Aesop Amazing Face Cleanser 200ml",
-      "product_img": "/136.webp",
+      "product_img": "136.webp",
       "category": 9,
       "ingredients": "cocamidopropyl betaine, maris sal, glycerin, citrus tangerina extract, lavandula angustifolia, cananga odorata flower oil, magnesium nitrate, magnesium chloride, sodium laureth sulfate, polysorbate-20, methylchloroisothiazolinone, methylisothiazolinone",
       "price": "35.00"
@@ -1401,7 +1401,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "VICHY Normaderm Deep Cleansing Purifying Gel 200ml",
-      "product_img": "/137.webp",
+      "product_img": "137.webp",
       "category": 9,
       "ingredients": "cocamidopropyl betaine, propanediol, peg-120 methyl glucose dioleate, sodium chloride, sodium cocoyl glycinate, dipropylene glycol, zinc gluconate, salicylic acid, bifida ferment lysate, sodium hydroxide, sodium benzoate, phenoxyethanol, copper gluconate, caprylyl glycol, tetrasodium glutamate diacetate, parfum",
       "price": "13.00"
@@ -1412,7 +1412,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Liquid Facial Soap Oily Skin Formula 200ml",
-      "product_img": "/138.webp",
+      "product_img": "138.webp",
       "category": 9,
       "ingredients": "sodium laureth sulfate, lauramidopropyl betaine, cocamidopropyl hydroxysultaine, sodium chloride, sodium cocoyl sarcosinate, tea-cocoyl glutamate, butylene glycol, aloe barbadenis extract, peg-120 methyl glucose dioleate, sucrose, menthol, hexylene glycol, polyquaternium-7, laureth-2, caprylyl glycol, sodium sulfonate, edta, disodium edta, phenoxyethanol",
       "price": "17.50"
@@ -1423,7 +1423,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Rinse-Off Foaming Cleanser 150ml",
-      "product_img": "/139.webp",
+      "product_img": "139.webp",
       "category": 9,
       "ingredients": "potassium myristate, glycerin, potassium behenate, sodium methyl cocoyl taurate, potassium palmitate, potassium laurate, potassium stearate, peg-3 distearate, cholesteryl hydroxystearate, butylene glycol, sodium hyaluronate, trisodium edta, disodium edta, phenoxyethanol, ci 60725, ci 14700",
       "price": "17.50"
@@ -1434,7 +1434,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bulldog Sensitive Face Wash 150ml",
-      "product_img": "/140.webp",
+      "product_img": "140.webp",
       "category": 9,
       "ingredients": "cocamidopropyl betaine, coco-glucoside, glycerin, sodium lauroyl, acrylates/c10-30 alkyl, phenoxyethanol, sodium chloride, benzoic acid, dehydroacetic acid, adansonia digitata seed oil, avena sativa kernel extract, triticum vulgare bran extract, epilobium angustifolium extract, sodium metabisulfite, tocopherol, sodium hydroxide",
       "price": "3.38"
@@ -1445,7 +1445,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "PIXI Milky Tonic 100ml",
-      "product_img": "/141.webp",
+      "product_img": "141.webp",
       "category": 10,
       "ingredients": "glycerin, ethylhexyl palmitate, dipropylene glycol, cetyl ethylhexanoate, phenoxyethanol, polyglyceryl-10, oleate, ethylhexyl glycerin, castor oil, cetearyl, isononanoate, allantoin, ceteareth 20, trideceth-10, hydrolyzed, glycosaminoglycans, hydrogenated lecithin, glyceryl stearate, ceteareth-12, cetyl alcohol, cetearyl alcohol, cetyl palmitate, disodium, edta, parfum, citric acid, benzoic acid, lecithin, avena, strigosa seed extract",
       "price": "10.00"
@@ -1456,7 +1456,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "OSKIA Floral Water Toner 30ml",
-      "product_img": "/142.webp",
+      "product_img": "142.webp",
       "category": 10,
       "ingredients": "rosa damascena, dimethyl sulfone, glycerin, panthenol, hibiscus sabdariffa flower extract, daucus carota sativa extract, citric acid, sodium benzoate, potassium sorbate, maltodextrin",
       "price": "14.00"
@@ -1467,7 +1467,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "First Aid Beauty Ultra Repair Wild Oat Soothing Toner 180ml",
-      "product_img": "/143.webp",
+      "product_img": "143.webp",
       "category": 10,
       "ingredients": "glycerin, glycereth-26, squalene, sorbitan oleate, avena strigosa seed extract, mel, miel), saccharomyces/mel ferment filtrate, sodium hyaluronate, colloidal oatmeal, avena sativa kernel extract, propolis extract, glycyrrhiza glabra root extract, chrysanthemum parthenium (feverfew) extract, camellia sinensis extract, beta-glucan, acrylates/c10-30 alkyl, leuconostoc/radish root ferment filtrate, xanthan gum, ethylhexyl glycerin, ethylhexyl salicylate, phenoxyethanol, sodium hydroxide, citric acid, potassium sorbate, sodium benzoate, chlorphenesin, sorbic acid, benzoic acid",
       "price": "19.00"
@@ -1478,7 +1478,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Garnier Organic Thyme Toner 150ml",
-      "product_img": "/144.webp",
+      "product_img": "144.webp",
       "category": 10,
       "ingredients": "alcohol denat, hordeum vulgare extract, thymus vulgaris leaf extract, centaurea cyanus extract, arganine, cocamidopropyl betaine, propanediol, caprylyl wheat bran/straw glycosides (from wheat bran), citric acid, menthol, sodium benzoate, salicylic acid, linalool, limonene",
       "price": "5.99"
@@ -1489,7 +1489,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "First Aid Beauty KP Bump Eraser Body Scrub with 10% AHA 226ml",
-      "product_img": "/145.webp",
+      "product_img": "145.webp",
       "category": 11,
       "ingredients": "pumice, glycolic acid, sodium cocoyl isethionate, lactic acid, dimethicon, stearic acid, cetearyl alcohol, sodium hydroxide, palmitic acid, glycerin, c12-15, sorbitol, colloidal oatmeal, tocopherol, chrysanthemum parthenium (feverfew) extract, camellia sinensis extract, glycyrrhiza glabra root extract, salix nigra bark extract, bisabolol, hydrogenated coconut acid, xanthan gum, steareth-20, steareth-21, myristic acid, sodium isethionate, phenoxyethanol, potassium sorbate, sodium benzoate, leuconostoc/radish root ferment filtrate, edta",
       "price": "22.00"
@@ -1500,7 +1500,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neutrogena Refreshingly Clear Daily Exfoliator 150ml",
-      "product_img": "/146.webp",
+      "product_img": "146.webp",
       "category": 11,
       "ingredients": "glycerin, sodium laureth sulfate, cellulose, lauryl glucoside, acrylates/c10-30 alkyl, citrus grandis, propylene glycol, sodium benzotriazolyl butylphenol sulfonate, disodium edta, citric acid, sodium hydroxide, sodium ascorbyl phosphate, sodium benzoate, parfum, ci 16035, ci 60725",
       "price": "4.99"
@@ -1511,7 +1511,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Frank Body Original Coffee Scrub 200g",
-      "product_img": "/147.webp",
+      "product_img": "147.webp",
       "category": 11,
       "ingredients": "coffea robusta seed extract, prunus amygdalus dulcis, sodium chloride, sucrose, citrus aurantium dulcis, tocopherol, glycine soja extract, benzyl alcohol",
       "price": "12.95"
@@ -1522,7 +1522,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique 7 Day Scrub Cream Rinse-Off Formula 100ml",
-      "product_img": "/148.webp",
+      "product_img": "148.webp",
       "category": 11,
       "ingredients": "tridecyl stearate, tridecyl trimellitate, dipentaerythrityl hexacaprylate/hexacoco-caprylate, butylene glycol, glyceryl stearate, cocos nucifera fruit extract, capric triglyceride, silica, cetearyl alcohol, ceteareth 20, sorbitol, hexyldecyl stearate, bisabolol, disodium cocoamphodipropionate, triethanolamine, oleth-10 phosphate, caprylyl glycol, 1,2-hexanediol, stearyl alcohol, carbomer, disodium edta, phenoxyethanol, potassium sorbate, chlorphenesin",
       "price": "21.00"
@@ -1533,7 +1533,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Frank Body Shimmer Scrub 220g",
-      "product_img": "/149.webp",
+      "product_img": "149.webp",
       "category": 11,
       "ingredients": "sucrose, vitis vinifera extract, sodium chloride, coffea arabica seed extract, glycine soja extract, daucus carota sativa extract, tocopherol, parfum, beta-carotene, ci 77019, titanium dioxide, iron oxide",
       "price": "13.95"
@@ -1544,7 +1544,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Clinique Exfoliating Scrub 100ml",
-      "product_img": "/150.webp",
+      "product_img": "150.webp",
       "category": 11,
       "ingredients": "glyceryl stearate, silica, hexylene glycol, disodium cocoamphodiacetate, disodium oleamido mipa-sulfosuccinate, magnesium aluminum silicate, salicylic acid, stearamidoethyl diethylamine, oleamide mipa, trisodium sulfosuccinate, sodium sulfate, phenoxyethanol, methylisothiazolinone, titanium dioxide",
       "price": "21.00"
@@ -1555,7 +1555,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neutrogena Hydro Boost Exfoliator Smoothing Gel 150ml",
-      "product_img": "/153.webp",
+      "product_img": "153.webp",
       "category": 11,
       "ingredients": "sodium c14-16 olefin sulfonate, cocamidopropyl hydroxysultaine, glycerin, sodium hydrolyzed potato starch dodecenylsuccinate, acrylates crosspolymer-4, cellulose, carica papaya fruit extract, hydrolyzed sodium hyaluronate, sodium chloride, polysorbate-20, disodium edta, citric acid, glycolic acid, lactic acid, sodium hydroxide, phenoxyethanol, sodium benzoate, parfum",
       "price": "7.99"
@@ -1566,7 +1566,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Westlab Epsom Salt 1kg",
-      "product_img": "/154.webp",
+      "product_img": "154.webp",
       "category": 12,
       "ingredients": "magnesium sulfate",
       "price": "3.33"
@@ -1577,7 +1577,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Westlab Epsom Salt 5kg",
-      "product_img": "/155.webp",
+      "product_img": "155.webp",
       "category": 12,
       "ingredients": "magnesium sulfate",
       "price": "14.99"
@@ -1588,7 +1588,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Westlab Dead Sea Salt 1kg",
-      "product_img": "/156.webp",
+      "product_img": "156.webp",
       "category": 12,
       "ingredients": "maris sal",
       "price": "3.33"
@@ -1599,7 +1599,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Westlab Dead Sea Salt 5kg",
-      "product_img": "/157.webp",
+      "product_img": "157.webp",
       "category": 12,
       "ingredients": "maris sal",
       "price": "14.99"
@@ -1610,7 +1610,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Westlab Sleep Bathing Salts 1kg",
-      "product_img": "/158.webp",
+      "product_img": "158.webp",
       "category": 12,
       "ingredients": "magnesium sulfate, maris sal, lavandula angustifolia, cananga odorata flower oil, jasminum officinale extract, parfum, linalool, benzyl benzoate",
       "price": "6.99"
@@ -1621,7 +1621,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Westlab Recover Bathing Salts 1kg",
-      "product_img": "/159.webp",
+      "product_img": "159.webp",
       "category": 12,
       "ingredients": "magnesium sulfate, salix alba extract, arnica montana extract, cedrus atlantica bark oil, eucalyptus globulus, piper nigrum fruit extract, mentha viridis extract, limonene",
       "price": "6.99"
@@ -1632,7 +1632,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bulldog Lemon & Bergamot Shower Gel 500ml",
-      "product_img": "/161.webp",
+      "product_img": "161.webp",
       "category": 13,
       "ingredients": "cocamidopropyl betaine, sodium methyl cocoyl taurate, sodium chloride, glycerin, lauryl glucoside, sodium methyl oleoyl taurate, sodium pca, sodium lauroyl, sodium benzoate, citric acid, parfum, potassium sorbate, limonene, eugenol",
       "price": "3.38"
@@ -1643,7 +1643,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bulldog Peppermint & Eucalyptus Shower Gel 500ml",
-      "product_img": "/162.webp",
+      "product_img": "162.webp",
       "category": 13,
       "ingredients": "cocamidopropyl betaine, sodium methyl cocoyl taurate, glycerin, sodium chloride, lauryl glucoside, sodium methyl oleoyl taurate, sodium pca, sodium lauroyl, sodium benzoate, citric acid, parfum, potassium sorbate",
       "price": "3.38"
@@ -1654,7 +1654,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bulldog Original Shower Gel 500ml",
-      "product_img": "/163.webp",
+      "product_img": "163.webp",
       "category": 13,
       "ingredients": "aloe barbadenis extract, coco-glucoside, cocamidopropyl betaine, disodium cocoamphodiacetate, glycerin, rosmarinus officinalis extract, citrus aurantium bergamia, coriandrum sativum extract, mentha piperita extract, eucalyptus globulus, litsea cubeba fruit extract, ocimum basilicum (basil) oil, menthol, acrylates /c10-30 alkyl acrylate crosspolymer, sodium chloride, limonene, linalool, sodium hydroxide, benzoic acid, dehydroacetic acid, phenoxyethanol",
       "price": "3.38"
@@ -1665,7 +1665,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Jo Malone London Lime Basil and Mandarin Soap 100g",
-      "product_img": "/164.webp",
+      "product_img": "164.webp",
       "category": 13,
       "ingredients": "stearic acid, butylene glycol, ethylhexyl palmitate, tocopheryl acetate, prunus armeniaca fruit extract, glycerin, coco-caprylate, hydrogenated polyisobutene, ethylhexyl hydroxystearate, dimethicon, triethanolamine, cetyl alcohol, saccharomyces lysate extract, hordeum vulgare extract, triticum vulgare bran extract, sodium hyaluronate, carbomer, paeonia albiflora (peony) root extract, sorbitan stearate, phytosphingosine, trehalose, caffeinee, cholesterol, linoleic acid, hydrogenated lecithin, parfum, squalene, propylene glycol dicoco-caprylate, disodium edta, hydroxyisohexyl 3-cyclohexene, limonene, linalool, hexyl cinnamal, bht, sodium dehydroacetate, phenoxyethanol",
       "price": "16.00"
@@ -1676,7 +1676,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "ESPA Bergamot and Jasmine Bath and Shower Gel 250ml",
-      "product_img": "/165.webp",
+      "product_img": "165.webp",
       "category": 13,
       "ingredients": "cocamidopropyl betaine, sodium lauroyl, polyglyceryl-4 coco-caprylate, sodium lauryl sulfoacetate, caprylyl wheat bran/straw glycosides (from wheat bran), peg-120 methyl glucose dioleate, benzyl alcohol, betaine, limonene, sodium chloride, sodium sulfate, parfum, citrus aurantium bergamia, citrus limon juice extract, juniperus mexicana oil, citrus aurantium dulcis, sodium benzoate, citrus aurantifolia oil, eucalyptus globulus, linalool, dehydroacetic acid, abies sibirica oil, mentha arvensis leaf oil, zingiber officinale root oil, citral, cupressus sempervirens fruit extract, cymbopogon nardus oil, melaleuca alternifolia leaf extract, myrocarpus fastigiatus oil, cistus ladaniferus oil, dipteryx odorata bean extract, ferula galbaniflua resin oil, fucus vesiculosus extract, jasminum officinale extract, lavandula angustifolia, tocopherol, citric acid",
       "price": "19.00"
@@ -1687,7 +1687,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Bulldog Black Pepper & Vetiver Shower Gel 500ml",
-      "product_img": "/166.webp",
+      "product_img": "166.webp",
       "category": 13,
       "ingredients": "cocamidopropyl betaine, sodium methyl cocoyl taurate, sodium chloride, glycerin, lauryl glucoside, sodium methyl oleoyl taurate, sodium pca, sodium lauroyl, sodium benzoate, citric acid, parfum, potassium sorbate, limonene, eugenol",
       "price": "3.38"
@@ -1698,7 +1698,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Aromatherapy Associates Relax Deep Relax Bath & Shower Oil (55ml)",
-      "product_img": "/168.webp",
+      "product_img": "168.webp",
       "category": 14,
       "ingredients": "cocos nucifera fruit extract, vetiveria zizanoides root oil, pogostemon cablin flower extract, parfum, sandalwood, ormenis multicaulis oil, cinnamomum camphora bark oil, anthemis nobilis flower water, benzyl salicylate, benzyl benzoate, geraniol, linalool, farnesol, limonene",
       "price": "49.00"
@@ -1709,7 +1709,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Weleda Citrus Refreshing Bath Milk (200ml)",
-      "product_img": "/169.webp",
+      "product_img": "169.webp",
       "category": 14,
       "ingredients": "parfum, potassium olivate, citrus limon juice extract, citrus limon juice extract, linalool, geraniol, citral",
       "price": "14.95"
@@ -1720,7 +1720,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neals Yard Remedies Aromatic Foaming Bath 200ml",
-      "product_img": "/170.webp",
+      "product_img": "170.webp",
       "category": 14,
       "ingredients": "lauryl glucoside, cocamidopropyl betaine, sodium chloride, lavandula angustifolia, pelargonium graveolens extract, alcohol denat, lavandula angustifolia, thymus mastichina flower oil, linalool, citronellol, geraniol, limonene",
       "price": "15.50"
@@ -1731,7 +1731,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Weleda Lavender Relaxing Bath Milk (200ml)",
-      "product_img": "/171.webp",
+      "product_img": "171.webp",
       "category": 14,
       "ingredients": "lavandula angustifolia, linalool, potassium olivate, glyceryl oleate, alcohol, glycerin, limonene, geraniol",
       "price": "14.95"
@@ -1742,7 +1742,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Neals Yard Remedies Soothing Bath Oil 100ml",
-      "product_img": "/172.webp",
+      "product_img": "172.webp",
       "category": 14,
       "ingredients": "glycine soja extract, helianthus annuus seed oil, argania spinosa extract, prunus amygdalus dulcis, tocopherol, lavandula angustifolia, persea gratissima oil, pelargonium graveolens extract, citrus aurantium bergamia, cymbopogon martini oil, cupressus sempervirens fruit extract, citral, citronellol, coumarin, farnesol, geraniol, limonene, linalool",
       "price": "15.00"
@@ -1753,7 +1753,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Aromatherapy Associates De-Stress Muscle Bath & Shower Oil (55ml)",
-      "product_img": "/173.webp",
+      "product_img": "173.webp",
       "category": 14,
       "ingredients": "cocos nucifera fruit extract, lavandula angustifolia, rosmarinus officinalis extract, melaleuca leucadendron cajuputi (cajuput) oil, parfum, zingiber officinale root oil, juniperus communis fruit extract, pinus sylvestris (pine) leaf oil, citral, coumarin, geraniol, linalool, limonene, citronellol",
       "price": "47.00"
@@ -1764,7 +1764,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Weleda Rosemary Invigorating Bath Milk (200ml)",
-      "product_img": "/174.webp",
+      "product_img": "174.webp",
       "category": 14,
       "ingredients": "rosmarinus officinalis extract, parfum, potassium olivate, limonene, linalool",
       "price": "14.95"
@@ -1775,7 +1775,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Aromatherapy Associates Revive Morning Bath & Shower Oil (55ml)",
-      "product_img": "/175.webp",
+      "product_img": "175.webp",
       "category": 14,
       "ingredients": "cocos nucifera fruit extract, rosmarinus officinalis extract, citrus grandis, citrus aurantium dulcis, eucalyptus globulus, eucalyptus globulus, melaleuca leucadendron cajuputi (cajuput) oil, parfum, pinus sylvestris (pine) leaf oil, juniperus communis fruit extract, pelargonium graveolens extract, mentha piperita extract, geraniol, linalool, limonene, citronellol, farnesol",
       "price": "48.00"
@@ -1786,7 +1786,7 @@
     "model": "products.product",
     "fields": {
       "product_name": "Aromatherapy Associates De-Stress Mind Bath & Shower Oil (55ml)",
-      "product_img": "/176.webp",
+      "product_img": "176.webp",
       "category": 14,
       "ingredients": "cocos nucifera fruit extract, citrus aurantium amara flower water, rosmarinus officinalis extract, ormenis multicaulis oil, parfum, boswellia carterii oil, benzyl benzoate, geraniol, linalool, limonene",
       "price": "48.00"
