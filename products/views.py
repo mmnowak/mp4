@@ -5,6 +5,7 @@ from django.db.models import Q
 from .models import Product, Category
 from django.db.models.functions import Lower
 from .forms import ProductForm
+from checkout.models import OrderLineItem
 
 # Create your views here.
 
@@ -134,43 +135,26 @@ def delete_product(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
-    # Checks if product has been ordered 
+    # Checks if product is in cart
 
     lineitems = OrderLineItem.objects.all()
 
     for lineitem in lineitems:
         if product == lineitem.product:
-            ordered_product = True
-            break
+            cart = request.session.get('cart', {})
+            if product_id in cart:
+                cart.pop(product_id)
+
+                # Updates cart in session
+                request.session['cart'] = cart
+
+                # messages.success(request, 'Product deleted!')
+                # request.session['view_cart'] = True
+
+                # product.delete()
+                # messages.success(request, 'Product deleted!')
+                return redirect(reverse('products'))
         else:
-            ordered_product = False
-
-    if ordered_product:
-
-        # Sets products as discontinued if it has been ordered
-        product.discontinued = True
-        product.save()
-
-        # Checks if item is in bag & removes it
-        cart = request.session.get('cart', {})
-        if str(product.id) in cart:
-            cart.pop(str(product.id))
-
-            # Updates bag in session
-            request.session['cart'] = cart
-
-            message = 'Product discontinued and removed from the store & cart.'
-            request.session['view_cart'] = True
-
-        else:
-            message = 'Product discontinued and removed from the store.'
-            request.session['view_cart'] = False
-
-        messages.success(request, message)
-
-        # Redirects to 'products'
-        return redirect(reverse('products'))
-    else:
-        product.delete()
-        messages.success(request, 'Product deleted!')
-        return redirect(reverse('products'))
+            product.delete()
+            messages.success(request, 'Product deleted!')
+            return redirect(reverse('products'))
