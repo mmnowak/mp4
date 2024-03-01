@@ -6,6 +6,8 @@ from .models import Product, Category
 from django.db.models.functions import Lower
 from .forms import ProductForm
 from checkout.models import OrderLineItem
+from favourites.models import Favourites
+
 
 # Create your views here.
 
@@ -67,8 +69,17 @@ def product_detail(request, product_id):
     """ A view to display individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+
+    try:
+        favourites = get_object_or_404(Favourites, username=request.user.id)
+    except Http404:
+        in_favourites = False
+    else:
+        in_favourites = bool(product in favourites.products.all())
+
     context = {
         'product': product,
+        'in_favourites': in_favourites
     }
 
     return render(request, 'products/product_detail.html', context)
