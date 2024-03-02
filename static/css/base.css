@@ -143,7 +143,7 @@ body {
 /* Products Page */
 
 .product-img {
-  width: 20em;
+  width: 20rem;
 }
 
 .product-card {
@@ -359,4 +359,21 @@ color: #0F510B;
 
 .reviews-text a:hover {
   text-decoration: double;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 575px) {
+
+  .product-img {
+    width: 15rem;
+  }
+  
+  .product-card {
+    width: 17rem;
+    margin: auto;
+
+  }
+
 }
