@@ -10,12 +10,12 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container-fluid m-auto text-center">
-        <h1 class="index-text">Error 400</h1>
-        <h2 class="other-heading">
-            Something went wrong!
-        </h2>
-        <a href="{% url 'home' %}" class="shop-btn">Go Home</a>
-    </div>
+<div class="container-fluid m-auto text-center bg-white mt-4">
+    <h1 class="error-pg-text">Error 400</h1>
+    <h2 class="other-heading">
+        Something went wrong!
+    </h2>
+    <a href="{% url 'home' %}" class="btn shop-btn">Go Home</a>
+</div>
 
 {% endblock %}

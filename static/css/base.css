@@ -77,6 +77,11 @@ body {
   text-decoration: underline;
 }
 
+.error-pg-text {
+  font-family: 'Anton', sans-serif;
+  color: #0F510B;
+}
+
 /* Keeps the footer at the bottom of the page */
 #page-container {
   position: relative;
