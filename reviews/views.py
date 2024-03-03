@@ -19,6 +19,7 @@ def reviews(request, product_id):
     context = {
         'reviews': reviews,
         'product': product,
+        'on_reviews_page': True
     }
 
     return render(request, template, context)
@@ -48,7 +49,7 @@ def add_review(request, product_id):
             review.user = username
             review.save()
 
-            avg_rating = round(Review.objects.filter(product=product_id).aggregate(Avg('rating'))['rating__avg']) 
+            avg_rating = round(Review.objects.filter(product=product.id).aggregate(Avg('rating'))['rating__avg']) 
             product.rating = avg_rating
             product.save()
             print(avg_rating)
@@ -67,6 +68,7 @@ def add_review(request, product_id):
     context = {
         'review_form': review_form,
         'product': product,
+        'on_reviews_page': True
     }
 
     return render(request, template, context)
@@ -99,7 +101,7 @@ def edit_review(request, review_id):
 
             redirect_url = request.POST.get('redirect_url')
 
-            avg_rating = round(Review.objects.filter(product=product_id).aggregate(Avg('rating'))['rating__avg']) 
+            avg_rating = round(Review.objects.filter(product=product.id).aggregate(Avg('rating'))['rating__avg']) 
             product.rating = avg_rating
             product.save()
 
@@ -119,6 +121,7 @@ def edit_review(request, review_id):
         'form': form,
         'review': review,
         'product': product,
+        'on_reviews_page': True
     }
 
     return render(request, template, context)
@@ -155,6 +158,7 @@ def delete_review(request, review_id):
 
     context = {
         'product': product,
+        'on_reviews_page': True,
     }
 
     return redirect(reverse('reviews', args=[product.id]))
