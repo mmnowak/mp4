@@ -22,7 +22,7 @@
                   <h2 class="reviews-text">{{ product.product_name }}</h2>
                   {% if request.user.is_authenticated %}
                     {% if in_favourites %}
-                  <p class="fav-heart"><i class="fa-solid fa-heart"></i></p>
+                  <p class="fav-heart"><a href="{% url 'remove_favourite' product.id 'product' %}" aria-label="remove product to favourites" class="add-fav"><i class="fa-solid fa-heart"></i></a></p>
                     {% else %}
                   <p class="fav-heart add-fav"><a href="{% url 'add_favourite' product.id %}" aria-label="add product to favourites" class="add-fav"><i class="fa-regular fa-heart"></i></a></p>
                     {% endif %}
