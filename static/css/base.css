@@ -88,7 +88,7 @@ body {
 }
 
 footer {
-  height: 2rem;
+  min-height: 2rem;
   position: absolute;
   bottom: 0;
   background-color: #0F510B;
@@ -269,6 +269,23 @@ footer a:hover {
   text-decoration: underline;
 } 
 
+/* Checkout Page*/
+
+.text-link {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+  text-decoration: underline;
+}
+
+.text-link:hover {
+  text-decoration: none;
+}
+
+.order-text {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+}
+
 /* Allauth */
 
 .allauth-form-inner-content {
@@ -385,6 +402,21 @@ color: #0F510B;
   text-decoration: double;
 }
 
+/* Profile page */
+
+.order-table {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+}
+
+.order-number {
+  font-family: 'Inter', sans-serif;
+  color: #0F510B;
+}
+
+.order-number:hover {
+  font-size: large;
+}
 
 /* MEDIA QUERIES */
 

@@ -7,6 +7,9 @@ from products.models import Product
 class Favourites(models.Model):
     """ Model for users' favourites lists """
 
+    class Meta:
+        verbose_name_plural = 'Favourites'
+
     products = models.ManyToManyField(
         Product,
         blank=True
