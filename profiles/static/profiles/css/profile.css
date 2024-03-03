@@ -10,3 +10,17 @@
 #profile-update-form input::placeholder {
     color: #0F510B; 
 }
+
+.order-table {
+    font-family: 'Inter', sans-serif;
+    color: #0F510B;
+  }
+  
+  .order-number {
+    font-family: 'Inter', sans-serif;
+    color: #0F510B;
+  }
+  
+  .order-number:hover {
+    font-size: large;
+  }

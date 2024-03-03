@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_meta %}
+<meta name="description" content="APHROS - Error 400">
+{% endblock %}
+
+{% block extra_title %}
+- Error 400
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid m-auto text-center">
+        <h1 class="index-text">Error 400</h1>
+        <h2 class="other-heading">
+            Something went wrong!
+        </h2>
+        <a href="{% url 'home' %}" class="shop-btn">Go Home</a>
+    </div>
+
+{% endblock %}

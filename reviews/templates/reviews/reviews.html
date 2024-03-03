@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_title %}
+- Reviews for {{ product.product_name }}
+{% endblock %}
+
+{% block extra_meta %}
+<meta name="description" content="APHROS - Reviews">
+{% endblock %}
+
 {% block content %}
 
 <div class="container-fluid">

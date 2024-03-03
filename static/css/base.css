@@ -402,21 +402,6 @@ color: #0F510B;
   text-decoration: double;
 }
 
-/* Profile page */
-
-.order-table {
-  font-family: 'Inter', sans-serif;
-  color: #0F510B;
-}
-
-.order-number {
-  font-family: 'Inter', sans-serif;
-  color: #0F510B;
-}
-
-.order-number:hover {
-  font-size: large;
-}
 
 /* MEDIA QUERIES */
 

@@ -1,6 +1,15 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_title %}
+- Edit {{ product.product_name }}
+{% endblock %}
+
+{% block extra_meta %}
+<meta name="description" content="APHROS - Edit {{ product.product_name }}">
+{% endblock %}
+
+
 {% block content %}
 
 <div class="container cart-container m-auto p-3">
