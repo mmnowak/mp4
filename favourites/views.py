@@ -33,6 +33,11 @@ def view_favourites(request):
 def add_favourite(request, product_id):
     """ Adds a product to user's favourites """
 
+    if not request.user.is_authenticated:
+        messages.error(request,
+                       'Sorry, you have to log in to add to favourites!')
+        return redirect(reverse('product_detail', args=[product_id]))
+
     product = get_object_or_404(Product, pk=product_id)
     try:
         favourites = get_object_or_404(Favourites, username=request.user.id)

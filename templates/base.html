@@ -153,9 +153,12 @@
 </div>
 {% endif %}
 
+<div id="page-container"><div id="content-container" class="w-100">
     {% block content %}
     {% endblock %}
-
+  </div>
+<footer class="w-100 mt-1 p-1 text-center"><p>Created by Martyna Nowak for educational purposes only <a href="https://github.com/mmnowak/mp4" target="_blank" rel="noopener" aria-label="Github Repo"><i class="fa-brands fa-github"></i></a></p></footer>
+</div>
     {% block postloadjs %}
     <script src="{% static 'js/toast.js' %}"></script>
     {% endblock %}

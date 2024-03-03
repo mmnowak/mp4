@@ -160,11 +160,11 @@ def delete_product(request, product_id):
                 # Updates cart in session
                 request.session['cart'] = cart
 
-                # messages.success(request, 'Product deleted!')
-                # request.session['view_cart'] = True
+                messages.success(request, 'Product deleted!')
+                request.session['view_cart'] = True
 
-                # product.delete()
-                # messages.success(request, 'Product deleted!')
+                product.delete()
+                messages.success(request, 'Product deleted!')
                 return redirect(reverse('products'))
         else:
             product.delete()

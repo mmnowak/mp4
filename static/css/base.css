@@ -77,6 +77,33 @@ body {
   text-decoration: underline;
 }
 
+/* Keeps the footer at the bottom of the page */
+#page-container {
+  position: relative;
+  min-height: 100vh; 
+}
+
+#content-container {
+  padding-bottom: 2rem;
+}
+
+footer {
+  height: 2rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #0F510B;
+  color: #f1e5ee;
+}
+
+footer p, a {
+  color: #f1e5ee;
+  font-family: 'Inter', sans-serif;
+}
+
+footer a:hover {
+  font-size: large;
+}
+
 /* Toasts */
 
 .message-container {
@@ -341,10 +368,7 @@ color: #0F510B;
 }
 
 .rating-div p {
-  color: #f9d7f0;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #0f510b;
-  -webkit-text-fill-color: #f9d7f0;
+  color: #0F510B;
 }
 
 .reviews-text {

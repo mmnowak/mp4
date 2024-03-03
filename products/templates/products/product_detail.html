@@ -12,13 +12,14 @@
             </div>
                 <div class="col-6 p-3">
                   <h2 class="reviews-text">{{ product.product_name }}</h2>
-                  {% if in_favourites %}
+                  {% if request.user.is_authenticated %}
+                    {% if in_favourites %}
                   <p class="fav-heart"><i class="fa-solid fa-heart"></i></p>
-                  {% else %}
+                    {% else %}
                   <p class="fav-heart add-fav"><a href="{% url 'add_favourite' product.id %}" aria-label="add product to favourites" class="add-fav"><i class="fa-regular fa-heart"></i></a></p>
-                  {% endif %}
+                    {% endif %}
                   <a class="card-text" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
-
+                  {% endif %}
                   <div class="rating-div">
                     {% if product.rating == 5 %}
                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
@@ -68,18 +69,19 @@
                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
                       </div>
                     </div>
+                    </form>
                     
 
                     {% if request.user.is_superuser %}
                     <hr>
                   <div class="m-1">
                     <a class="btn shop-btn" href="{% url 'edit_product' product.id %}">Edit</a>
-                    <a class="btn shop-btn" href="{% url 'delete_product' product.id %}">Delete</a> | 
-                      <!-- button class="btn shop-btn" data-bs-toggle="modal" data-bs-target="#modal-{{ product.id }}">Delete</button></div -->
+                     | 
+                    <button class="btn shop-btn" data-bs-toggle="modal" data-bs-target="#delete-{{ product.id }}">Delete</button></div>
   
   
-  <!-- Bootstrap Modal >
-  <div class="modal fade" id="modal-{{ product.id }}" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+  <!-- Bootstrap Modal -->
+  <div class="modal fade" id="delete-{{ product.id }}" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
@@ -92,19 +94,20 @@
         </div>
       </div>
     </div>
-  </div -->
+  </div>
                 {% endif %}
               <hr>
-              <a href="{% url 'reviews' product.id %}" class="btn shop-btn me-3">See Product Reviews</a> |  
+              <a href="{% url 'reviews' product.id %}" class="btn shop-btn me-3">See Product Reviews</a>
+              {% if request.user.is_authenticated %} |  
               <a href="{% url 'add_review' product.id %}" class="btn shop-btn ms-3">Add Review</a>
+              {% endif %}
 
                     </div>
-                </form>
                 </div>
-              </div>  </div></div>
-        </div>
+              
     </div>
-</div>
+    <br>
+
 
 
 {% endblock %}

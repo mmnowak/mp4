@@ -48,9 +48,10 @@ def add_review(request, product_id):
             review.user = username
             review.save()
 
-            avg_rating = round(Review.objects.aggregate(Avg('rating'))['rating__avg'])
+            avg_rating = round(Review.objects.filter(product=product_id).aggregate(Avg('rating'))['rating__avg']) 
             product.rating = avg_rating
             product.save()
+            print(avg_rating)
 
             messages.success(request, "Thank you for adding a new review!")
 
@@ -98,7 +99,7 @@ def edit_review(request, review_id):
 
             redirect_url = request.POST.get('redirect_url')
 
-            avg_rating = round(Review.objects.aggregate(Avg('rating'))['rating__avg'])
+            avg_rating = round(Review.objects.filter(product=product_id).aggregate(Avg('rating'))['rating__avg']) 
             product.rating = avg_rating
             product.save()
 
@@ -142,11 +143,20 @@ def delete_review(request, review_id):
 
     review.delete()
 
-    avg_rating = round(Review.objects.aggregate(Avg('rating'))['rating__avg'])
+    if Review.objects.filter(product=product.id).count() == 0:
+        avg_rating = 0
+    else:
+        avg_rating = round(Review.objects.filter(product=product.id).aggregate(Avg('rating'))['rating__avg']) 
     product.rating = avg_rating
     product.save()
+    print(avg_rating)
 
     messages.success(request, "Review successfully deleted")
+
+    context = {
+        'product': product,
+    }
+
     return redirect(reverse('reviews', args=[product.id]))
 
 

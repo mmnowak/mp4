@@ -38,13 +38,18 @@ def adjust_cart(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     quantity = int(request.POST.get('quantity'))
     cart = request.session.get('cart', {})
-
-    if quantity > 0:
+ 
+    if quantity > 0 and quantity < 99:
         cart[product_id] = quantity
         messages.success(request, f'Updated {product.product_name} quantity to {cart[product_id]}')
-    else:
+    elif quantity > 99:
+        messages.error(
+        request, "The maximum value is 99!")
+        return redirect(reverse('view_cart'))
+    elif quantity <= 0:
         cart.pop(product_id)
         messages.success(request, f'Removed {product.product_name} from your cart')
+
 
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))
