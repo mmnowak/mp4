@@ -1,10 +1,10 @@
 # APHROS Skincare Online Store
 
-![Am I Responsive]()
+![Am I Responsive](docs/readme/amiresponsive.PNG)
 
 (Developer: Martyna Nowak)
 
-[Live Webpage]()
+[Live Webpage](https://aphros-4bc91bf82566.herokuapp.com/)
 
 ## Table of Contents
 

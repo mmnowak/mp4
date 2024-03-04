@@ -38,11 +38,12 @@
             <td class="w-25">
                 <form action="{% url 'adjust_cart' item.product_id %}" method="POST" class="form update-form">
                     {% csrf_token %}
-                    <div class="row">
-                        <div class="col d-flex">
-                                <div class="input-group justify-content-center">
+
+                    <div class="form-group d-flex justify-content-center">
+                        <div class="input-group input-group-{{ item.item_id }}">
+
                                     <div class="input-group-prepend">
-                                        <button class="decrement-qty btn action-btn me-1" 
+                                        <button class="decrement-qty btn btn-sm action-btn" 
                                             data-product_id="{{ product.product_id }}" id="decrement-qty_{{ item.product_id }}">
                                                 <i class="fas fa-minus fa-sm"></i>
                                         </button>
@@ -51,13 +52,13 @@
                                     <input class="form-control qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99" data-product_id="{{ item.product_id }}" id="id_qty_{{ item.product_id }}">
                                    </div>
                                     <div class="input-group-append">
-                                        <button class="increment-qty btn action-btn ms-1"
+                                        <button class="increment-qty btn btn-sm action-btn"
                                             data-product_id="{{ item.product_id }}" 
                                             id="increment-qty_{{ item.product_id}}">
                                             <i class="fas fa-plus fa-sm"></i>
                                         </button>
                                     </div>
-                                </div>
+                                
                           </div>
                         </div>
                         </div>
