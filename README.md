@@ -320,6 +320,105 @@ As a Website Administrator I want to be able to easily find admin controls so I 
 
 ![Database Schema](/docs/readme/dbdiagram.png)
 
+**Models**
+
+The website uses a relational database model using Postgres (SqLite and PostgreSQL DB by Code Institute) features models adapted from the CI Boutique Ado walkthrough as well as two original models - Reviews and Favourites. Below is the breakdown of all models included.
+
+<details><summary>Order Model</summary>
+
+| Field | Field Type | Validation | null | blank | default | on_delete |
+| :---: |:----------:| :--------: | :--: | :---: | :-----: | :-------: |
+| order_number | CharField | max_length=32 | False | n/a | n/a | n/a |
+| user_profile | ForeignKey | n/a | True | True | n/a | SET_NULL |
+| full_name | CharField | max_length=50 | False | False | n/a | n/a |
+| email | EmailField | max_length=254 | False | False | n/a | n/a |
+| phone_number | CharField | max_length=20 | False | False | n/a | n/a |
+| postcode | CharField | max_length=20 | False | False | n/a | n/a |
+| town_or_city | CharField | max_length=40 | False | False | n/a | n/a |
+| street_address1 | CharField | max_length=80 | False | False | n/a | n/a |
+| street_address2 | CharField | max_length=80 | True | True | n/a | n/a |
+| date | DateTimeField | n/a | n/a | n/a | n/a | n/a |
+| delivery_cost | DecimalField | max_digits=6, decimal_places=2 | False | n/a | 0 | n/a |
+| order_total | DecimalField | max_digits=10, decimal_places=2 | False | n/a | 0 | n/a | 
+| grand_total | DecimalField | max_digits=10, decimal_places=2 | False | n/a | 0 | n/a | 
+| original_cart | TextField | n/a | False | False | '' | n/a |
+| stripe_pid | TextField | max_length=254 | False | False | '' | n/a |
+
+</details>
+
+<details><summary>OrderLineItem Model</summary>
+
+| Field | Field Type | Validation | null | blank | default | on_delete |
+| :---: |:----------:| :--------: | :--: | :---: | :-----: | :-------: |
+| order | ForeignKey | n/a | False | False | n/a | Cascade |
+| product | ForeignKey | n/a | False | False | n/a | Cascade |
+| quantity | IntegerField | n/a | False | False | 0 | n/a |
+| lineitem_total | DecimalField | max_digits=6, decimal_places=2| False | False | n/a | n/a |
+
+</details>
+
+<details><summary>Favourites Model</summary>
+
+| Field | Field Type | Validation | null | blank | default | on_delete |
+| :---: |:----------:| :--------: | :--: | :---: | :-----: | :-------: |
+| product | ManyToManyField | n/a | n/a | True | n/a | n/a |
+| username | OneToOneField | n/a | n/a | n/a | n/a | Cascade |
+
+</details>
+
+<details><summary>Category Model</summary>
+
+| Field | Field Type | Validation | null | blank | default | on_delete |
+| :---: |:----------:| :--------: | :--: | :---: | :-----: | :-------: |
+| category | CharField | max_length=254 | n/a | n/a | n/a | n/a |
+| product_type_name | CharField | max_length=254 | True | True | n/a | n/a |
+
+</details>
+
+<details><summary>Product Model</summary>
+
+| Field | Field Type | Validation | null | blank | default | on_delete |
+| :---: |:----------:| :--------: | :--: | :---: | :-----: | :-------: |
+| category | ForeignKey | n/a | True | True | n/a | SET_NULL |
+| product_name | CharField | max_length=254 | n/a | n/a | n/a | n/a |
+| product_img | ImageField | n/a | n/a | n/a | n/a | n/a |
+| ingredients | TextField | n/a | n/a | n/a | n/a | n/a |
+| price | DecimalField | max_digits=6, decimal_places=2 | n/a | n/a | n/a | n/a |
+| rating | IntegrerField | MaxValue=5, MinValue=0 | True | True | 0 | n/a |
+
+</details>
+
+<details><summary>User Model</summary>
+User Model was created using the <a href ="https://docs.allauth.org/en/latest/">Django Allauth library</a>
+</details>
+
+<details><summary>UserProfile Model</summary>
+
+| Field | Field Type | Validation | null | blank | default | on_delete |
+| :---: |:----------:| :--------: | :--: | :---: | :-----: | :-------: |
+| user | OneToOneField | n/a | n/a | n/a | n/a | Cascade |
+| default_full_name | CharField | max_length=20 | True | True | n/a | n/a |
+| default_phone_number | CharField | max_length=20 | True | True | n/a | n/a |
+| default_postcode | CharField | max_length=20 | True | True | n/a | n/a |
+| default_town_or_city | CharField | max_length=40 | True | True | n/a | n/a |
+| default_street_address1 | CharField | max_length=80 | True | True | n/a | n/a |
+| default_street_address2 | CharField | max_length=80 | True | True | n/a | n/a |
+
+</details>
+
+<details><summary>Review Model</summary>
+
+| Field | Field Type | Validation | null | blank | default | on_delete |
+| :---: |:----------:| :--------: | :--: | :---: | :-----: | :-------: |
+| product | ForeignKey | n/a | True | True | n/a | Cascade |
+| user | ForeignKey | n/a | True | True | n/a | Cascade |
+| date | DateField | n/a | False | False | n/a | n/a |
+| title | CharField | max_length=50 | n/a | n/a | n/a | n/a |
+| content | TextField | max_length=500 | n/a | n/a | n/a | n/a |
+| rating | IntegrerField | MaxValue=5, MinValue=1 | False | False | 0 | n/a |
+
+</details>
+
 #### CRUD
 
 CRUD has been implemented as following:
