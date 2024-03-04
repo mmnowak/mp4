@@ -15,10 +15,14 @@
     font-family: 'Inter', sans-serif;
     color: #0F510B;
   }
+
+  .form-group {
+    margin: 10px;
+  }
   
   .order-number {
     font-family: 'Inter', sans-serif;
-    color: #0F510B;
+    color: #0F510B !important; 
   }
   
   .order-number:hover {
