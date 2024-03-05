@@ -55,7 +55,7 @@
                 <div class="card-header bg-white text-center">
                     <a href="{% url 'product_detail' product.id %}">
                         {% if product.product_img %}
-                <img src="{{ product.product_img.url }}" class="card-img-top product-img" alt="{{ product.name }}">
+                <img src="{{ product.product_img.url }}" class="card-img-top product-img" alt="{{ product.product_name }}">
                 {% endif %}
             </a>
             </div>
@@ -109,7 +109,7 @@
     
 </div><br>
 <div class="bck-button">
-        <button id="bck-to-top" class="btn h-100 d-flex"><i class="fa-solid fa-circle-up"></i></button>
+        <button id="bck-to-top" class="btn h-100 d-flex"><i class="fa-solid fa-circle-up"></i><span class="sr-only">Back to top</span></button>
 </div>
 
 {% endblock %}
