@@ -116,6 +116,82 @@ There were some missing semicolons, this has now been fixed and no errors are fo
 [Cart Page](https://wave.webaim.org/report#/https://aphros-4bc91bf82566.herokuapp.com/cart/)
 [Checkout Page]
 
+### Performance Testing
+
+All pages were tested using Lighthouse in Google Chrome Developer Tools. Some pages has scored below 90 in Performance. This was due to following factors:
+
+![](docs/testing/lighthouse/lh-warningsall.PNG)
+
+Products page scored poorly in Performance section. Product images are sized relative to the size of the root element. This was listed as one of the factors of the low Performance score.
+
+![](docs/testing/lighthouse/lh-warnings.PNG)
+
+Below are scores for individual pages:
+
+**Index Page**
+
+![](docs/testing/lighthouse/lh-index.PNG)
+
+**Products Page**
+
+![](docs/testing/lighthouse/lh-products.PNG)
+
+**Product Detail Page**
+
+![](docs/testing/lighthouse/lh-productdetail.PNG)
+
+**Add Product Page**
+
+![](docs/testing/lighthouse/lh-addproduct.PNG)
+
+**Edit Product Page**
+
+![](docs/testing/lighthouse/lh-editproduct.PNG)
+
+**Cart Page**
+
+![](docs/testing/lighthouse/lh-cart.PNG)
+
+**Checkout Page**
+
+![](docs/testing/lighthouse/lh-checkout.PNG)
+
+**Checkout Success Page**
+
+![](docs/testing/lighthouse/lh-checkoutsuccess.PNG)
+
+**Login Page**
+
+![](docs/testing/lighthouse/lh-login.PNG)
+
+**Log Out Page**
+
+![](docs/testing/lighthouse/lh-logout.PNG)
+
+**Register Page**
+
+![](docs/testing/lighthouse/lh-register.PNG)
+
+**Profile Page**
+
+![](docs/testing/lighthouse/lh-profile.PNG)
+
+**Favourites Page**
+
+![](docs/testing/lighthouse/lh-favourites.PNG)
+
+**Reviews Page**
+
+![](docs/testing/lighthouse/lh-vieweviews.PNG)
+
+**Add Review Page**
+
+![](docs/testing/lighthouse/lh-addreview.PNG)
+
+**Edit Review Page**
+
+![](docs/testing/lighthouse/lh-editreviews.PNG)
+
 ## Manual Testing
 
 ### Device Testing
