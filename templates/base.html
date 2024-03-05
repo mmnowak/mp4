@@ -62,7 +62,7 @@
           <a class="nav-link" href="{% url 'home' %}"><i class="fa-solid fa-house" title="Home"></i></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="my-account" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user" title="My Account"></i></a>
+          <a class="nav-link" id="my-account" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user" title="My Account"></i></a>
           <div class="dropdown-menu dropdown-menu-end mt-2 account-dropdown" aria-labelledby="my-account">
             {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
@@ -95,7 +95,7 @@
 <div class="w-50 m-auto text-center">
   <div class="row d-flex justify-content-center">
     <div class="col-lg-2 col-sm-4 dropdown m-2">
-      <a class="dropdown-toggle product-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class="dropdown-toggle product-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         All
       </a>      
       <ul class="dropdown-menu">
@@ -106,7 +106,7 @@
       </ul>
     </div>
     <div class="col-lg-2 col-sm-4 dropdown m-2">
-        <a class="dropdown-toggle product-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="dropdown-toggle product-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Face
         </a>      
         <ul class="dropdown-menu">
@@ -121,7 +121,7 @@
         </ul>
       </div>
       <div class="col-lg-2 col-sm-4 dropdown m-2">
-        <a class="dropdown-toggle product-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="dropdown-toggle product-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Body
         </a>      
         <ul class="dropdown-menu">

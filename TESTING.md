@@ -23,6 +23,21 @@
     1. [Resolved](#resolved)
     2. [Unresolved](#unresolved)
 
+## Validation
+
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All errors found were corrected, currently there are no errors.
+
+See results:
+
+* ![Index Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2F)
+* ![Products Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fproducts%2F)
+* ![Product Detail Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fproducts%2F2)
+* ![Add Product Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fproducts%2Fadd%2F)
+* ![Edit Product Page]()
+* ![Checkout Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fcart%2F)
+
 ## Manual Testing
 
 ### Feature Testing
