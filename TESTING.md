@@ -62,6 +62,48 @@ See results:
 
 ![](docs/testing/cssvalidcheckout.PNG)
 
+### Python Linting
+
+The following files were run through [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/). Some minor errors such as lines too long and whitespace were found, they are now corrected.
+
+| **APP** | **FILE** | **ERRORS** |
+| --- | --- | --- |
+| APHROS | settings.py | None |
+| APHROS | urls.py | None |
+| Cart | contexts.py | None |
+| Cart | urls.py | None |
+| Cart | views.py | None |
+| Checkout | admin.py | None |
+| Checkout | forms.py | None |
+| Checkout | models.py | None |
+| Checkout | signals.py | None |
+| Checkout | urls.py | None |
+| Checkout | views.py | None |
+| Checkout | webhook_handler.py | None |
+| Checkout | webhooks.py | None |
+| Favourites | admin.py | None |
+| Favourites | models.py | None |
+| Favourites | urls.py | None |
+| Favourites | views.py | None |
+| Home | views.py | None |
+| Home | urls.py | None |
+| Products | admin.py | None |
+| Products | forms.py | None |
+| Products | models.py | None |
+| Products | urls.py | None |
+| Products | views.py | None |
+| Products | widgets.py | None |
+| Profiles | admin.py | None |
+| Profiles | forms.py | None |
+| Profiles | models.py | None |
+| Profiles | views.py | None |
+| Reviews | admin.py | None |
+| Reviews | forms.py | None |
+| Reviews | models.py | None |
+| Reviews | views.py | None |
+
+
+
 ### Accessibility Testing
 
 [Index Page](https://wave.webaim.org/report#/https://aphros-4bc91bf82566.herokuapp.com/)
