@@ -35,8 +35,16 @@ See results:
 * ![Products Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fproducts%2F)
 * ![Product Detail Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fproducts%2F2)
 * ![Add Product Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fproducts%2Fadd%2F)
-* ![Edit Product Page]()
-* ![Checkout Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fcart%2F)
+* ![Edit Product Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fproducts%2Fedit%2F2%2F)
+* ![Profile Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fprofile%2F)
+* ![Cart Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fcart%2F)
+* ![Checkout Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Fcheckout%2F)
+* ![Reviews Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Freviews%2Freviews%2F2%2F)
+* ![Add Review Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Freviews%2Fadd_review%2F2%2F)
+* ![Edit Review Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Freviews%2Fedit_review%2F12%2F)
+* ![Favourites Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Ffavourites%2Fview_favourites%2F)
+* ![Register Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Faccounts%2Fsignup%2F)
+* ![Log in Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faphros-4bc91bf82566.herokuapp.com%2Faccounts%2Flogin%2F)
 
 ## Manual Testing
 
