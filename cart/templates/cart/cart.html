@@ -44,17 +44,19 @@
 
                                     <div class="input-group-prepend">
                                         <button class="decrement-qty btn btn-sm action-btn" 
-                                            data-product_id="{{ product.product_id }}" id="decrement-qty_{{ item.product_id }}">
+                                            data-product_id="{{ product.product_id }}" id="decrement-qty_{{ item.product_id }}"
+                                            aria-label="Decrement quantity">
                                                 <i class="fas fa-minus fa-sm"></i>
                                         </button>
                                     </div>
                                     <div class="w-50">
-                                    <input class="form-control qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99" data-product_id="{{ item.product_id }}" id="id_qty_{{ item.product_id }}">
+                                    <input class="form-control qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99" data-product_id="{{ item.product_id }}" id="id_qty_{{ item.product_id }}" aria-label="Quantity">
                                    </div>
                                     <div class="input-group-append">
                                         <button class="increment-qty btn btn-sm action-btn"
                                             data-product_id="{{ item.product_id }}" 
-                                            id="increment-qty_{{ item.product_id}}">
+                                            id="increment-qty_{{ item.product_id}}"
+                                            aria-label="Increment quantity">
                                             <i class="fas fa-plus fa-sm"></i>
                                         </button>
                                     </div>
@@ -103,14 +105,14 @@
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
         form.submit();
-    })
+    });
 
 
     // Remove item and reload on click
     $('.remove-product').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var productId = $(this).attr('id').split('remove_')[1];
-        console.log(productId)
+        console.log(productId);
         var url = `/cart/remove/${productId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken};
 

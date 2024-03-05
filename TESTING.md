@@ -12,8 +12,9 @@
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
     3. [Python Linting](#python-linting)
-    4. [Accessibility Testing](#accessibility-testing)
-    5. [Performance Testing](#performance-testing)
+    4. [JavaScript Linting](#javascript-linting)
+    5. [Accessibility Testing](#accessibility-testing)
+    6. [Performance Testing](#performance-testing)
 2. [Manual Testing](#manual-testing)
     1. [Device Testing](#device-testing)
     2. [Browser compatibility](#browser-compatibility)
@@ -102,7 +103,10 @@ The following files were run through [https://pep8ci.herokuapp.com/](https://pep
 | Reviews | models.py | None |
 | Reviews | views.py | None |
 
+### JavaScript Linting
 
+The two JavaScript files, toasts.js and stripe_elements.js as well as script blocks on individual pages were run through [https://jshint.com/](https://jshint.com/).
+There were some missing semicolons, this has now been fixed and no errors are found.
 
 ### Accessibility Testing
 

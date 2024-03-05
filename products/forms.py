@@ -9,6 +9,14 @@ class ProductForm(forms.ModelForm):
         model = Product
         fields = '__all__'
 
+        labels = {
+            'category': 'Product Category',
+            'product_name': 'Product Name',
+            'ingredients': 'Product Ingredients',
+            'price': 'Price',
+            'rating': 'Rating',
+        }
+
     product_img = forms.ImageField(label='Image',
                                    required=True,
                                    widget=CustomClearableFileInput)

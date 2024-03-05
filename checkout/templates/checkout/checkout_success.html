@@ -96,7 +96,7 @@
             {% for item in order.lineitems.all %}
             <tr>
             <td class="cart-img">
-                <img src="{{ item.product.product_img.url }}" class="img-fluid">
+                <img src="{{ item.product.product_img.url }}" class="img-fluid" alt="item.product.product_name">
             </td>
             <td class="w-25">
                 <p><strong>{{ item.product.product_name }}</strong></p>
