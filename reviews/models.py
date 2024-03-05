@@ -8,6 +8,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
+
 class Review(models.Model):
     """ Model for a Review form """
     product = models.ForeignKey(Product, null=True, blank=True,
@@ -30,7 +31,3 @@ class Review(models.Model):
     def __str__(self):
         """ String representation of Review title """
         return self.title
-    
-    
-
-

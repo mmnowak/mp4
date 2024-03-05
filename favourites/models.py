@@ -4,6 +4,7 @@ from products.models import Product
 
 # Create your models here.
 
+
 class Favourites(models.Model):
     """ Model for users' favourites lists """
 
@@ -22,4 +23,3 @@ class Favourites(models.Model):
 
     def __str__(self):
         return f"{self.username}'s Favourites"
-

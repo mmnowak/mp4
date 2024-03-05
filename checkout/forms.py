@@ -1,13 +1,19 @@
 from django import forms
 from .models import Order
 
+
 class OrderForm(forms.ModelForm):
     class Meta:
         model = Order
-        fields = ('full_name', 'email', 
-             'phone_number', 'postcode', 'town_or_city', 'street_address1', 
-             'street_address2'
-             )
+        fields = (
+            "full_name",
+            "email",
+            "phone_number",
+            "postcode",
+            "town_or_city",
+            "street_address1",
+            "street_address2",
+        )
 
     def __init__(self, *args, **kwargs):
         """
@@ -16,22 +22,22 @@ class OrderForm(forms.ModelForm):
         """
         super().__init__(*args, **kwargs)
         placeholders = {
-            'full_name': 'Full Name',
-            'email': 'Email Address',
-            'phone_number': 'Phone Number',
-            'postcode': 'Postal Code',
-            'town_or_city': 'Town or City',
-            'street_address1': 'Address Line 1',
-            'street_address2': 'Address Line 2',
+            "full_name": "Full Name",
+            "email": "Email Address",
+            "phone_number": "Phone Number",
+            "postcode": "Postal Code",
+            "town_or_city": "Town or City",
+            "street_address1": "Address Line 1",
+            "street_address2": "Address Line 2",
         }
 
-        self.fields['full_name'].widget.attrs['autofocus'] = True
+        self.fields["full_name"].widget.attrs["autofocus"] = True
         for field in self.fields:
             if self.fields[field].required:
-                placeholder = f'{placeholders[field]} *'
+                placeholder = f"{placeholders[field]} *"
             else:
                 placeholder = placeholders[field]
-            self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'text-black'
+            self.fields[field].widget.attrs["placeholder"] = placeholder
+            self.fields[field].widget.attrs["class"] = "text-black"
             self.fields[field].label = True
             self.fields[field].label = placeholder.__str__()

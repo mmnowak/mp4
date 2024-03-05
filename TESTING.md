@@ -72,6 +72,26 @@ See results:
 
 ## Manual Testing
 
+### Device Testing
+
+Manual testing was done on following devices:
+
+* Lenovo Thinkpad Yoga 460
+* Redmi Note Pro 5g
+* iPhone XR
+* iPhone 14 Pro
+* OPPO A78
+* Dell 22 Monitor P2222H
+* Google Chrome Developer Tools - all the different device avaliable, as well as all the size options
+
+### Browser Compatibility
+
+Manual Testing was done on the following browsers:
+
+* Google Chrome
+* Microsoft Edge
+* Opera
+
 ### Testing User Stories
 
 1. As a User I want to be able to easily navigate the website so I can find products I want to buy
