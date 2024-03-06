@@ -1,126 +1,148 @@
 {% extends "base.html" %}
-{% load static %}
 
-{% block extra_title %}
-- {{ product.product_name }}
-{% endblock %}
+ {% load static %}
 
-{% block extra_meta %}
+  {% block extra_title %}
+   - {{ product.product_name }}
+    {% endblock %} 
+    
+    {% block extra_meta %}
 <meta name="description" content="APHROS - {{ product.product_name }}">
 {% endblock %}
 
 {% block content %}
 
 <div class="container-fluid mt-3">
-    <div class="row justify-content-center">        
+    <div class="row justify-content-center">
         <div class="col-6">
             {% if product.product_img %}
-                <img src="{{ product.product_img.url }}" class="w-100" alt="{{ product.product_name }}">
+            <img src="{{ product.product_img.url }}" class="w-100" alt="{{ product.product_name }}">
+            {% endif %}
+        </div>
+        <div class="col-6 p-3">
+            <h2 class="reviews-text">{{ product.product_name }}</h2>
+            {% if request.user.is_authenticated %}
+             {% if in_favourites %}
+            <p class="fav-heart">
+                <a href="{% url 'remove_favourite' product.id 'product' %}" aria-label="remove product to favourites" class="add-fav"><i class="fa-solid fa-heart"></i></a>
+            </p>
+            {% else %}
+            <p class="fav-heart add-fav">
+                <a href="{% url 'add_favourite' product.id %}" aria-label="add product to favourites" class="add-fav"><i class="fa-regular fa-heart"></i></a>
+            </p>
+            {% endif %}
+            <a class="card-text" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
+            {% endif %}
+            <div class="rating-div">
+                {% if product.rating == 5 %}
+                <p><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></p>
+                {% elif product.rating == 4 %}
+                <p><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i></p>
+                {% elif product.rating == 3 %}
+                <p><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i></p>
+                {% elif product.rating == 2 %}
+                <p><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i></p>
+                {% elif product.rating == 1 %}
+                <p><i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i></p>
                 {% endif %}
             </div>
-                <div class="col-6 p-3">
-                  <h2 class="reviews-text">{{ product.product_name }}</h2>
-                  {% if request.user.is_authenticated %}
-                    {% if in_favourites %}
-                  <p class="fav-heart"><a href="{% url 'remove_favourite' product.id 'product' %}" aria-label="remove product to favourites" class="add-fav"><i class="fa-solid fa-heart"></i></a></p>
-                    {% else %}
-                  <p class="fav-heart add-fav"><a href="{% url 'add_favourite' product.id %}" aria-label="add product to favourites" class="add-fav"><i class="fa-regular fa-heart"></i></a></p>
-                    {% endif %}
-                  <a class="card-text" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ product.category }}</p></a>
-                  {% endif %}
-                  <div class="rating-div">
-                    {% if product.rating == 5 %}
-                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-                    {% elif product.rating == 4 %}
-                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
-                    {% elif product.rating == 3 %}
-                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
-                    {% elif product.rating == 2 %}
-                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
-                    {% elif product.rating == 1 %}
-                    <p><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
-                    {% endif %}   
-                 </div>
 
+            <p class="ingredients-list"><strong>Ingredients:</strong> {{ product.ingredients }}</p>
+            <p class="fs-4"><b>£{{ product.price }}</b></p>
 
-                  <p class="ingredients-list"><strong>Ingredients:</strong> {{ product.ingredients }} </p>
-                  <p class="fs-4"><b>£{{ product.price }}</b></p>
-             
-                  <form action="{% url 'add_to_cart' product.id %}" class="form" method="POST">
-                  {% csrf_token %}
-                  <div class="row">
+            <form action="{% url 'add_to_cart' product.id %}" class="form" method="POST">
+                {% csrf_token %}
+                <div class="row">
                     <div class="col d-flex align-content-center">
                         <p class="mt-2"><strong>Quantity:</strong></p>
-                            <div class="input-group ms-2 h-50 w-50">
-                                <div class="input-group-prepend">
-                                    <button class="decrement-qty btn btn-black rounded-0" 
-                                        data-product_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
-                                        <span class="sr-only">Decrease Quantity</span>
-                                            <i class="fas fa-minus"></i>
-                                    </button>
-                                </div>
-                                <input class="form-control qty_input" type="number" name="quantity"
-                                 value="1" min="1" max="99" 
-                                 data-product_id="{{ product.id }}"
-                                 id="id_qty_{{ product.id }}"
-                                 aria-label="Quantity">
-                                <div class="input-group-append">
-                                    <button class="increment-qty btn"
-                                        data-product_id="{{ product.id }}" 
-                                        id="increment-qty_{{ product.id }}">
-                                        <span class="sr-only">Increase Quantity</span>
-                                            <i class="fas fa-plus"></i>
-                                    </button>
-                                </div>
-                            </div></div>
-                            <div class="d-flex m-auto">
-                            <input type="submit" class="btn shop-btn mt-1" value="+ Add to Cart">
-                    <input type="hidden" name="redirect_url" value="{{ request.path }}"></div>
-                      </div>
-                    
-                    </form>
-                    
+                        <div class="input-group ms-2 h-50 w-50">
+                            <div class="input-group-prepend">
+                                <button class="decrement-qty btn btn-black rounded-0" data-product_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
+                                    <span class="sr-only">Decrease Quantity</span>
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                            <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99" data-product_id="{{ product.id }}" id="id_qty_{{ product.id }}" aria-label="Quantity" />
+                            <div class="input-group-append">
+                                <button class="increment-qty btn" data-product_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
+                                    <span class="sr-only">Increase Quantity</span>
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-auto">
+                        <input type="submit" class="btn shop-btn mt-1" value="+ Add to Cart">
+                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    </div>
+                </div>
+            </form>
 
-                    {% if request.user.is_superuser %}
-                    <hr>
-                  <div class="m-1 d-md-flex justify-content-center">
-                    <a class="btn shop-btn m-1" href="{% url 'edit_product' product.id %}">Edit</a>
-                       |   
-                    <button class="btn shop-btn m-1" data-bs-toggle="modal" data-bs-target="#delete-{{ product.id }}">Delete</button></div>
-  
-  
-  <!-- Bootstrap Modal -->
-  <div class="modal fade" id="delete-{{ product.id }}" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5 reviews-text" id="deleteModalLabel">Are you sure you want to delete this product?</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn action-btn" data-bs-dismiss="modal">Close</button>
-          <a class="btn action-btn" href="{% url 'delete_product' product.id %}">Delete product</a>
-        </div>
-      </div>
-    </div>
-  </div>
+            {% if request.user.is_superuser %}
+            <hr />
+            <div class="m-1 d-md-flex justify-content-center">
+                <a class="btn shop-btn m-1" href="{% url 'edit_product' product.id %}">Edit</a>
+                |
+                <button class="btn shop-btn m-1" data-bs-toggle="modal" data-bs-target="#delete-{{ product.id }}">Delete</button>
+            </div>
+
+            <!-- Bootstrap Modal -->
+            <div class="modal fade" id="delete-{{ product.id }}" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 reviews-text" id="deleteModalLabel">Are you sure you want to delete this product?</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn action-btn" data-bs-dismiss="modal">Close</button>
+                            <a class="btn action-btn" href="{% url 'delete_product' product.id %}">Delete product</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {% endif %}
+
+            <hr>
+            <div class="d-md-flex mb-4 justify-content-center">
+                <a href="{% url 'reviews' product.id %}" class="btn shop-btn m-1">See Product Reviews</a>
+                {% if request.user.is_authenticated %} |
+                <a href="{% url 'add_review' product.id %}" class="btn shop-btn m-1">Add Review</a>
                 {% endif %}
-              <hr>
-              <div class="d-md-flex mb-4 justify-content-center">
-              <a href="{% url 'reviews' product.id %}" class="btn shop-btn m-1">See Product Reviews</a>
-              {% if request.user.is_authenticated %} |  
-              <a href="{% url 'add_review' product.id %}" class="btn shop-btn m-1">Add Review</a>
-              {% endif %}
-                </div></div>
-              
-    
-    <br>
-</div></div>
+            </div>
+        </div>
 
+        <br>
+    </div>
+</div>
 
-{% endblock %}
+{% endblock %} 
 
-{% block postloadjs %}
-{{ block.super }}
+{% block postloadjs %} 
+
+{{ block.super }} 
+
 {% include 'products/includes/qty_input_script.html' %}
+
 {% endblock %}
