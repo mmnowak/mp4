@@ -11,6 +11,7 @@
  <div class="container-fluid mt-3">
   <div class="row">
     <div class="col text-center"> 
+      <!-- Category heading -->
         {% for c in current_type %} 
         {% if c.product_type_name == 'eye_care' or c.product_type_name == 'bath_salts' or c.product_type_name == 'body_wash' %}
          <a href="{% url 'products' %}?product_type_name={{ c.product_type_name }}" class="category-heading">
@@ -22,14 +23,19 @@
     </div>
   </div>
   <div class="row mb-2">
+    <!-- Produt count -->
     <div class="col">
       <p class="text-muted mt-3 text-center text-md-left">
-        {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong> {% elif current_type %} {% for c in current_type %} found for <strong>"{{ c.category }}"</strong>
+        {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>
+         {% elif current_type %}
+          {% for c in current_type %}
+           found for <strong>"{{ c.category }}"</strong>
          {% endfor %} 
          {% endif %}
       </p>
     </div>
     <div class="col"></div>
+    <!-- Sort by dropdown -->
     <div class="col d-flex justify-content-end">
       <select id="sort-selector" class="form-select w-50" aria-label="Default select example">
         <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
@@ -44,7 +50,7 @@
     </div>
   </div>
   <div class="row justify-content-center text-center"> 
-
+<!-- Product cards -->
     {% for product in products %} 
 
     <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4 col-xxl-3 m-1">
@@ -66,6 +72,7 @@
           <a class="card-text category-link" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}">
             <p>{{ product.category }}</p>
           </a>
+          <!-- Product rating -->
           <div class="rating-div"> 
             {% if product.rating == 5 %} <p>
               <i class="fa-solid fa-star"></i>
@@ -103,8 +110,10 @@
           </p> 
           {% if request.user.is_superuser %}
           <hr>
+          <!-- Admin buttons -->
           <div class="m-1">
-            <a class="btn shop-btn" href="{% url 'edit_product' product.id %}">Edit</a> | <button class="btn shop-btn" data-bs-toggle="modal" data-bs-target="#delete-{{ product.id }}">Delete</button>
+            <a class="btn shop-btn" href="{% url 'edit_product' product.id %}">Edit</a> | 
+            <button class="btn shop-btn" data-bs-toggle="modal" data-bs-target="#delete-{{ product.id }}">Delete</button>
           </div>
 
           <!-- Bootstrap Modal -->
@@ -132,6 +141,7 @@
 </div>
 </div>
 <br>
+<!-- Back to top button -->
 <div class="bck-button">
   <button id="bck-to-top" class="btn h-100 d-flex">
     <i class="fa-solid fa-circle-up"></i>

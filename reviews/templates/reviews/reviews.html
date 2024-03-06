@@ -16,6 +16,7 @@
     <div class="row justify-content-center text-center m-2">
         <h1 class="other-heading">Reviews for <a href="{% url 'product_detail' product.id %}">{{ product.product_name }}</a></h1>
     </div>
+    <!-- Review cards -->
     <div class="row justify-content-center text-center">        
         {% for review in reviews %}
         <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4 col-xxl-3 m-1">
@@ -26,6 +27,7 @@
                 <div class="card-body">
                   <h5 class="card-title">{{ review.title }}</h5>
                   <p class="card-text">{{ review.content }}</p>
+                  <!-- Rating-->
                   <div class="rating-div">
                      {% if review.rating == 5 %}
                      <p><i class="fa-solid fa-star"></i>

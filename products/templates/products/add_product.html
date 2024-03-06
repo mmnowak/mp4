@@ -20,6 +20,7 @@
     <h5>Add a Product</h5></div></div>
     <div class="row text-center">
         <div class="col-lg-6 col-md-6 col-sm-12 m-auto">
+    <!-- Form -->
     <form method="POST" action="{% url 'add_product' %}" class="form mb-2" enctype="multipart/form-data">
         {% csrf_token %}
         {% for field in form %}
@@ -29,6 +30,7 @@
                 {{ field }}
             {% endif %}
         {% endfor %}
+        <!-- Buttons -->
         <div class="mt-1">
             <a class="btn action-btn" href="{% url 'products' %}">Cancel</a>
             <button class="btn action-btn" type="submit">Add Product</button>

@@ -110,11 +110,73 @@ There were some missing semicolons, this has now been fixed and no errors are fo
 
 ### Accessibility Testing
 
-[Index Page](https://wave.webaim.org/report#/https://aphros-4bc91bf82566.herokuapp.com/)
-[Products Page](https://wave.webaim.org/report#/https://aphros-4bc91bf82566.herokuapp.com/products/)
-[Product Detail Page](https://wave.webaim.org/report#/https://aphros-4bc91bf82566.herokuapp.com/products/2)
-[Cart Page](https://wave.webaim.org/report#/https://aphros-4bc91bf82566.herokuapp.com/cart/)
-[Checkout Page]
+The pages were run through the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
+Contrast error was displayed for the logo, this is due to WAVE not recognising text overline making the logo visible.
+
+Some errors were found for Add Product and Edit Product pages.
+The errors are related to the image field.
+This is despite the field having `label='Image'` added on. Additionally, the ClearableFileInput widget does not have alt text.
+
+On Login and Register pages, there are errors caused by the AllAuth forms not having labels. I have searched for a solution for this but failed to find one.
+
+The results are below:
+
+**Index Page**
+
+![](docs/testing/wave/index.PNG)
+
+**Products Page**
+
+![](docs/testing/wave/products.PNG)
+
+**Product Detail Page**
+
+![](docs/testing/wave/productdetail.PNG)
+
+**Add Product Page**
+
+![](docs/testing/wave/addproduct.PNG)
+
+**Edit Page**
+
+![](docs/testing/wave/editproduct.PNG)
+
+**Profile Page**
+
+![](docs/testing/wave/profile.PNG)
+
+**Cart Page**
+
+![](docs/testing/wave/cart.PNG)
+
+**Checkout Page**
+
+![](docs/testing/wave/checkout.PNG)
+
+**Reviews Page**
+
+![](docs/testing/wave/reviews.PNG)
+
+**Add Review Page**
+
+![](docs/testing/wave/addreview.PNG)
+
+**Edit Review Page**
+
+![](docs/testing/wave/editreview.PNG)
+
+**Favourites Page**
+
+![](docs/testing/wave/favourites.PNG)
+
+**Register Page**
+
+![](docs/testing/wave/register.PNG)
+
+**Login Page**
+
+![](docs/testing/wave/login.PNG)
+
 
 ### Performance Testing
 

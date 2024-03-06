@@ -19,6 +19,7 @@
         <p>Edit your review for <strong>{{ product.product_name }}</strong></p></div>
         <div class="col-6 ">
             <h5 class="m-auto text-center">Your review</h5>
+            <!-- Form -->
             <form class="m-3 p-3 review-form" method="POST" action="{% url 'edit_review' review.id %}" id="edit-review-form">
                 {% csrf_token %}
                 {{ form|crispy }}
@@ -29,6 +30,7 @@
                
         </div>
         <div class="col-6">
+            <!-- Image -->
             <div class="m-auto text-center">
                 <img src="{{ product.product_img.url }}" class="w-75" alt="{{ product.product_name }}">
             </div>

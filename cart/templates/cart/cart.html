@@ -15,7 +15,7 @@
  <div class="mt-3"></div>
 <div class="container bg-white cart-container m-auto p-3">
   <h3 class="other-heading text-center">Your Shopping Cart</h3>
-
+<!-- Cart Table -->
    {% if cart_items %} 
    <div class="table-responsive">
     <table class="table table-sm text-center table-striped">
@@ -42,6 +42,7 @@
         <td class="w-25 text-center">
           <form action="{% url 'adjust_cart' item.product_id %}" method="POST" class="form update-form">
              {% csrf_token %}
+             <!-- Quantity form -->
               <div class="input-group input-group-{{ item.item_id }} d-flex justify-content-center">
                 <div class="input-group-prepend">
                     <button class="decrement-qty btn btn-sm action-btn" 
@@ -69,6 +70,7 @@
                 </div>
             </div>
         </form>
+  <!-- Control buttons-->
   <a class="update-link me-1">
     <small>Update</small>
   </a>
@@ -93,6 +95,7 @@
        {% if free_delivery_delta > 0 %} 
        <h6>Spend £{{ free_delivery_delta }} to get free delivery!</h6> 
        {% endif %} 
+       <!-- Links -->
        <a href="{% url 'products' %}" class="action-btn btn">
         <i class="fa-solid fa-arrow-left"></i> Keep Shopping </a>
       <a href="{% url 'checkout' %}" class="action-btn btn ms-4">
