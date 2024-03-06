@@ -647,6 +647,92 @@ Manual Testing was done on the following browsers:
 | Custom Error Pages | Displays a correct error number | Manually trigger error | Works as expected | Pass |
 | Go Home button | Redirects to the Index page | Click on the button | Works as expected | Pass |
 
+## Bugs
+
+### Resolved
+
+1. On the Cart page, the users were able to change the quantity to more than 99.
+
+The solution was to change the code in cart.views.py as follows:
+
+Previously:
+
+```python
+ if quantity > 0:
+        cart[product_id] = quantity
+        messages.success(request, f'Updated {product.product_name} quantity to {cart[product_id]}')
+    else:
+        cart.pop(product_id)
+        messages.success(request, f'Removed {product.product_name} from your cart')
+```
+
+Solved:
+
+```python
+if quantity > 0 and quantity < 99:
+        cart[product_id] = quantity
+        messages.success(request, f'Updated {product.product_name} quantity to {cart[product_id]}')
+    elif quantity > 99:
+        messages.error(
+        request, "The maximum value is 99!")
+        return redirect(reverse('view_cart'))
+    elif quantity <= 0:
+        cart.pop(product_id)
+        messages.success(request, f'Removed {product.product_name} from your cart')
+```
+
+2. Quantity form not displayed correctly on smaller screen
+
+![](docs/testing/bug4.jpg)
+
+Solution: Change the form class from w-25 to w-50
+
+3. The average rating score does not update correctly
+
+Previously:
+
+`avg_rating = round(Review.objects.aggregate(Avg('rating'))['rating__avg'])`
+
+Solved:
+
+```python
+if Review.objects.filter(product=product.id).count() == 0:
+        avg_rating = 0
+    else:
+        avg_rating = round(
+            Review.objects.filter(product=product.id).aggregate(Avg("rating"))[
+                "rating__avg"
+            ]
+        )
+```
+
+### Unresolved
+
+1. Website crashes when a superuser deletes an item which is in their basket
+
+![](docs/testing/bug1.PNG)
+
+I have tried to solve this by adding the following code to the product.views.py:
+
+```python
+lineitems = OrderLineItem.objects.all()
+
+    for lineitem in lineitems:
+        if product == lineitem.product:
+            cart = request.session.get("cart", {})
+            if product_id in cart:
+                cart.pop(product_id)
+```
+
+This does not seem to be working as the bug persist; the workaround is to clear cache of this happens.
+
+2. Webhooks not working
+
+![](docs/testing/webhooksbroken.PNG)
+
+The payment_intent.succeeded on Stripe randomly stopped working and is generating error 500.
+I have checked my code and config vars, searched Slack and Google for solutions but failed to find a reason.
+As of now, the user no longer receives a confirmation email when they make a purcharse.
 
 
 
