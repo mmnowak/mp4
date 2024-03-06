@@ -13,6 +13,7 @@ class ProductForm(forms.ModelForm):
             'category': 'Product Category',
             'product_name': 'Product Name',
             'ingredients': 'Product Ingredients',
+            'product_img': 'Image',
             'price': 'Price',
             'rating': 'Rating',
         }
