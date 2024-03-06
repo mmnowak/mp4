@@ -37,8 +37,21 @@
 ## Project Goals
 
 ### Overview
+The aim of the project is to create an e-commerce website for an imaginary skincare company called APHROS. The website's main purpose is to allow users to browse products and purcharse them, create their profile to save info, add products to favourites and write their own reviews.
 
 ### Goals
+
+1. A website that can be navigated easily and intuitively.
+2. A clean design that catches the eye.
+3. A website that looks good and responds correctly on all device sizes.
+4. A website that is accessible to all users.
+5. A website that allows users to register and log in.
+6. A website that allows users to browse products.
+7. A website that allows users to find more information about each product.
+8. A website that allows users to make purcharses.
+9. A website that allows users to add products to favourites.
+10. A website that allows users to add, edit and delete their own reviews.
+11. A website that allows admins to add, edit and delete products.
 
 ## User Experience Design
 
@@ -46,10 +59,24 @@
 
 #### Target Audience
 
+Target audience is anyone interested in purcharsing good quality skincare products.
+
 #### User Requirements and Expectations
 
-#### User Stories
+* Links and buttons that work as expected.
+* A simple and intuitive navigation system.
+* Interactive feedback and notifications.
+* Information presented in a clear and concise manner.
+* Visually appealing design.
+* Easy way to create an account.
+* Easy way to log in for existing users.
+* Ability to add products to cart and amend quantity
+* Ability to make a purcharse and secure payments
+* Ability to add products to favourites
+* Ability to add, edit or delete reviews
+* Ability to rate products
 
+#### User Stories
 
 **As a User...**
 
@@ -1216,8 +1243,82 @@ DATABASES = {
 }
 ]
 ```
-11. 
+11. Open IAM
+12. Click Groups and create a new group for managing your app
+13. Click Policies and then Create Policy
+14. Go to JSON tab and clixk Import policy
+15. Import the S3 Full Access Policy
+16. Get the Bucket ARN from S3 and paste into the 'Resource' section
+17. Skip Tabs and click Review Policy, give it a name and descripcion, click Create Policy
+18. Attach the Policy to the group you created
+19. Go to the Users page and click Create Uer
+20. Create a new user for the static files
+21. Add the user to your group
+22. Download the CSV file to get your secret keys
 
+### Connecting AWS and Django
+1. In your terminal, type in `pip3 install boto3`
+2. In the terminal, type in `pip3 install django-storages`
+3. In the terminal, run `pip freeze > requirements.txt`
+4. Add 'storages' in Installed Apps in settings.py
+5. In settings. py, add the following if statement:
+```python
+if "USE_AWS" in os.environ:
+
+    AWS_STORAGE_BUCKET_NAME = "aphros"
+    AWS_S3_REGION_NAME = "eu-north-1"
+    AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
+    AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.S3.amazonaws.com"
+```
+6. Add your AWS keys to Config Vars in Heroku
+7. Create a file called custom_storages.py
+8. In the file, type in:
+```python
+from django.conf import settings
+from storages.backends.s3boto3 import S3Boto3Storage
+
+class StaticStorage(S3Boto3Storage):
+    location = settings.STATICFILES_LOCATION
+
+class MediaStorage(S3Boto3Storage):
+    location = settings.MEDIAFILES_LOCATION
+```
+9. In the settings.py, add:
+```python
+
+    STATICFILES_STORAGE = "custom_storages.StaticStorage"
+    STATICFILES_LOCATION = "static"
+    DEFAULT_FILE_STORAGE = "custom_storages.MediaStorage"
+    MEDIAFILES_LOCATION = "media"
+
+
+    STATIC_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/"
+    MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/"
+```
+10. Commit and push your changes
+11. In your if statement, add the following code:
+```python
+if "USE_AWS" in os.environ:
+    # Cache Control
+    AWS_S3_OBJECT_PARAMETERS = {
+        "Expires": "Thu, 31 Dec 2099 20:00:00 GMT",
+        "CacheControl": "max-age=94608000",
+    }
+```
+12. Commit and push
+13. Create MEDIA folder and S3 and add your media files
+14. Grant public access to your files and upload
+15. Add STRIPE keys to Heroku Config Vars
+16. Create a new Webhook on Stripe linked to your Heroku App
+17. Add Webhook signing secret to Heroku Config Vars
+
+## Acknowledgements
+
+I would like to express my gratitude to:
+
+* My mentor, Mo Shami, for his guidance, support and advice;
+* My friends and family for kindly testing the website on their devices.
 
 
 
