@@ -457,6 +457,10 @@ CRUD has been implemented as following:
 <img src="docs/readme/wireframes/product-details.png">
 </details>
 
+<details><summary>Add/Edit Product Pages</summary>
+<img src="docs/readme/wireframes/add_product.png">
+</details>
+
 <details><summary>Cart Page</summary>
 <img src="docs/readme/wireframes/bag.png">
 </details>
@@ -473,15 +477,43 @@ CRUD has been implemented as following:
 <img src="docs/readme/wireframes/register.png">
 </details>
 
+<details><summary>Profile Page</summary>
+<img src="docs/readme/wireframes/profile.png">
+</details>
 
+<details><summary>Favourites Page</summary>
+<img src="docs/readme/wireframes/favourites.png">
+</details>
 
+<details><summary>Reviews Page</summary>
+<img src="docs/readme/wireframes/reviews.png">
+</details>
 
+<details><summary>Add/Edit Reviews Pages</summary>
+<img src="docs/readme/wireframes/add_review.png">
+</details>
+
+<details><summary>Error Page</summary>
+<img src="docs/readme/wireframes/error.png">
+</details>
 
 #### Typography
 
+Font Anton was used for the Logo, Index page button and the Product dropdown. Font Inter was used for all other text. Both fonts are easy to read and dyslexia-friendly.
+
+![](docs/readme/font1.PNG)
+
+![](docs/readme/font2.PNG)
+
 #### Imagery
 
+The picture featured on the index page was taken from Pexels. 
+
 #### Colour Scheme
+
+The following colours were used throughout the site. They correspond nicely with the index page image.
+
+![](docs/readme/colour-palette.PNG)
 
 ## Features
 
