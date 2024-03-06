@@ -1081,20 +1081,142 @@ The following colours were used throughout the site. They correspond nicely with
 
 **User Stories covered:** 1, 3
 
+## Technology Used
+
+### Languages
+
+* [HTML](https://en.wikipedia.org/wiki/HTML) - Used to build page structures
+* [CSS](https://en.wikipedia.org/wiki/CSS) - Used for page styling
+* [JavaScript](https://www.javascript.com/) - Used for front-end interactive features
+* [Django](https://www.djangoproject.com/) - Templating language used to render pages
+* [Python](https://www.python.org/) - Used for back-end functionallity of the website. 
+
+### Frameworks and Tools
+
+* [Bootstrap](https://getbootstrap.com/) - used for styling and responsiveness
+* [jQuery](https://jquery.com/) - used to simplify the javascript code
+* [Django-AllAuth](https://docs.allauth.org/en/latest/) - used for user authentication, registration, account management
+* [Font Awesome](https://fontawesome.com/) - used for the icons
+* [django_crispy_forms](https://django-crispy-forms.readthedocs.io/en/latest/) - used to quickly render forms
+* [gunicorn](https://gunicorn.org/) -  a Python WSGI HTTP Server
+* [pillow](https://pypi.org/project/pillow/) - Python imaging library
+* [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - used to connect to to AWS S3 bucket
+* [Stripe](https://stripe.com/gb) - used to implement the payment system
+* [Amazon Web Services:](https://aws.amazon.com/) - used to host the static and media fles
+* [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/manage/KKC5kcUMlRTgrG8W/) - used to host the database
+
+## Testing and Bugs
+
+For more information on testing, [see here](https://github.com/mmnowak/mp4/blob/main/TESTING.md)
+
+## Credits
+
+### Media
+
+* Product images were taken from [LookFantastic](https://www.lookfantastic.com/)
+* Image displayed on the index page was taken from [Pexels](https://www.pexels.com/photo/composition-of-cosmetic-bottle-with-pink-rose-petals-and-wooden-plate-4041392/)
+
+### Code Used
+
+* Most of the code is adapted form the [Code Institute Boutique Ado walkthrough](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/)
+* Code in the toasts.js file was found on slack
 
 
+### Content
 
+* Product data used for the project was adapted from [Kaggle](https://www.kaggle.com/datasets/eward96/skincare-products-clean-dataset?resource=download)
+* Product reviews used to demonstrate the reviews functionallity were found on the internet.
+* Favourites functionallity was inspired by [CI-MS4-LoveRugby](https://github.com/pmeeny/CI-MS4-LoveRugby/tree/main)
+* Reviews functionallity was inspired by [shop-kbeauty](https://github.com/JoyZadan/shop-kbeauty)
+* Rating functionallity was inspired by [island-bees](https://github.com/emmahewson/island-bees/)
 
+## Deployment
 
+### Forking the Github Repository
+1. Open the Github repository at [https://github.com/mmnowak/mp4/](https://github.com/mmnowak/mp4/)
+2. Click on the fork button found in the top right corner.
 
+### Creating a Local Clone
+1. Open the Github repository at [https://github.com/mmnowak/mp4/](https://github.com/mmnowak/mp4/)
+2. Choose to clone using either HTTPS, SSH, or Github CLI and click the copy button to copy the link address;
+3. In a code editor, change the current working directory to the location desired for the cloned directory;
+4. Type 'git clone' into the terminal and paste the link address copied earlier;
+5. Press enter to create a local clone.
 
+### Creating a PostgreSQL database
+1. Go to [https://dbs.ci-dbs.net/](https://dbs.ci-dbs.net/)
+2. Type in your email address
+3. Click on the link in the received email
+4. Copy the database URL to clickboard
 
+### Deploying to Heroku
+1. Create a new app
+2. Go to settings, click 'reveal config variables'
+3. Add a new variable with the Key `DATABASE_URL` and value being the database URL copied earlier
+4. In the Gitpod terminal, install  `pip3 install dj_database_url==0.5.0 psycopg2`
+5. In the Gitpod terminal, run `pip freeze > requirements.txt`
+6. In the settings.py file, type in `import dj_database_url` under `import os`
+7. In the DATABASES section of the settings.py file, insert the following code: 
+```python
+DATABASES = {
+     'default': dj_database_url.parse('your-database-url-here')
+ }
+ ```
+ 8. Do not commit with the database string in the code
+ 9. In the terminal, run `python3 manage.py showmigrations` to confirm DB is connected
+ 10. Add the following if statement to the settings.py:
+ ```python
+    if "DATABASE_URL" in os.environ:
+        DATABASES = {
+            'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+        }
+    else:
+        DATABASES = {
+            "default": {
+                "ENGINE": "django.db.backends.sqlite3",
+                "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
+            }
+        }
+```
+11. In the terminal, type in `pip3 install gunicorn==21.2.0`
+12. In the terminal, run `pip freeze > requirements.txt`
+13. Create a Procfile
+14. In the Procfile, type in `web gunicorn aphros.wsgi:application`
+15. In the terminal, type in `heroku config:set DISABLE_COLLECTSTATIC=1`
+16. Add the Heroku app URL to 'allowed hosts' in settings.py
+17. Commit and push
+18. In the terminal, type in `git push heroku main`
+19. Create a secret key and add to CONFIG VARS in heroku
 
+### Creating a AWS bucket
 
-
-
-
-
+1. Create an AWS account [here](https://aws.amazon.com/)
+2. Go to S3
+3. Ceate a bucket with the name matching the Heroku app and uncheck 'block all public access'
+4. Go to the properties tab and turn on static website hosting
+5. In the permissions tab, go to Policies
+6. Go to Policy Generator
+7. Select Policy Type as 's3 bucket policy' and generate
+8. Copy the ARN and paste into the box
+9. Copy the generated policy and paste into Bucket Policy section
+10. In the Cors configuration, type
+```python
+[
+{
+"AllowedHeaders": [
+"Authorization"
+],
+"AllowedMethods": [
+"GET"
+],
+"AllowedOrigins": [
+"*"
+],
+"ExposeHeaders": []
+}
+]
+```
+11. 
 
 
 

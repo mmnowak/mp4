@@ -44,15 +44,26 @@
              {% csrf_token %}
               <div class="input-group input-group-{{ item.item_id }} d-flex justify-content-center">
                 <div class="input-group-prepend">
-                    <button class="decrement-qty btn btn-sm action-btn" data-product_id="{{ product.product_id }}" id="decrement-qty_{{ item.product_id }}" aria-label="Decrement quantity">
+                    <button class="decrement-qty btn btn-sm action-btn" 
+                    data-product_id="{{ product.product_id }}"
+                     id="decrement-qty_{{ item.product_id }}" 
+                     aria-label="Decrement quantity">
                     <i class="fas fa-minus fa-sm"></i>
                     </button>
                 </div>
                 <div class="w-50">
-                    <input class="form-control qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99" data-product_id="{{ item.product_id }}" id="id_qty_{{ item.product_id }}" aria-label="Quantity">
+                    <input class="form-control qty_input" 
+                    type="number" name="quantity"
+                     value="{{ item.quantity }}" 
+                     min="1" max="99" data-product_id="{{ item.product_id }}" 
+                     id="id_qty_{{ item.product_id }}" 
+                     aria-label="Quantity">
                 </div>
                 <div class="input-group-append">
-                    <button class="increment-qty btn btn-sm action-btn" data-product_id="{{ item.product_id }}" id="increment-qty_{{ item.product_id}}" aria-label="Increment quantity">
+                    <button class="increment-qty btn btn-sm action-btn" 
+                    data-product_id="{{ item.product_id }}" 
+                    id="increment-qty_{{ item.product_id}}" 
+                    aria-label="Increment quantity">
                     <i class="fas fa-plus fa-sm"></i>
                     </button>
                 </div>

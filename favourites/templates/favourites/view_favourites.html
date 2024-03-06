@@ -7,7 +7,7 @@
   {% endblock %} 
 
   {% block extra_meta %}
-<meta name="description" content="Your Favourites" />
+<meta name="description" content="Your Favourites">
 {% endblock %} 
 
 {% block content %}
@@ -24,13 +24,15 @@
                 <div class="card-header bg-white text-center">
                     <a href="{% url 'product_detail' favourite.id %}">
                         {% if favourite.product_img %}
-                        <img src="{{ favourite.product_img.url }}" class="card-img-top product-img" alt="{{ favourite.product_name }}" />
+                        <img src="{{ favourite.product_img.url }}" class="card-img-top product-img" alt="{{ favourite.product_name }}">
                         {% endif %}
                     </a>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title product-name"><a href="{% url 'product_detail' favourite.id %}">{{ favourite.product_name }}</a></h5>
-                    <a class="card-text category-link" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}"><p>{{ favourite.category }}</p></a>
+                    <h5 class="card-title product-name">
+                        <a href="{% url 'product_detail' favourite.id %}">{{ favourite.product_name }}</a></h5>
+                    <a class="card-text category-link" href="{% url 'products' %}?product_type_name={{ product.category.product_type_name }}">
+                        <p>{{ favourite.category }}</p></a>
                     <p class="card-text"><b>£{{ favourite.price }}</b></p>
                     <button type="button" class="btn action-btn" data-bs-toggle="modal" data-bs-target="#removefav-{{ favourite.id }}">
                         Remove from favourites
@@ -60,14 +62,17 @@
     </div>
 </div>
 <div class="bck-button">
-    <button id="bck-to-top" class="btn h-100 d-flex"><i class="fa-solid fa-circle-up"></i><span class="sr-only">Back to top</span></button>
+    <button id="bck-to-top" class="btn h-100 d-flex">
+        <i class="fa-solid fa-circle-up"></i>
+        <span class="sr-only">Back to top</span>
+    </button>
 </div>
 {% else %}
 <div class="col">
     <h3 class="reviews-text">You don't have any favourites yet!</h3>
 </div>
 {% endif %}
-<br />
+<br>
 {% endblock %} {% block postloadjs %} {{ block.super }}
 <script type="text/javascript">
     $("#bck-to-top").click(function (e) {
